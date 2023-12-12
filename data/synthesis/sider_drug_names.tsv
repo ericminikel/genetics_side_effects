@@ -1,0 +1,1431 @@
+drug_id	drug_name	db_name	db_cas	ppid	pp_match_type
+CID100000085	carnitine	levocarnitine	541-15-1	10875	db cas match
+CID100000119	gamma-aminobutyric	molgramostim	99283-10-0	12188	exact db primary
+CID100000137	5-aminolevulinic	aminolevulinic acid	106-60-5	32532	db cas match
+CID100000143	leucovorin	NA	NA	15431	exact db synonym
+CID100000146	5-methyltetrahydrofolate	NA	NA	15431	exact db synonym
+CID100000158	pge2	dinoprostone	363-24-6	3391	db cas match
+CID100000159	prostacyclin	epoprostenol	35121-78-9	6444	exact db primary
+CID100000160	prostaglandin	dinoprost	551-11-1	5733	db cas match
+CID100000175	acetate	NA	NA	15431	exact db synonym
+CID100000187	acetylcholine	acetylcholine	51-84-3	1174	substring primary
+CID100000191	adenosine	adenosine	58-61-7	593	db cas match
+CID100000206	glucose	calcium chloride	10043-52-4	182159	substring primary
+CID100000214	pge1	alprostadil	745-65-3	1382	exact db primary
+CID100000222	ammonia	NA	NA	15431	exact db synonym
+CID100000232	arginine	NA	NA	15431	exact db synonym
+CID100000244	benzyl	NA	NA	15431	exact db synonym
+CID100000247	betaine	NA	NA	2900	exact synonym
+CID100000271	calcium	NA	NA	15431	exact db synonym
+CID100000297	graphene	NA	NA	15431	exact db synonym
+CID100000298	chloramphenicol	chloramphenicol	56-75-7	4540	db cas match
+CID100000303	bile	cholic acid	81-25-4	41448	db cas match
+CID100000305	choline	NA	NA	15431	exact db synonym
+CID100000311	citric	citric acid	77-92-9	18782	db cas match
+CID100000312	chloride	NA	NA	15431	exact db synonym
+CID100000338	salicylate	salicylic acid	69-72-7	74730	db cas match
+CID100000401	d-cycloserine	cycloserine	68-41-7	16075	db cas match
+CID100000444	bupropion	NA	NA	3129	exact primary
+CID100000450	estradiol	NA	NA	15431	exact db synonym
+CID100000453	mannitol	NA	NA	15431	exact db synonym
+CID100000564	eaca	aminocaproic acid	60-32-2	1442	db cas match
+CID100000581	n-acetylcysteine	acetylcysteine	616-91-1	86043	db cas match
+CID100000596	cytarabine	cytarabine	147-94-4	4982	db cas match
+CID100000598	mesna	coenzyme m	3375-50-6	1952	substring primary
+CID100000612	lactate	lactic acid	50-21-5	29933	substring primary
+CID100000679	dmso	NA	NA	15431	exact db synonym
+CID100000681	dopamine	dopamine	51-61-6	5828	db cas match
+CID100000698	estrone	NA	NA	15431	exact db synonym
+CID100000699	oestrogen	NA	NA	15431	exact db synonym
+CID100000700	monoethanolamine	NA	NA	15431	exact db synonym
+CID100000727	lindane	lindane	58-89-9	NA	missing
+CID100000738	glutamine	l-glutamine	56-85-9	24778	db cas match
+CID100000750	glycine	glycine	56-40-6	18333	substring primary
+CID100000753	glycerol	NA	NA	15431	exact db synonym
+CID100000767	bicarbonate	NA	NA	15431	exact db synonym
+CID100000772	lmwh	enoxaparin	9005-49-6	8468	db cas match
+CID100000774	histamine	histamine	51-45-6	11188	substring primary
+CID100000785	quinol	hydroquinone	123-31-9	8696	db cas match
+CID100000813	potassium	NA	NA	15431	exact db synonym
+CID100000815	kanamycin	NA	NA	15431	exact db synonym
+CID100000838	epinephrine	epinephrine	51-43-4	34907	db cas match
+CID100000853	thyroxine	dextrothyroxine	51-49-0	165695	substring primary
+CID100000861	triiodothyronine	NA	NA	15431	exact db synonym
+CID100000888	magnesium	NA	NA	15431	exact db synonym
+CID100000896	melatonin	melatonin	73-31-4	26930	db cas match
+CID100000923	sodium	NA	NA	15431	exact db synonym
+CID100000937	niacin	NA	NA	15431	exact db synonym
+CID100000942	nicotine	nicotine	54-11-5	12963	db cas match
+CID100000946	nitrite	NA	NA	15431	exact db synonym
+CID100000948	nitrous	nitrous oxide	10024-97-2	NA	missing
+CID100000951	norepinephrine	norepinephrine	51-41-2	13914	db cas match
+CID100000961	hydroxyl	NA	NA	15431	exact db synonym
+CID100001003	phosphate	NA	NA	15431	exact db synonym
+CID100001046	pyrazinamide	pyrazinamide	98-96-4	14964	substring primary
+CID100001054	pyridoxine	NA	NA	15431	exact db synonym
+CID100001065	quinidine	quinidine	56-54-2	15021	db cas match
+CID100001071	retinol	NA	NA	15431	exact db synonym
+CID100001084	thiosulfate	NA	NA	15431	exact db synonym
+CID100001125	tetrahydrobiopterin	sapropterin	62989-33-7	16880	exact db synonym
+CID100001130	thiamine	thiamine	70-16-6	18124	substring primary
+CID100001134	thymidine	telbivudine	3424-98-4	24120	exact db primary
+CID100001206	methamphetamine	metamfetamine	537-46-2	65758	db cas match
+CID100001301	naproxen	naproxen	22204-53-1	12811	exact synonym
+CID100001546	cladribine	NA	NA	4714	exact primary
+CID100001690	doxorubicin	doxorubicin	23214-92-8	37139	db cas match
+CID100001727	4-ap	NA	NA	7184	exact synonym
+CID100001775	phenytoin	phenytoin	57-41-0	14376	db cas match
+CID100001798	methazolamide	NA	NA	15431	exact db synonym
+CID100001805	5-azacytidine	azacitidine	320-67-2	242	exact synonym
+CID100001875	methylprednisolone	NA	NA	11973	exact synonym
+CID100001971	abacavir	NA	NA	15431	exact db synonym
+CID100001972	amphotericin	NA	NA	15431	exact db synonym
+CID100001978	acebutolol	acebutolol	37517-30-9	1157	exact primary
+CID100001983	acetaminophen	NA	NA	15431	exact db synonym
+CID100001986	acetazolamide	NA	NA	15431	exact db synonym
+CID100001990	acetohydroxamic	acetohydroxamic acid	546-88-3	NA	missing
+CID100001993	methacholine	NA	NA	15431	exact db synonym
+CID100002019	actinomycin	dactinomycin	50-76-0	81997	db cas match
+CID100002021	spectinomycin	spectinomycin	1695-77-8	17187	db cas match
+CID100002022	acyclovir	NA	NA	1177	exact synonym
+CID100002082	albendazole	albendazole	54965-21-8	1298	exact primary
+CID100002083	salbutamol	NA	NA	16825	exact primary
+CID100002085	almeta	NA	NA	1322	exact synonym
+CID100002088	alendronate	NA	NA	1329	exact primary
+CID100002092	alfuzosin	alfuzosin	81403-80-7	1339	exact primary
+CID100002094	allopurinol	allopurinol	315-30-0	61652	db cas match
+CID100002099	alosetron	alosetron	122852-42-0	1369	exact primary
+CID100002118	alprazolam	alprazolam	28981-97-7	1377	exact primary
+CID100002123	hexamethylmelamine	altretamine	645-05-6	1400	exact db primary
+CID100002130	amantadine	amantadine	768-94-5	41545	substring primary
+CID100002133	amcinonide	amcinonide	51022-69-6	1418	exact primary
+CID100002140	diatrizoate	diatrizoate	117-96-4	NA	missing
+CID100002141	amifostine	amifostine	20537-88-6	1433	exact primary
+CID100002142	amikacin	NA	NA	15431	exact db synonym
+CID100002145	aminoglutethimide	aminoglutethimide	125-84-8	1444	exact primary
+CID100002148	p-aminohippurate	aminohippuric acid	61-78-9	NA	missing
+CID100002153	theophylline	NA	NA	15431	exact db synonym
+CID100002156	amiodarone	amiodarone	1951-25-3	1460	exact primary
+CID100002159	amisulpride	amisulpride	71675-85-9	1462	exact primary
+CID100002160	amitriptyline	amitriptyline	50-48-6	1464	db cas match
+CID100002161	amlexanox	amlexanox	68302-57-8	39424	exact synonym
+CID100002162	amlodipine	NA	NA	1469	exact primary
+CID100002163	amobarbital	amobarbital	57-43-2	NA	missing
+CID100002168	amorolfine	amorolfine	78613-35-1	1473	exact primary
+CID100002170	amoxapine	amoxapine	14028-44-5	1476	exact primary
+CID100002171	amoxicillin	NA	NA	15431	exact db synonym
+CID100002173	ampicillin	NA	NA	15431	exact db synonym
+CID100002177	amprenavir	amprenavir	161814-49-9	1499	exact primary
+CID100002179	amsacrine	amsacrine	51264-14-3	1506	exact synonym
+CID100002182	anagrelide	anagrelide	68475-42-3	1512	db cas match
+CID100002187	anastrozole	anastrozole	120511-73-1	1542	exact primary
+CID100002215	apomorphine	apomorphine	58-00-4	1911	db cas match
+CID100002216	apraclonidine	apraclonidine	66711-21-5	1918	exact primary
+CID100002232	argatroban	argatroban	74863-84-6	1951	exact primary
+CID100002244	aspirin	NA	NA	15431	exact db synonym
+CID100002249	atenolol	NA	NA	2028	exact primary
+CID100002250	atorvastatin	NA	NA	2044	exact synonym
+CID100002265	azathioprine	azathioprine	446-86-6	2101	db cas match
+CID100002266	azelaic	azelaic acid	123-99-9	2104	db cas match
+CID100002267	azelastine	NA	NA	2105	exact synonym
+CID100002269	azithromycin	NA	NA	2119	exact primary
+CID100002274	aztreonam	aztreonam	78110-38-0	2124	exact primary
+CID100002284	baclofen	baclofen	1134-47-0	27850	db cas match
+CID100002307	beclomethasone	NA	NA	15431	exact db synonym
+CID100002308	beclomethasone	NA	NA	15431	exact db synonym
+CID100002311	benazepril	NA	NA	2840	exact primary
+CID100002315	bendrofluazide	NA	NA	15431	exact db synonym
+CID100002337	benzocaine	benzocaine	94-09-7	40890	db cas match
+CID100002341	benzphetamine	NA	NA	15431	exact db synonym
+CID100002344	benztropine	benzatropine	86-13-5	NA	missing
+CID100002345	benzyl	benzyl benzoate	120-51-4	4371	substring primary
+CID100002349	penicillin	NA	NA	15431	exact db synonym
+CID100002350	bepotastine	NA	NA	15431	exact db synonym
+CID100002351	bepridil	bepridil	64706-54-3	2888	exact primary
+CID100002366	betahistine	betahistine	5638-76-6	37010	exact synonym
+CID100002367	dexamethasone	NA	NA	15431	exact db synonym
+CID100002369	betaxolol	NA	NA	2905	exact primary
+CID100002370	bethanechol	bethanechol	674-38-4	31818	db cas match
+CID100002375	bicalutamide	bicalutamide	90357-06-5	2918	exact primary
+CID100002391	bisacodyl	NA	NA	15431	exact db synonym
+CID100002405	bisoprolol	NA	NA	2972	exact synonym
+CID100002431	bretylium	bretylium	59-41-6	NA	missing
+CID100002435	brimonidine	NA	NA	3029	exact primary
+CID100002441	bromazepam	bromazepam	1812-30-2	NA	missing
+CID100002442	bromhexine	bromhexine	3572-43-8	NA	missing
+CID100002443	bromocriptine	NA	NA	15431	exact db synonym
+CID100002462	budesonide	NA	NA	3080	exact primary
+CID100002471	bumetanide	NA	NA	3106	exact primary
+CID100002474	bupivacaine	bupivacaine	38396-39-3	3115	db cas match
+CID100002476	buprenorphine	NA	NA	3119	exact primary
+CID100002477	buspirone	buspirone	36505-84-7	3133	exact primary
+CID100002478	busulfan	busulfan	55-98-1	3140	exact synonym
+CID100002479	butabarbital	NA	NA	15431	exact db synonym
+CID100002484	butenafine	butenafine	101828-21-1	3154	exact primary
+CID100002487	butorphanol	butorphanol	42408-82-2	3172	db cas match
+CID100002512	cabergoline	NA	NA	4106	exact primary
+CID100002519	caffeine	NA	NA	24722	exact synonym
+CID100002520	verapamil	NA	NA	15431	exact db synonym
+CID100002522	calcipotriol	NA	NA	4117	exact primary
+CID100002524	1,25(oh)2d3	NA	NA	15431	exact db synonym
+CID100002540	candesartan	NA	NA	4225	exact primary
+CID100002541	candesartan	NA	NA	4225	exact primary
+CID100002547	capreomycin	capreomycin	11003-38-6	118821	substring primary
+CID100002548	capsaicin	capsaicin	404-86-4	4241	exact synonym
+CID100002550	captopril	captopril	62571-86-2	4243	exact primary
+CID100002551	carbachol	carbamoylcholine	462-58-8	NA	missing
+CID100002554	carbamazepine	carbamazepine	298-46-4	4260	db cas match
+CID100002559	carbenicillin	NA	NA	15431	exact db synonym
+CID100002563	carbidopa	NA	NA	15431	exact db synonym
+CID100002564	carbinoxamine	carbinoxamine	486-16-8	70073	db cas match
+CID100002576	carisoprodol	carisoprodol	78-44-4	38962	exact synonym
+CID100002578	bcnu	carmustine	154-93-8	4304	db cas match
+CID100002583	carteolol	NA	NA	4323	exact primary
+CID100002585	carvedilol	carvedilol	72956-09-3	4327	exact primary
+CID100002609	cefaclor	cefaclor	53994-73-3	4355	exact primary
+CID100002610	cefadroxil	cefadroxil	50370-12-2	4356	exact primary
+CID100002617	cefazolin	cefazolin	25953-19-9	137862	db cas match
+CID100002622	cefepime	cefepime	88040-23-7	4381	exact primary
+CID100002631	cefotaxime	cefotaxime	63527-52-6	4399	exact synonym
+CID100002637	cefoxitin	cefoxitin	35607-66-0	4406	exact synonym
+CID100002646	cefprozil	cefprozil	92665-29-7	4412	exact primary
+CID100002650	ceftazidime	ceftazidime	72558-82-8	4416	exact primary
+CID100002654	cephem	ceftibuten	97519-39-6	4423	exact db primary
+CID100002655	ceftizoxime	ceftizoxime	68401-81-0	4425	exact primary
+CID100002656	ceftriaxone	ceftriaxone	73384-59-5	4428	exact primary
+CID100002658	cefuroxime	NA	NA	4431	exact synonym
+CID100002662	celecoxib	NA	NA	4436	exact primary
+CID100002663	celiprolol	celiprolol	56980-93-9	4443	exact primary
+CID100002666	cephalexin	cephalexin	15686-71-2	4357	exact synonym
+CID100002675	cefixime	cefixime	79350-37-1	4387	exact primary
+CID100002676	cerivastatin	cerivastatin	145599-86-6	4483	exact synonym
+CID100002678	cetirizine	cetirizine	83881-51-0	4495	exact synonym
+CID100002684	cevimeline	cevimeline	107233-08-9	4503	db cas match
+CID100002708	chlorambucil	chlorambucil	305-03-3	4539	db cas match
+CID100002712	chlordiazepoxide	chlordiazepoxide	58-25-3	NA	missing
+CID100002713	chlorhexidine	NA	NA	15431	exact db synonym
+CID100002719	chloroquine	ginkgo biloba	90045-36-6	39136	substring primary
+CID100002720	thiazide	NA	NA	15431	exact db synonym
+CID100002725	chlorpheniramine	NA	NA	15431	exact db synonym
+CID100002726	chlorpromazine	chlorpromazine	50-53-3	26624	db cas match
+CID100002727	chlorpropamide	chlorpropamide	94-20-2	NA	missing
+CID100002732	chlorthalidone	NA	NA	15431	exact db synonym
+CID100002733	chlorzoxazone	chlorzoxazone	95-25-0	NA	missing
+CID100002749	ciclopirox	ciclopirox	29342-05-0	4606	substring primary
+CID100002751	cilazapril	NA	NA	4635	exact primary
+CID100002754	cilostazol	NA	NA	4643	exact primary
+CID100002756	cimetidine	NA	NA	15431	exact db synonym
+CID100002762	cinoxacin	cinoxacin	28657-80-9	4661	exact primary
+CID100002764	ciprofloxacin	NA	NA	4672	exact primary
+CID100002767	cisplatin	cisplatin	15663-27-1	4691	exact primary
+CID100002771	citalopram	citalopram	59729-33-8	4703	exact synonym
+CID100002781	clemastine	clemastine	15686-51-8	23642	substring primary
+CID100002786	clindamycin	clindamycin	18323-44-9	4739	exact synonym
+CID100002789	clobazam	clobazam	22316-47-8	4744	exact primary
+CID100002791	clobetasol	NA	NA	15431	exact db synonym
+CID100002792	clobetasone	clobetasone	54063-32-0	4751	substring primary
+CID100002794	clofazimine	clofazimine	2030-63-9	136389	db cas match
+CID100002800	clomiphene	clomifene	911-45-5	118184	db cas match
+CID100002801	clomipramine	clomipramine	303-49-1	NA	missing
+CID100002802	clonazepam	clonazepam	1622-61-3	4771	exact primary
+CID100002803	clonidine	NA	NA	15431	exact db synonym
+CID100002806	clopidogrel	clopidogrel	113665-84-2	4781	exact synonym
+CID100002809	clorazepate	NA	NA	15431	exact db synonym
+CID100002812	clotrimazole	NA	NA	4795	exact primary
+CID100002818	clozapine	clozapine	5786-21-0	4812	exact primary
+CID100002826	cocaine	NA	NA	15431	exact db synonym
+CID100002828	codeine	NA	NA	15431	exact db synonym
+CID100002833	colchicine	colchicine	64-86-8	40516	db cas match
+CID100002881	sodium	NA	NA	15431	exact db synonym
+CID100002883	crotamiton	NA	NA	15431	exact db synonym
+CID100002891	cyanocobalamin	cyanocobalamin	68-19-9	19108	db cas match
+CID100002895	cyclobenzaprine	cyclobenzaprine	303-53-7	25696	db cas match
+CID100002905	cyclopentolate	NA	NA	15431	exact db synonym
+CID100002907	cyclophosphamide	cyclophosphamide	50-18-0	26817	db cas match
+CID100002909	v	cyclosporine	59865-13-3	4609	exact db synonym
+CID100002913	cyproheptadine	cyproheptadine	129-03-3	38077	substring primary
+CID100002914	cyproterone	NA	NA	23934	exact synonym
+CID100002949	danazol	danazol	17230-88-5	5317	exact primary
+CID100002951	dantrolene	dantrolene	7261-97-4	5322	db cas match
+CID100002955	dapsone	dapsone	80-08-0	22923	db cas match
+CID100002958	anthracycline	daunorubicin	20830-81-3	5340	db cas match
+CID100002972	deferiprone	deferiprone	30652-11-0	5364	exact synonym
+CID100002973	deferoxamine	deferoxamine	70-51-9	5470	exact synonym
+CID100002978	delta	dronabinol	1972-08-3	5896	exact db primary
+CID100002995	desipramine	desipramine	50-47-5	4542	substring primary
+CID100003000	desoximetasone	desoximetasone	382-67-2	64448	db cas match
+CID100003003	dexamethasone	NA	NA	15431	exact db synonym
+CID100003007	amphetamine	amphetamine	300-62-9	79308	db cas match
+CID100003008	dextromethorphan	dextromethorphan	125-71-3	5545	db cas match
+CID100003009	dfmo	NA	NA	6243	exact synonym
+CID100003015	cyproterone	NA	NA	23934	exact synonym
+CID100003016	diazepam	diazepam	439-14-5	5569	exact synonym
+CID100003019	diazoxide	NA	NA	15431	exact db synonym
+CID100003032	diclofenac	NA	NA	5596	exact synonym
+CID100003038	dichlorphenamide	NA	NA	15431	exact db synonym
+CID100003040	dicloxacillin	NA	NA	15431	exact db synonym
+CID100003042	dicyclomine	dicyclomine	77-19-0	NA	missing
+CID100003043	didanosine	didanosine	69655-05-6	5628	exact primary
+CID100003053	diethylenetriaminepentaacetic	NA	NA	15431	exact db synonym
+CID100003056	diflorasone	NA	NA	15431	exact db synonym
+CID100003059	diflunisal	diflunisal	22494-42-4	5658	exact primary
+CID100003060	epitopic	difluprednate	23674-86-4	5661	exact db primary
+CID100003062	digoxin	digoxin	20830-75-5	5671	db cas match
+CID100003063	dihydrocodeine	NA	NA	15431	exact db synonym
+CID100003066	dihydroergotamine	NA	NA	15431	exact db synonym
+CID100003075	diltiazem	diltiazem	42399-41-7	5694	exact primary
+CID100003080	dimercaprol	dimercaprol	59-52-9	NA	missing
+CID100003100	diphenhydramine	diphenhydramine	58-73-1	5744	db cas match
+CID100003105	dipivefrin	dipivefrin	52365-63-6	5752	exact primary
+CID100003108	dipyridamole	dipyridamole	58-32-2	5759	db cas match
+CID100003114	disopyramide	disopyramide	3737-09-5	5774	exact synonym
+CID100003117	disulfiram	NA	NA	15431	exact db synonym
+CID100003121	valproate	valproic acid	99-66-1	18979	exact db synonym
+CID100003125	alpha-methyl-p-tyrosine	metyrosine	672-87-7	118236	db cas match
+CID100003143	docetaxel	docetaxel	114977-28-5	5802	exact primary
+CID100003148	dolasetron	dolasetron	115956-12-2	5807	substring primary
+CID100003151	domperidone	domperidone	57808-66-9	5813	exact primary
+CID100003152	donepezil	NA	NA	5819	exact synonym
+CID100003154	dorzolamide	NA	NA	5840	exact primary
+CID100003155	dothiepin	dosulepin	113-53-1	5844	exact synonym
+CID100003156	doxapram	doxapram	309-29-5	106792	db cas match
+CID100003157	doxazosin	doxazosin	74191-85-8	5850	exact primary
+CID100003158	doxepin	doxepin	1668-19-5	5856	db cas match
+CID100003168	droperidol	NA	NA	15431	exact db synonym
+CID100003171	l-threo-dops	NA	NA	5903	exact synonym
+CID100003182	dyphylline	NA	NA	15431	exact db synonym
+CID100003198	econazole	NA	NA	15431	exact db synonym
+CID100003199	trabectedin	trabectedin	114899-77-3	6178	exact primary
+CID100003202	edrophonium	NA	NA	15431	exact db synonym
+CID100003203	efavirenz	NA	NA	6239	exact primary
+CID100003209	eicosapentaenoic	NA	NA	15431	exact db synonym
+CID100003219	emedastine	emedastine	87233-61-2	6297	db cas match
+CID100003222	cas	NA	NA	15431	exact db synonym
+CID100003226	enflurane	enflurane	13838-16-9	6356	exact primary
+CID100003241	epinastine	NA	NA	24206	exact synonym
+CID100003249	vitamin	ergocalciferol	50-14-6	19108	substring primary
+CID100003250	ergonovine	ergometrine	60-79-7	NA	missing
+CID100003251	ergotamine	ergotamine	113-15-5	5678	substring primary
+CID100003255	erythromycin	NA	NA	15431	exact db synonym
+CID100003256	monomycin	NA	NA	15431	exact db synonym
+CID100003261	estazolam	estazolam	29975-16-4	6543	exact primary
+CID100003263	estradiol	NA	NA	15431	exact db synonym
+CID100003267	estradiol	NA	NA	15431	exact db synonym
+CID100003268	estramustine	NA	NA	6623	exact synonym
+CID100003269	estriol	NA	NA	15431	exact db synonym
+CID100003278	ethacrynic	etacrynic acid	58-54-8	6651	db cas match
+CID100003279	ethambutol	ethambutol	74-55-5	25894	substring synonym
+CID100003291	ethosuximide	ethosuximide	77-67-8	82171	db cas match
+CID100003292	ethotoin	ethotoin	86-35-1	NA	missing
+CID100003305	etidronate	NA	NA	15431	exact db synonym
+CID100003308	etodolac	etodolac	41340-25-4	6695	exact primary
+CID100003310	etoposide	etoposide	33419-42-0	6709	exact primary
+CID100003324	famciclovir	famciclovir	104227-87-4	7174	exact primary
+CID100003325	famotidine	famotidine	76824-35-6	7176	exact primary
+CID100003331	felbamate	felbamate	25451-15-4	7197	exact primary
+CID100003333	felodipine	NA	NA	7203	exact primary
+CID100003339	fenofibrate	NA	NA	7224	exact primary
+CID100003340	fenoldopam	fenoldopam	67227-56-9	7227	exact primary
+CID100003342	fenoprofen	fenoprofen	29679-58-1	NA	missing
+CID100003345	fentanyl	fentanyl	437-38-7	27542	db cas match
+CID100003348	fexofenadine	fexofenadine	83799-24-0	7261	substring primary
+CID100003350	finasteride	finasteride	98319-26-7	7306	exact primary
+CID100003354	flavoxate	flavoxate	15301-69-6	7312	exact primary
+CID100003355	flecainide	flecainide	54143-55-4	7314	db cas match
+CID100003363	fdurd	NA	NA	15431	exact db synonym
+CID100003364	flucloxacillin	NA	NA	15431	exact db synonym
+CID100003365	fluconazole	NA	NA	7347	exact primary
+CID100003366	5-fluorocytosine	NA	NA	15431	exact db synonym
+CID100003367	fludarabine	fludarabine	21679-14-1	7350	exact primary
+CID100003368	famp	NA	NA	15431	exact db synonym
+CID100003370	fludrocortisone	NA	NA	15431	exact db synonym
+CID100003372	fluphenazine	fluphenazine	69-23-8	38010	db cas match
+CID100003373	flumazenil	flumazenil	78755-81-4	7357	exact primary
+CID100003375	flumethasone	flumethasone	2135-17-3	NA	missing
+CID100003379	flunisolide	flunisolide	3385-03-3	7364	exact primary
+CID100003380	flunitrazepam	flunitrazepam	1622-62-4	7365	exact primary
+CID100003381	fluocinolone	NA	NA	15431	exact db synonym
+CID100003382	fluocinonide	fluocinonide	356-12-7	34740	db cas match
+CID100003384	fluorometholone	NA	NA	15431	exact db synonym
+CID100003385	5-fu	NA	NA	15431	exact db synonym
+CID100003386	fluoxetine	NA	NA	7381	exact primary
+CID100003387	fluoxymesterone	fluoxymesterone	76-43-7	NA	missing
+CID100003388	fluphenazine	NA	NA	15431	exact db synonym
+CID100003392	flurandrenolone	NA	NA	15431	exact db synonym
+CID100003393	flurazepam	flurazepam	17617-23-1	NA	missing
+CID100003394	flurbiprofen	NA	NA	7391	exact primary
+CID100003397	flutamide	flutamide	13311-84-7	7406	exact primary
+CID100003399	fluticasone	NA	NA	15431	exact db synonym
+CID100003403	fluvastatin	fluvastatin	93957-54-1	7419	exact primary
+CID100003404	fluvoxamine	fluvoxamine	54739-18-3	7421	exact primary
+CID100003405	folate	NA	NA	15431	exact db synonym
+CID100003406	4-methylpyrazole	fomepizole	7554-65-6	7432	exact db primary
+CID100003410	formoterol	NA	NA	7442	exact primary
+CID100003414	foscarnet	foscarnet	4428-95-9	7456	substring primary
+CID100003417	fosfomycin	fosfomycin	23155-02-4	7459	exact primary
+CID100003419	fosinopril	NA	NA	7464	exact primary
+CID100003425	romidepsin	romidepsin	128517-07-7	7137	exact primary
+CID100003440	furosemide	NA	NA	15431	exact db synonym
+CID100003443	fusidic	NA	NA	15431	exact db synonym
+CID100003446	gabapentin	gabapentin	60142-96-3	7828	exact primary
+CID100003449	galantamine	galantamine	357-70-0	7851	exact synonym
+CID100003454	ganciclovir	ganciclovir	82410-32-0	7862	exact primary
+CID100003461	gemcitabine	gemcitabine	95058-81-4	7885	exact synonym
+CID100003462	gemeprost	gemeprost	64318-79-2	7886	exact primary
+CID100003463	gemfibrozil	gemfibrozil	25812-30-0	7887	exact primary
+CID100003467	gentamicin	NA	NA	15431	exact db synonym
+CID100003475	gliclazide	gliclazide	21187-98-4	7959	exact primary
+CID100003476	glimepiride	NA	NA	7966	exact primary
+CID100003478	glipizide	glipizide	29094-61-9	7972	exact primary
+CID100003488	glibenclamide	glyburide	10238-21-8	127583	db cas match
+CID100003494	glycopyrrolate	NA	NA	15431	exact db synonym
+CID100003510	granisetron	granisetron	109889-09-0	8045	exact primary
+CID100003512	griseofulvin	NA	NA	15431	exact db synonym
+CID100003516	guaifenesin	guaifenesin	93-14-1	33198	db cas match
+CID100003517	icodextrin	NA	NA	8805	exact synonym
+CID100003519	guanfacine	guanfacine	29110-47-2	8084	exact primary
+CID100003520	guanidinium	NA	NA	15431	exact db synonym
+CID100003553	halcinonide	halcinonide	3093-35-4	NA	missing
+CID100003559	haloperidol	haloperidol	52-86-8	14883	substring synonym
+CID100003598	hexachlorophene	hexachlorophene	70-30-4	NA	missing
+CID100003623	homatropine	homatropine	87-00-3	NA	missing
+CID100003636	buscopan	NA	NA	15431	exact db synonym
+CID100003637	hydralazine	hydralazine	86-54-4	8678	db cas match
+CID100003639	hydrochlorothiazide	NA	NA	15431	exact db synonym
+CID100003640	cortisol	NA	NA	15431	exact db synonym
+CID100003642	hydrocortisone	hydrocortisone butyrate	13609-67-1	8691	exact db synonym
+CID100003647	hydroflumethiazide	hydroflumethiazide	135-09-1	NA	missing
+CID100003648	hydromorphone	NA	NA	15431	exact db synonym
+CID100003652	hydroxychloroquine	hydroxychloroquine	118-42-3	29928	db cas match
+CID100003657	hydroxyurea	hydroxyurea	127-07-1	8705	exact synonym
+CID100003658	hydroxyzine	hydroxyzine	68-88-2	NA	missing
+CID100003661	atropine	NA	NA	15431	exact db synonym
+CID100003672	ibuprofen	NA	NA	15431	exact db synonym
+CID100003675	phenelzine	phenelzine	51-71-8	NA	missing
+CID100003676	lidocaine	NA	NA	15431	exact db synonym
+CID100003685	idarubicin	idarubicin	58957-92-9	9065	exact primary
+CID100003687	idurd	idoxuridine	54-42-2	12698	exact synonym
+CID100003690	ifosfamide	ifosfamide	3778-73-2	9084	exact primary
+CID100003696	imipramine	imipramine	50-49-7	37492	exact synonym
+CID100003702	indapamide	indapamide	26807-65-8	9164	exact primary
+CID100003706	indinavir	indinavir	150378-17-9	9176	exact synonym
+CID100003715	indomethacin	NA	NA	15431	exact db synonym
+CID100003724	iodixanol	iodixanol	92339-11-2	9583	exact primary
+CID100003730	iohexol	iohexol	66108-95-0	9597	exact primary
+CID100003734	iopamidol	iopamidol	60166-93-0	9609	exact primary
+CID100003736	iopromide	iopromide	73334-07-3	9612	exact primary
+CID100003737	sodium	iothalamic acid	2276-90-6	1627	substring primary
+CID100003738	iotrolan	iotrolan	79770-24-4	9627	exact primary
+CID100003739	iodipamide	iodipamide	606-17-7	NA	missing
+CID100003741	ioversol	ioversol	87771-40-2	9628	exact primary
+CID100003742	ioxaglate	ioxaglic acid	59017-64-0	9629	exact db primary
+CID100003743	ioxilan	ioxilan	107793-72-6	9630	exact primary
+CID100003746	ipratropium	NA	NA	39025	exact synonym
+CID100003749	irbesartan	irbesartan	138402-11-6	9649	exact primary
+CID100003750	irinotecan	irinotecan	97682-44-5	125782	db cas match
+CID100003759	isocarboxazid	isocarboxazid	59-63-2	NA	missing
+CID100003763	isoflurane	isoflurane	26675-46-7	9692	exact primary
+CID100003767	isoniazid	NA	NA	15431	exact db synonym
+CID100003777	isopropyl	NA	NA	15431	exact db synonym
+CID100003779	isoproterenol	isoprenaline	7683-59-2	NA	missing
+CID100003780	isosorbide	isosorbide dinitrate	87-33-2	9718	db cas match
+CID100003783	isoxsuprine	isoxsuprine	395-28-8	9745	substring primary
+CID100003784	isradipine	isradipine	75695-93-1	9746	exact primary
+CID100003793	itraconazole	itraconazole	84625-61-6	9754	exact primary
+CID100003821	ketamine	ketamine	6740-88-1	27573	db cas match
+CID100003823	ketoconazole	NA	NA	10112	exact primary
+CID100003825	ketoprofen	ketoprofen	22071-15-4	10116	exact primary
+CID100003826	ketorolac	ketorolac	74103-06-3	10133	exact primary
+CID100003827	ketotifen	NA	NA	10143	exact synonym
+CID100003830	cytokinin	hyaluronidase	9001-54-1	18908	exact db primary
+CID100003848	phenyllactate	NA	NA	15431	exact db synonym
+CID100003869	labetalol	NA	NA	10740	exact primary
+CID100003872	lactulose	NA	NA	15431	exact db synonym
+CID100003877	lamivudine	NA	NA	10764	exact primary
+CID100003878	lamotrigine	lamotrigine	84057-84-1	10766	exact primary
+CID100003883	lansoprazole	lansoprazole	103577-45-3	10775	exact primary
+CID100003890	latanoprost	latanoprost	130209-82-4	10784	exact primary
+CID100003899	leflunomide	leflunomide	75706-12-6	10794	exact primary
+CID100003902	letrozole	letrozole	112809-51-5	10837	exact primary
+CID100003911	leuprorelin	NA	NA	15431	exact db synonym
+CID100003914	levobunolol	levobunolol	47141-42-4	10866	exact primary
+CID100003915	levocabastine	levocabastine	79516-68-0	10874	exact primary
+CID100003916	levomepromazine	methotrimeprazine	60-99-1	NA	missing
+CID100003918	dextrorphan	NA	NA	15431	exact db synonym
+CID100003928	lincomycin	lincomycin	154-21-2	NA	missing
+CID100003929	linezolid	linezolid	165800-03-3	10935	exact primary
+CID100003937	lisinopril	NA	NA	10983	exact primary
+CID100003938	lisuride	lisuride	18016-80-3	10990	exact synonym
+CID100003939	lioh	NA	NA	15431	exact db synonym
+CID100003948	lomefloxacin	NA	NA	11013	exact primary
+CID100003950	lomustine	lomustine	13010-47-4	11018	exact primary
+CID100003954	loperamide	NA	NA	11029	exact primary
+CID100003957	loratadine	loratadine	79794-75-5	11039	exact primary
+CID100003958	lorazepam	NA	NA	15431	exact db synonym
+CID100003961	losartan	losartan	114798-26-4	11054	exact synonym
+CID100003962	lovastatin	lovastatin	75330-75-5	11066	exact primary
+CID100003964	loxapine	loxapine	1977-10-2	34136	db cas match
+CID100003998	mafenide	NA	NA	15431	exact db synonym
+CID100004004	malathion	malathion	121-75-5	NA	missing
+CID100004011	maprotiline	maprotiline	10262-69-8	NA	missing
+CID100004030	mebendazole	NA	NA	11775	exact primary
+CID100004031	mebeverine	mebeverine	3625-06-7	11780	db cas match
+CID100004032	mecamylamine	mecamylamine	60-40-2	11782	exact synonym
+CID100004033	nitrogen	mechlorethamine	51-75-2	33638	db cas match
+CID100004034	monamine	NA	NA	15431	exact db synonym
+CID100004036	meclofenamate	meclofenamic acid	644-62-2	11786	db cas match
+CID100004042	medroxyprogesterone	NA	NA	39321	exact synonym
+CID100004043	medrysone	medrysone	2668-66-8	NA	missing
+CID100004044	mefenamic	mefenamic acid	61-68-7	27081	db cas match
+CID100004046	mefloquine	NA	NA	11800	exact primary
+CID100004048	megestrol	NA	NA	57456	exact primary
+CID100004051	meloxicam	NA	NA	11837	exact primary
+CID100004053	melphalan	melphalan	148-82-3	40044	db cas match
+CID100004054	memantine	NA	NA	11840	exact synonym
+CID100004057	cantril	mepenzolate	25990-43-6	NA	missing
+CID100004058	meperidine	meperidine	57-42-1	NA	missing
+CID100004060	mephenytoin	mephenytoin	50-12-4	NA	missing
+CID100004062	mepivacaine	NA	NA	15431	exact db synonym
+CID100004064	meprobamate	NA	NA	15431	exact db synonym
+CID100004075	5-asa	mesalazine	89-57-6	11905	db cas match
+CID100004086	metaproterenol	orciprenaline	586-06-1	11920	db cas match
+CID100004091	metformin	NA	NA	15431	exact db synonym
+CID100004095	methadone	methadone	76-99-3	184563	db cas match
+CID100004101	methenamine	methenamine	100-97-0	NA	missing
+CID100004107	methocarbamol	NA	NA	15431	exact db synonym
+CID100004112	methotrexate	NA	NA	11947	exact primary
+CID100004114	8-mop	NA	NA	39433	exact synonym
+CID100004120	n-methylscopolamine	NA	NA	15431	exact db synonym
+CID100004121	methyclothiazide	methyclothiazide	135-07-9	NA	missing
+CID100004138	methyldopa	NA	NA	11962	exact synonym
+CID100004139	methylene	methylene blue	61-73-4	6489	substring primary
+CID100004140	methylergometrine	NA	NA	15431	exact db synonym
+CID100004158	methylphenidate	methylphenidate	113-45-1	31002	db cas match
+CID100004159	methylprednisolone	NA	NA	11973	exact synonym
+CID100004160	methyltestosterone	methyltestosterone	58-18-4	26690	db cas match
+CID100004163	methysergide	methysergide	361-37-5	NA	missing
+CID100004168	metoclopramide	metoclopramide	364-62-5	11991	db cas match
+CID100004170	metolazone	NA	NA	11994	exact primary
+CID100004171	metoprolol	NA	NA	15431	exact db synonym
+CID100004173	metronidazole	NA	NA	15431	exact db synonym
+CID100004174	metyrapone	metyrapone	54-36-4	38008	substring synonym
+CID100004178	mexiletine	mexiletine	31828-71-4	141737	db cas match
+CID100004184	mianserin	mianserin	24219-97-4	12031	exact primary
+CID100004189	miconazole	NA	NA	15431	exact db synonym
+CID100004192	midazolam	midazolam	59467-70-8	12071	exact primary
+CID100004195	midodrine	midodrine	42794-76-3	12077	exact primary
+CID100004196	mifepristone	mifepristone	84371-65-3	12083	exact primary
+CID100004197	milrinone	milrinone	78415-72-2	12100	exact primary
+CID100004201	minoxidil	NA	NA	12114	exact primary
+CID100004205	mirtazapine	mirtazapine	85650-52-8	12134	exact primary
+CID100004211	mitotane	mitotane	53-19-0	64979	exact primary
+CID100004212	mitoxantrone	mitoxantrone	65271-80-9	12160	exact primary
+CID100004235	moclobemide	moclobemide	71320-77-9	12173	exact primary
+CID100004236	modafinil	modafinil	68693-11-8	12177	exact primary
+CID100004240	mometasone	NA	NA	15431	exact db synonym
+CID100004248	montelukast	montelukast	158966-92-8	12262	exact synonym
+CID100004253	morphine	NA	NA	12280	exact synonym
+CID100004259	moxifloxacin	NA	NA	12306	exact primary
+CID100004264	mupirocin	NA	NA	12330	exact primary
+CID100004271	mycophenolate	NA	NA	15431	exact db synonym
+CID100004272	mycophenolic	mycophenolic acid	24280-93-1	12360	exact db primary
+CID100004274	tetrofosmin	NA	NA	18075	exact primary
+CID100004409	nabumetone	nabumetone	42924-53-8	12751	exact primary
+CID100004411	nadolol	NA	NA	32055	exact synonym
+CID100004419	nalbuphine	nalbuphine	20594-83-6	12774	exact primary
+CID100004421	nalidixic	nalidixic acid	389-08-2	1051	substring synonym
+CID100004422	nalmefene	NA	NA	12778	exact primary
+CID100004425	naloxone	NA	NA	12780	exact synonym
+CID100004428	naltrexone	NA	NA	12787	exact synonym
+CID100004432	nandrolone	NA	NA	15431	exact db synonym
+CID100004436	naphazoline	NA	NA	15431	exact db synonym
+CID100004440	naratriptan	naratriptan	121679-13-8	12827	exact primary
+CID100004443	nateglinide	nateglinide	105816-04-4	12834	exact primary
+CID100004449	nefazodone	nefazodone	83366-66-9	12850	exact synonym
+CID100004450	nefopam	nefopam	13669-70-0	12853	exact primary
+CID100004451	nelfinavir	nelfinavir	159989-64-7	12857	substring primary
+CID100004454	neomycin	NA	NA	15431	exact db synonym
+CID100004456	neostigmine	neostigmine	59-99-4	12871	db cas match
+CID100004463	nevirapine	nevirapine	129618-40-2	12939	exact primary
+CID100004473	nicardipine	nicardipine	55985-32-5	12945	exact primary
+CID100004485	nifedipine	NA	NA	12997	exact primary
+CID100004493	nilutamide	nilutamide	63612-50-0	13024	exact primary
+CID100004497	nimodipine	nimodipine	66085-59-4	13033	exact primary
+CID100004499	nisoldipine	nisoldipine	63675-72-9	13040	exact primary
+CID100004506	nitrazepam	nitrazepam	146-22-5	7365	substring primary
+CID100004509	nitrofurantoin	nitrofurantoin	67-20-9	NA	missing
+CID100004510	nitroglycerin	nitroglycerin	55-63-0	13069	db cas match
+CID100004513	nizatidine	nizatidine	76963-41-2	13105	exact primary
+CID100004536	norethisterone	NA	NA	15431	exact db synonym
+CID100004539	norfloxacin	NA	NA	13131	exact primary
+CID100004542	levonorgestrel	NA	NA	24046	exact synonym
+CID100004543	nortriptyline	nortriptyline	72-69-5	NA	missing
+CID100004547	repaglinide	NA	NA	15620	exact primary
+CID100004568	nystatin	NA	NA	15431	exact db synonym
+CID100004583	ofloxacin	ofloxacin	82419-36-1	13408	exact primary
+CID100004585	olanzapine	olanzapine	132539-06-1	13416	exact primary
+CID100004594	omeprazole	omeprazole	73590-58-6	13442	exact primary
+CID100004595	ondansetron	ondansetron	99614-02-5	13450	exact primary
+CID100004599	orlistat	orlistat	96829-58-2	13468	exact primary
+CID100004601	orphenadrine	NA	NA	15431	exact db synonym
+CID100004603	oseltamivir	oseltamivir	196618-13-0	7753	exact synonym
+CID100004607	oxacillin	NA	NA	15431	exact db synonym
+CID100004609	oxaliplatin	oxaliplatin	61825-94-3	13517	exact primary
+CID100004614	oxaprozin	oxaprozin	21256-18-8	13528	exact primary
+CID100004616	oxazepam	oxazepam	604-75-1	28382	db cas match
+CID100004623	oxiconazole	oxiconazole	64211-45-6	13548	exact primary
+CID100004631	oxprenolol	NA	NA	15431	exact db synonym
+CID100004634	oxybutynin	oxybutynin	5633-20-5	13565	db cas match
+CID100004635	oxycodone	NA	NA	15431	exact db synonym
+CID100004638	oxymetholone	oxymetholone	434-07-1	13574	exact synonym
+CID100004639	oxymorphone	NA	NA	15431	exact db synonym
+CID100004649	apas	NA	NA	15431	exact db synonym
+CID100004666	paclitaxel	paclitaxel	33069-62-4	14115	exact primary
+CID100004673	pamidronate	pamidronic acid	40391-99-9	5769	exact primary
+CID100004675	pancuronium	pancuronium	16974-53-1	NA	missing
+CID100004678	dexpanthenol	NA	NA	15431	exact db synonym
+CID100004679	pantoprazole	NA	NA	14174	exact primary
+CID100004680	papaverine	NA	NA	15431	exact db synonym
+CID100004689	paromomycin	paromomycin	7542-37-2	14213	db cas match
+CID100004691	paroxetine	paroxetine	61869-08-7	14214	exact primary
+CID100004695	isosulfan	NA	NA	15431	exact db synonym
+CID100004724	penbutolol	NA	NA	14242	exact primary
+CID100004725	penciclovir	penciclovir	39809-25-1	14243	exact primary
+CID100004727	d-penicillamine	penicillamine	52-67-5	5040	exact primary
+CID100004730	penicillin	NA	NA	15431	exact db synonym
+CID100004735	pentamidine	NA	NA	15431	exact db synonym
+CID100004736	pentazocine	pentazocine	359-83-1	14256	db cas match
+CID100004737	pentobarbital	NA	NA	15431	exact db synonym
+CID100004739	pentostatin	pentostatin	53910-25-1	14269	exact primary
+CID100004740	pentoxifylline	pentoxifylline	6493-05-6	4015	db cas match
+CID100004745	pergolide	pergolide	66104-22-1	14310	exact synonym
+CID100004746	perhexiline	perhexiline	6621-47-2	77810	substring primary
+CID100004747	propericiazine	periciazine	2622-26-6	NA	missing
+CID100004748	perphenazine	perphenazine	58-39-9	31905	substring synonym
+CID100004756	phenylazo	phenazopyridine	94-78-0	31469	substring db primary
+CID100004763	phenobarbital	NA	NA	15431	exact db synonym
+CID100004768	phenoxybenzamine	phenoxybenzamine	59-96-1	NA	missing
+CID100004771	phentermine	phentermine	122-09-8	76538	substring primary
+CID100004775	4-pba	phenylbutyric acid	1821-12-1	NA	missing
+CID100004782	phenylephrine	NA	NA	15431	exact db synonym
+CID100004786	phenylpropanolamine	cathine	492-39-7	14366	substring primary
+CID100004810	moxonidine	moxonidine	75438-57-2	12314	exact primary
+CID100004811	physostigmine	physostigmine	57-47-6	14409	db cas match
+CID100004812	vitamin	phylloquinone	84-80-0	19108	substring primary
+CID100004819	pilocarpine	pilocarpine	92-13-7	14447	db cas match
+CID100004828	pindolol	NA	NA	15431	exact db synonym
+CID100004829	pioglitazone	NA	NA	14471	exact synonym
+CID100004834	piperacillin	piperacillin	66258-76-2	14475	exact primary
+CID100004845	pirbuterol	NA	NA	14494	exact primary
+CID100004865	podophyllotoxin	podofilox	518-28-5	14641	exact primary
+CID100004868	polymyxin	NA	NA	15431	exact db synonym
+CID100004870	polythiazide	polythiazide	346-18-9	NA	missing
+CID100004885	pramipexole	pramipexole	104632-26-0	14703	exact primary
+CID100004889	pravastatin	pravastatin	81093-37-0	14721	exact primary
+CID100004891	praziquantel	praziquantel	55268-74-1	14725	exact primary
+CID100004893	prazosin	NA	NA	14726	exact primary
+CID100004894	prednisolone	NA	NA	15431	exact db synonym
+CID100004895	prednisolone	NA	NA	15431	exact db synonym
+CID100004896	prednisolone	NA	NA	15431	exact db synonym
+CID100004900	prednisone	prednisone	53-03-2	31771	db cas match
+CID100004906	prilocaine	NA	NA	15431	exact db synonym
+CID100004908	primaquine	primaquine	90-34-6	14762	db cas match
+CID100004909	primidone	NA	NA	37490	exact primary
+CID100004911	probenecid	probenecid	57-66-9	19694	substring primary
+CID100004913	procainamide	procainamide	51-06-9	14788	exact synonym
+CID100004914	procaine	NA	NA	15431	exact db synonym
+CID100004915	procarbazine	procarbazine	671-16-9	NA	missing
+CID100004917	prochlorperazine	prochlorperazine	58-38-8	33392	db cas match
+CID100004920	progesterone	NA	NA	15431	exact db synonym
+CID100004923	proguanil	proguanil	500-92-5	NA	missing
+CID100004927	promethazine	NA	NA	15431	exact db synonym
+CID100004932	propafenone	propafenone	54063-53-5	14836	exact primary
+CID100004934	propantheline	propantheline	298-50-0	NA	missing
+CID100004935	proparacaine	proparacaine	499-67-2	8987	substring primary
+CID100004943	propofol	propofol	2078-54-8	14845	exact primary
+CID100004946	propranolol	NA	NA	15431	exact db synonym
+CID100004976	protriptyline	protriptyline	438-60-8	NA	missing
+CID100004989	pyrantel	pyrantel	15686-83-6	NA	missing
+CID100004991	pyridostigmine	pyridostigmine	155-97-5	171669	substring primary
+CID100004992	mepyramine	mepyramine	91-84-9	NA	missing
+CID100004993	pyrimethamine	pyrimethamine	58-14-0	84941	db cas match
+CID100004999	quazepam	quazepam	36735-22-5	14996	exact primary
+CID100005002	quetiapine	quetiapine	111974-69-7	15001	exact primary
+CID100005005	quinapril	quinapril	85441-61-8	15008	exact synonym
+CID100005029	rabeprazole	NA	NA	15540	exact synonym
+CID100005032	ephedrine	NA	NA	15431	exact db synonym
+CID100005035	raloxifene	raloxifene	84449-90-1	15557	exact synonym
+CID100005038	ramipril	NA	NA	15564	exact primary
+CID100005039	ranitidine	NA	NA	15572	exact primary
+CID100005040	rapamycin	NA	NA	17036	exact synonym
+CID100005051	rescinnamine	NA	NA	15431	exact db synonym
+CID100005052	reserpine	NA	NA	15431	exact db synonym
+CID100005064	ribavirin	NA	NA	15431	exact db synonym
+CID100005070	riluzole	riluzole	1744-22-5	15700	exact primary
+CID100005071	rimantadine	rimantadine	13392-28-4	15701	exact primary
+CID100005073	risperidone	risperidone	106266-06-2	15718	exact primary
+CID100005076	ritonavir	NA	NA	15726	exact synonym
+CID100005077	rivastigmine	rivastigmine	123441-03-2	15731	exact synonym
+CID100005078	rizatriptan	rizatriptan	144034-80-0	41182	db cas match
+CID100005090	rofecoxib	rofecoxib	162011-90-7	15740	exact primary
+CID100005095	ropinirole	ropinirole	91374-21-9	15760	exact synonym
+CID100005106	roxithromycin	roxithromycin	80214-83-1	15793	exact primary
+CID100005152	salmeterol	NA	NA	15431	exact db synonym
+CID100005155	stavudine	stavudine	3056-17-5	17236	exact primary
+CID100005161	salsalate	salsalate	552-94-3	169516	substring primary
+CID100005184	scopolamine	NA	NA	15431	exact db synonym
+CID100005193	secobarbital	NA	NA	15431	exact db synonym
+CID100005195	deprenyl	selegiline	14611-51-9	16947	exact db primary
+CID100005203	sertraline	sertraline	79617-96-2	16988	exact synonym
+CID100005206	sevoflurane	sevoflurane	28523-86-6	16996	exact primary
+CID100005210	sibutramine	sibutramine	106650-56-0	17016	exact primary
+CID100005212	sildenafil	NA	NA	17024	exact synonym
+CID100005214	silver	silver sulfadiazine	22199-08-2	17027	exact db primary
+CID100005215	sulfadiazine	NA	NA	15431	exact db synonym
+CID100005238	sodium	NA	NA	15431	exact db synonym
+CID100005245	risedronate	NA	NA	15715	exact synonym
+CID100005248	sodium	NA	NA	15431	exact db synonym
+CID100005253	sotalol	sotalol	3930-20-9	17177	exact synonym
+CID100005257	sparfloxacin	sparfloxacin	110871-86-8	17182	exact primary
+CID100005267	spironolactone	spironolactone	52-01-7	143754	db cas match
+CID100005291	imatinib	imatinib	152459-95-5	22964	exact synonym
+CID100005297	streptomycin	NA	NA	15431	exact db synonym
+CID100005300	streptozotocin	streptozocin	18883-66-4	17263	exact db primary
+CID100005311	vorinostat	vorinostat	149647-78-9	28726	exact primary
+CID100005314	succinylcholine	succinylcholine	306-40-1	NA	missing
+CID100005318	sulconazole	sulconazole	61318-90-9	17300	exact primary
+CID100005320	sulfacetamide	NA	NA	15431	exact db synonym
+CID100005329	sulfamethoxazole	NA	NA	15431	exact db synonym
+CID100005333	sulfonamide	NA	NA	15431	exact db synonym
+CID100005352	sulindac	sulindac	38194-50-2	17317	exact primary
+CID100005358	sumatriptan	sumatriptan	103628-46-2	17342	db cas match
+CID100005359	suprofen	suprofen	40828-46-4	17382	exact primary
+CID100005372	tacrolimus	tacrolimus	104987-11-3	17878	exact primary
+CID100005376	tamoxifen	tamoxifen	10540-29-1	17899	exact primary
+CID100005379	gatifloxacin	NA	NA	7876	exact primary
+CID100005381	tazarotene	tazarotene	118292-40-3	17923	exact primary
+CID100005391	temazepam	temazepam	846-50-4	17960	exact primary
+CID100005394	temozolomide	temozolomide	85622-93-1	17970	exact primary
+CID100005396	teniposide	teniposide	29767-20-2	17979	exact primary
+CID100005401	terazosin	terazosin	63590-64-7	17993	exact primary
+CID100005402	terbinafine	terbinafine	91161-71-6	17995	exact primary
+CID100005403	terbutaline	NA	NA	15431	exact db synonym
+CID100005404	terconazole	terconazole	67915-31-5	18006	exact primary
+CID100005407	testolactone	NA	NA	15431	exact db synonym
+CID100005408	testosterone	testosterone	58-22-0	18031	db cas match
+CID100005409	testosterone	NA	NA	15431	exact db synonym
+CID100005410	testosterone	NA	NA	15431	exact db synonym
+CID100005411	tetracaine	tetracaine	94-24-6	18053	exact synonym
+CID100005419	tetrahydrozoline	NA	NA	15431	exact db synonym
+CID100005426	thalidomide	thalidomide	50-35-1	18087	exact synonym
+CID100005430	thiabendazole	thiabendazole	148-79-8	NA	missing
+CID100005452	thioridazine	thioridazine	50-52-2	18149	db cas match
+CID100005453	thiotepa	thiotepa	52-24-4	57462	exact primary
+CID100005454	thiothixene	thiothixene	3313-26-6	NA	missing
+CID100005466	tiagabine	tiagabine	115103-54-3	18195	exact primary
+CID100005468	tiaprofenic	tiaprofenic acid	33005-95-7	18201	exact db primary
+CID100005470	tibolone	tibolone	5630-53-5	18207	exact primary
+CID100005472	ticlopidine	ticlopidine	55142-85-3	18209	exact primary
+CID100005478	timolol	timolol	26839-75-8	18252	db cas match
+CID100005479	tinidazole	NA	NA	35872	exact primary
+CID100005483	tiopronin	NA	NA	18272	exact primary
+CID100005486	tirofiban	tirofiban	144494-65-5	18298	exact synonym
+CID100005487	tizanidine	tizanidine	51322-75-9	18310	exact primary
+CID100005496	tobramycin	NA	NA	15431	exact db synonym
+CID100005503	tolazamide	tolazamide	1156-19-0	NA	missing
+CID100005505	tolbutamide	NA	NA	15431	exact db synonym
+CID100005508	tolmetin	tolmetin	26171-23-3	18335	db cas match
+CID100005512	tolterodine	tolterodine	124937-51-5	18344	exact primary
+CID100005514	topiramate	topiramate	97240-79-4	18358	exact primary
+CID100005515	topotecan	topotecan	123948-87-8	18360	exact primary
+CID100005516	toremifene	toremifene	89778-26-7	18368	exact synonym
+CID100005523	tramadol	NA	NA	18382	exact primary
+CID100005524	tramazoline	tramazoline	1082-57-1	NA	missing
+CID100005525	trandolapril	trandolapril	87679-37-6	18387	exact primary
+CID100005526	tranexamic	tranexamic acid	1197-18-8	18388	exact db primary
+CID100005530	tranylcypromine	tranylcypromine	155-09-9	NA	missing
+CID100005533	trazodone	NA	NA	18417	exact primary
+CID100005538	retinoic	NA	NA	15431	exact db synonym
+CID100005544	triamcinolone	NA	NA	15431	exact db synonym
+CID100005546	triamterene	triamterene	396-01-0	18453	db cas match
+CID100005556	triazolam	triazolam	28911-01-5	18455	exact primary
+CID100005564	triclosan	triclosan	3380-34-5	28282	substring synonym
+CID100005565	trien	NA	NA	18471	exact synonym
+CID100005566	trifluoperazine	trifluoperazine	117-89-5	NA	missing
+CID100005572	trihexyphenidyl	trihexyphenidyl	144-11-6	171675	substring primary
+CID100005576	trimethadione	trimethadione	127-48-0	NA	missing
+CID100005577	trimethobenzamide	NA	NA	15431	exact db synonym
+CID100005578	trimethoprim	NA	NA	15431	exact db synonym
+CID100005582	trimetrexate	trimetrexate	52128-35-5	18502	db cas match
+CID100005584	trimipramine	trimipramine	739-71-9	18504	exact synonym
+CID100005591	troglitazone	troglitazone	97322-87-7	18521	exact primary
+CID100005593	tropicamide	tropicamide	1508-75-4	18528	db cas match
+CID100005595	tropisetron	tropisetron	89565-68-4	18530	exact primary
+CID100005596	trospium	NA	NA	18534	exact synonym
+CID100005625	delavirdine	delavirdine	136817-59-9	5381	exact primary
+CID100005636	unoprostone	unoprostone	120373-36-6	9703	exact synonym
+CID100005645	udca	chenodeoxycholic acid	474-25-9	43097	db cas match
+CID100005647	vacv	valaciclovir	124832-26-4	18971	exact db primary
+CID100005650	valsartan	NA	NA	18984	exact primary
+CID100005651	vancocine	NA	NA	15431	exact db synonym
+CID100005656	venlafaxine	venlafaxine	93413-69-5	19014	exact synonym
+CID100005665	vigabatrin	vigabatrin	68506-86-5	19051	exact primary
+CID100005672	vinorelbine	vinorelbine	71486-22-1	19078	exact primary
+CID100005717	zafirlukast	zafirlukast	107753-78-6	19658	exact primary
+CID100005718	zalcitabine	zalcitabine	7481-89-2	19660	exact primary
+CID100005719	zaleplon	zaleplon	151319-34-5	19663	exact primary
+CID100005721	zanamivir	zanamivir	139110-80-8	19668	exact primary
+CID100005726	zidovudine	NA	NA	19688	exact primary
+CID100005727	zncl2	NA	NA	15431	exact db synonym
+CID100005731	zolmitriptan	zolmitriptan	139264-17-8	19730	exact primary
+CID100005732	zolpidem	zolpidem	82626-48-0	19732	exact synonym
+CID100005734	zonisamide	zonisamide	68291-97-4	19736	exact primary
+CID100005735	zopiclone	zopiclone	43200-80-2	19737	exact primary
+CID100005746	mitomycin	mitomycin	50-07-7	12153	db cas match
+CID100005771	oxytocin	NA	NA	15431	exact db synonym
+CID100005775	phentolamine	NA	NA	23283	exact synonym
+CID100005877	demethyl	NA	NA	15431	exact db synonym
+CID100005878	oxandrolone	oxandrolone	53-39-4	13522	exact primary
+CID100005939	biguanide	NA	NA	15431	exact db synonym
+CID100005978	vincristine	vincristine	57-22-7	19059	db cas match
+CID100006018	tetrabenazine	tetrabenazine	58-46-8	31309	db cas match
+CID100006049	edta	NA	NA	15431	exact db synonym
+CID100006058	cysteamine	cysteamine	60-23-1	73530	exact synonym
+CID100006116	calcium	NA	NA	15431	exact db synonym
+CID100006238	17-hydroxyprogesterone	NA	NA	15431	exact db synonym
+CID100006256	trifluorothymidine	NA	NA	18475	exact synonym
+CID100006432	optison	NA	NA	13293	exact primary
+CID100006436	triamcinolone	NA	NA	15431	exact db synonym
+CID100006451	bromcresol	NA	NA	15431	exact db synonym
+CID100006468	phencyclidine	NA	NA	15431	exact db synonym
+CID100006476	methsuximide	methsuximide	77-41-8	NA	missing
+CID100006503	tris	NA	NA	15431	exact db synonym
+CID100006726	cyclizine	cyclizine	82-92-8	1772	substring synonym
+CID100007012	phenylbutyric	NA	NA	15431	exact db synonym
+CID100007029	diethylpropion	diethylpropion	90-84-6	5646	db cas match
+CID100007187	benzoyl	benzoyl peroxide	94-36-0	2876	db cas match
+CID100007638	monobenzone	monobenzone	103-16-2	11204	db cas match
+CID100007699	benzonatate	benzonatate	104-31-4	91401	db cas match
+CID100008197	tetraen	NA	NA	15431	exact db synonym
+CID100008230	argenine	NA	NA	15431	exact db synonym
+CID100008612	chloroprocaine	chloroprocaine	133-16-4	NA	missing
+CID100008982	nafcillin	NA	NA	15431	exact db synonym
+CID100009034	methohexital	NA	NA	15431	exact db synonym
+CID100009354	dimercaptosuccinic	NA	NA	15431	exact db synonym
+CID100009433	aminophylline	NA	NA	15431	exact db synonym
+CID100009904	nandrolone	NA	NA	15431	exact db synonym
+CID100010100	propoxyphene	dextropropoxyphene	469-62-5	5548	db cas match
+CID100010340	sodium	sodium bicarbonate	144-55-8	165469	db cas match
+CID100010413	hydroxybutyrate	sodium oxybate	502-85-2	105	exact db primary
+CID100010547	echothiophate	echothiophate	6736-03-4	14389	db cas match
+CID100010631	medroxyprogesterone	NA	NA	39321	exact synonym
+CID100010660	dimenhydrinate	NA	NA	15431	exact db synonym
+CID100011125	lithium	NA	NA	15431	exact db synonym
+CID100011973	brolene	NA	NA	15431	exact db synonym
+CID100012453	zuclopenthixol	clopenthixol	982-24-1	19741	exact primary
+CID100012460	phendimetrazine	NA	NA	15431	exact db synonym
+CID100012536	desonide	NA	NA	15431	exact db synonym
+CID100012555	benzydamine	benzydamine	642-72-8	2881	db cas match
+CID100012559	erythromycin	NA	NA	15431	exact db synonym
+CID100012597	isomannide	NA	NA	15431	exact db synonym
+CID100012620	tadenan	docosanol	661-19-8	10488	exact db primary
+CID100013314	lormetazepam	lormetazepam	848-75-9	11049	exact primary
+CID100013342	vinblastine	vinblastine	865-21-4	1590	substring primary
+CID100014789	ferumoxytol	NA	NA	25093	exact primary
+CID100014888	arsenic	arsenic trioxide	1327-53-3	24190	db cas match
+CID100014917	fluoride	NA	NA	15431	exact db synonym
+CID100015232	benzathine	NA	NA	15431	exact db synonym
+CID100015459	metaxalone	NA	NA	36583	exact primary
+CID100016124	methylene	NA	NA	15431	exact db synonym
+CID100016230	amiloride	amiloride	2609-46-3	1438	db cas match
+CID100016362	pimozide	pimozide	2062-78-4	14460	exact primary
+CID100016533	betamethasone	NA	NA	15431	exact db synonym
+CID100016850	fluorescein	fluorescein	2321-07-5	32136	substring primary
+CID100016886	5-aza-2'-deoxycytidine	decitabine	2353-33-5	5356	exact db primary
+CID100017358	sonovue	NA	NA	16511	exact primary
+CID100018140	estramustine	estramustine	2998-57-4	6623	exact synonym
+CID100019090	megestrol	NA	NA	57456	exact primary
+CID100020585	choline	NA	NA	15431	exact db synonym
+CID100020969	clocortolone	clocortolone	4828-27-7	NA	missing
+CID100021800	betamethasone	NA	NA	15431	exact db synonym
+CID100021945	methenamine	NA	NA	15431	exact db synonym
+CID100022258	hydrocodone	hydrocodone	125-29-1	43472	db cas match
+CID100022318	gold	sodium aurothiomalate	12244-57-4	2057	exact synonym
+CID100022502	procaine	NA	NA	15431	exact db synonym
+CID100023703	ogen	NA	NA	15431	exact db synonym
+CID100023897	molindone	molindone	7416-34-4	40170	db cas match
+CID100023925	fe(iii	NA	NA	15431	exact db synonym
+CID100023926	lanthanum	NA	NA	15431	exact db synonym
+CID100023951	samarium	NA	NA	15431	exact db synonym
+CID100023954	silver	silver	7440-22-4	118819	substring primary
+CID100023957	technetium-99m	NA	NA	15431	exact db synonym
+CID100023976	chromium	NA	NA	15431	exact db synonym
+CID100023978	copper	NA	NA	15431	exact db synonym
+CID100023982	gadolinium	NA	NA	15431	exact db synonym
+CID100023993	yttrium	NA	NA	15431	exact db synonym
+CID100023994	zinc	NA	NA	15431	exact db synonym
+CID100024087	selenium	selenium sulfide	7488-56-4	16955	substring synonym
+CID100024414	barium	NA	NA	15431	exact db synonym
+CID100024424	zinc	NA	NA	15431	exact db synonym
+CID100024450	potassium	NA	NA	15431	exact db synonym
+CID100024642	tlcl	NA	NA	15431	exact db synonym
+CID100024706	triphasil	NA	NA	15431	exact db synonym
+CID100024748	glucose	NA	NA	15431	exact db synonym
+CID100024841	iodide	NA	NA	15431	exact db synonym
+CID100025419	clodronate	clodronic acid	10596-23-3	4759	db cas match
+CID100025959	prussian	prussian blue	14038-43-8	30907	db cas match
+CID100027304	hmdp	NA	NA	13550	exact synonym
+CID100027400	pizotifen	pizotifen	15574-96-6	14553	exact primary
+CID100027661	isosorbide-5-mononitrate	isosorbide mononitrate	16051-77-7	9733	db cas match
+CID100027991	desmopressin	desmopressin	16679-58-6	5484	exact primary
+CID100027993	conjugated	conjugated estrogens	12126-59-9	23039	db cas match
+CID100028332	propoxyphene	NA	NA	15431	exact db synonym
+CID100028486	lithium	NA	NA	15431	exact db synonym
+CID100029089	chlorhexidine	NA	NA	15431	exact db synonym
+CID100030623	dexrazoxane	dexrazoxane	24584-09-6	5532	exact primary
+CID100031072	carbimazole	carbimazole	22232-54-8	NA	missing
+CID100031264	paraldehyde	paraldehyde	123-63-7	NA	missing
+CID100031378	fludrocortisone	NA	NA	15431	exact db synonym
+CID100031477	metipranolol	NA	NA	11980	exact primary
+CID100032169	articaine	NA	NA	15431	exact db synonym
+CID100032281	protirelin	thyrotropin alfa	194100-83-9	14916	exact primary
+CID100032603	clindamycin	NA	NA	4739	exact synonym
+CID100032797	clobetasol	clobetasol	25122-41-2	4750	db cas match
+CID100032800	asp-tyr(so3h)-met-gly-trp-met-asp-phe-nh2	sincalide	25126-32-3	27685	exact db primary
+CID100034312	oxcarbazepine	oxcarbazepine	28721-07-5	13537	exact primary
+CID100036339	etomidate	etomidate	33125-97-2	6702	exact primary
+CID100036523	gonadorelin	NA	NA	15431	exact db synonym
+CID100036811	dobutamine	dobutamine	34368-04-2	5799	exact primary
+CID100037392	halofantrine	halofantrine	69756-53-2	8440	exact primary
+CID100037720	pentosan	pentosan polysulfate	37300-21-3	14268	exact synonym
+CID100038904	carboplatin	carboplatin	41575-94-4	4279	exact primary
+CID100039042	bezafibrate	bezafibrate	41859-67-0	2914	exact primary
+CID100039507	rimexolone	rimexolone	49697-38-3	15704	exact primary
+CID100039524	stiripentol	stiripentol	49763-96-4	17252	exact primary
+CID100039764	vecuronium	vecuronium	86029-43-8	19011	exact synonym
+CID100039860	nabilone	nabilone	51022-71-0	12749	exact primary
+CID100040159	permethrin	NA	NA	15431	exact db synonym
+CID100040632	pirfenidone	NA	NA	14499	exact primary
+CID100040703	pinaverium	pinaverium	59995-65-2	14464	db cas match
+CID100040973	desogestrel	desogestrel	54024-22-5	23699	exact synonym
+CID100040976	implanon	etonogestrel	54048-10-1	6707	exact synonym
+CID100041317	acitretin	acitretin	55079-83-9	1195	exact primary
+CID100041684	nitazoxanide	nitazoxanide	55981-09-4	13041	exact primary
+CID100041693	sufentanil	sufentanil	56030-54-7	17290	exact primary
+CID100041744	valrubicin	valrubicin	56124-62-0	18983	exact primary
+CID100041774	acarbose	NA	NA	1155	exact primary
+CID100041781	torasemide	torasemide	56211-40-6	18363	exact primary
+CID100042113	desflurane	desflurane	57041-67-5	5473	exact primary
+CID100042395	westcort	NA	NA	15431	exact db synonym
+CID100042615	supremon	buserelin	57982-77-1	3132	exact db primary
+CID100042955	misoprostol	NA	NA	12139	exact primary
+CID100044563	lodoxamide	NA	NA	15431	exact db synonym
+CID100044564	lodoxamide	lodoxamide	53882-12-5	11007	substring primary
+CID100045469	sodium	NA	NA	15431	exact db synonym
+CID100047319	atracurium	atracurium	64228-79-1	2049	exact synonym
+CID100047320	cisatracurium	cisatracurium	96946-41-7	4686	exact synonym
+CID100047419	cefuroxime	NA	NA	4431	exact synonym
+CID100047471	butoconazole	NA	NA	3163	exact primary
+CID100047528	nicorandil	nicorandil	65141-46-0	12953	exact primary
+CID100047640	naftifine	naftifine	65472-88-0	12769	exact primary
+CID100047725	goserelin	goserelin	65807-02-5	8039	exact primary
+CID100050294	nedocromil	NA	NA	12849	exact primary
+CID100050614	cefotetan	cefotetan	69712-56-7	4400	exact primary
+CID100051263	alfentanil	alfentanil	71195-58-9	1338	exact primary
+CID100051577	miglitol	miglitol	72432-03-2	12087	exact primary
+CID100051634	miglustat	miglustat	72599-27-0	13178	exact primary
+CID100052421	prednicarbate	prednicarbate	73771-04-7	14738	exact primary
+CID100054158	mebrofenin	NA	NA	11781	exact primary
+CID100054313	iloprost	iloprost	78919-13-8	9100	exact synonym
+CID100054331	fosfomycin	NA	NA	7459	exact primary
+CID100054373	octreotide	octreotide	83150-76-9	13402	exact primary
+CID100054454	simvastatin	NA	NA	17028	exact primary
+CID100054547	cefpodoxime	cefpodoxime	80210-62-4	4411	exact synonym
+CID100054688	clarithromycin	NA	NA	4716	exact primary
+CID100054786	treprostinil	treprostinil	81846-19-7	88555	db cas match
+CID100054808	loteprednol	loteprednol	129260-79-3	11063	substring primary
+CID100054840	atomoxetine	atomoxetine	83015-26-3	18351	exact primary
+CID100054949	nsc	NA	NA	15431	exact db synonym
+CID100055331	moexiprilat	NA	NA	15431	exact db synonym
+CID100055466	gd-dtpa	gadopentetic acid	80529-93-7	7838	exact db primary
+CID100055480	milnacipran	milnacipran	92623-85-3	12093	exact primary
+CID100056338	fosphenytoin	fosphenytoin	93390-81-9	7469	exact synonym
+CID100056959	ranolazine	ranolazine	95635-55-5	15574	exact primary
+CID100057166	photofrin	NA	NA	14683	exact synonym
+CID100057469	imiquimod	imiquimod	99011-02-6	9122	exact primary
+CID100057537	rotigotine	rotigotine	99755-59-6	12381	exact primary
+CID100057697	pemirolast	NA	NA	15431	exact db synonym
+CID100059708	levetiracetam	levetiracetam	102767-28-2	10864	exact primary
+CID100059768	esmolol	esmolol	81147-92-4	6536	exact primary
+CID100060146	tamsulosin	NA	NA	17904	exact primary
+CID100060164	adapalene	adapalene	106685-40-9	1218	exact primary
+CID100060172	adefovir	NA	NA	13932	exact primary
+CID100060183	perindopril	NA	NA	14313	exact primary
+CID100060184	perindopril	NA	NA	14313	exact primary
+CID100060198	exemestane	exemestane	107868-30-4	6733	exact primary
+CID100060490	zileuton	NA	NA	19700	exact primary
+CID100060496	amlodipine	NA	NA	1469	exact primary
+CID100060612	dexmedetomidine	dexmedetomidine	113775-47-6	5529	exact primary
+CID100060613	cidofovir	cidofovir	113852-37-2	4628	exact primary
+CID100060668	etoposide	NA	NA	6709	exact primary
+CID100060695	rocuronium	rocuronium	143558-00-3	15738	substring primary
+CID100060706	meropenem	meropenem	96036-03-2	11893	exact primary
+CID100060714	gadoteridol	gadoteridol	120066-54-8	7842	exact primary
+CID100060726	bromfenac	bromfenac	91714-94-2	3044	exact primary
+CID100060751	mthpc	temoporfin	122341-38-2	17969	exact db primary
+CID100060752	ibutilide	ibutilide	122647-31-8	9058	exact synonym
+CID100060754	gadodiamide	gadodiamide	131410-48-5	7835	exact primary
+CID100060787	saquinavir	saquinavir	127779-20-8	16883	exact synonym
+CID100060795	aripiprazole	aripiprazole	129722-12-9	1963	exact primary
+CID100060814	remifentanil	remifentanil	132875-61-7	15604	exact primary
+CID100060830	tiotropium	NA	NA	18276	exact synonym
+CID100060834	duloxetine	duloxetine	116539-59-4	5940	exact synonym
+CID100060843	pemetrexed	pemetrexed	137281-23-3	14236	exact synonym
+CID100060852	ibandronate	ibandronate	114084-78-5	9015	exact synonym
+CID100060853	ziprasidone	ziprasidone	146939-27-7	19717	exact primary
+CID100060860	metaiodobenzylguanidine	NA	NA	15431	exact db synonym
+CID100060864	olopatadine	NA	NA	15431	exact db synonym
+CID100060867	levosimendan	levosimendan	141505-33-1	10898	exact primary
+CID100060871	adefovir	adefovir dipivoxil	142340-99-6	13932	exact primary
+CID100060877	emtricitabine	NA	NA	7151	exact primary
+CID100060878	eprosartan	NA	NA	6460	exact primary
+CID100060936	tiludronate	tiludronic acid	89987-06-4	18237	exact db primary
+CID100060953	capecitabine	capecitabine	154361-50-9	4232	exact primary
+CID100061475	sodium	NA	NA	15431	exact db synonym
+CID100061799	monomethylfumarate	NA	NA	15431	exact db synonym
+CID100062305	doxycycline	NA	NA	15431	exact db synonym
+CID100062358	ammonium	NA	NA	15431	exact db synonym
+CID100062816	colestipol	colestipol	26658-42-4	NA	missing
+CID100062819	metrodin	urofollitropin	97048-13-0	18812	exact db primary
+CID100062924	fluticasone	NA	NA	15431	exact db synonym
+CID100062956	fosinoprilat	NA	NA	7464	exact synonym
+CID100062959	trovafloxacin	trovafloxacin	147059-72-1	18535	db cas match
+CID100062965	beclomethasone	NA	NA	15431	exact db synonym
+CID100063001	benazeprilat	NA	NA	2841	exact primary
+CID100064147	valganciclovir	valganciclovir	175865-60-8	18974	exact primary
+CID100064778	meropenem	NA	NA	11893	exact primary
+CID100064929	fenofibric	NA	NA	15431	exact db synonym
+CID100064987	tenofovir	NA	NA	7746	exact primary
+CID100065014	amd3100	plerixafor	110078-46-1	913	exact db primary
+CID100065157	testosterone	NA	NA	15431	exact db synonym
+CID100065281	cas	NA	NA	15431	exact db synonym
+CID100065370	glat	NA	NA	15431	exact db synonym
+CID100065628	bendamustine	bendamustine	16506-27-7	15669	exact primary
+CID100065840	colestimide	NA	NA	4828	exact synonym
+CID100065856	reboxetine	reboxetine	71620-89-8	15594	exact primary
+CID100065863	sertaconazole	NA	NA	16985	exact primary
+CID100065866	lercanidipine	NA	NA	10829	exact primary
+CID100065999	telmisartan	NA	NA	17954	exact primary
+CID100068613	atosiban	atosiban	90779-69-4	2045	exact primary
+CID100068740	zoledronic	NA	NA	15431	exact db synonym
+CID100068844	brinzolamide	NA	NA	3035	exact primary
+CID100069512	malvidin	NA	NA	15431	exact db synonym
+CID100071158	acamprosate	acamprosate	77337-76-9	1153	exact primary
+CID100071273	ropivacaine	ropivacaine	84057-95-4	15762	exact primary
+CID100071301	nebivolol	NA	NA	12843	exact synonym
+CID100071316	mivacurium	mivacurium	133814-19-4	12164	substring primary
+CID100071329	dofetilide	dofetilide	115256-11-6	5806	exact primary
+CID100071348	lanreotide	lanreotide	108736-35-2	10774	exact primary
+CID100071360	iloperidone	NA	NA	9099	exact primary
+CID100071362	hoe	NA	NA	15431	exact db synonym
+CID100071406	tpgs	tocofersolan	9002-96-4	43072	exact db primary
+CID100071436	lutalyse	NA	NA	15431	exact db synonym
+CID100071469	erythromycin	NA	NA	15431	exact db synonym
+CID100071616	voriconazole	voriconazole	137234-62-9	19125	exact primary
+CID100072022	perindoprilat	NA	NA	14313	exact synonym
+CID100072054	darifenacin	darifenacin	133099-04-4	5334	db cas match
+CID100072081	terlipressin	terlipressin	14636-12-5	31748	exact primary
+CID100072111	rifaximin	rifaximin	80621-81-4	15692	exact primary
+CID100072466	bleomycin	bleomycin	11056-06-7	2984	db cas match
+CID100072938	gemifloxacin	gemifloxacin	175463-14-6	10397	db cas match
+CID100073303	doripenem	doripenem	148016-81-3	15906	exact primary
+CID100073658	telithromycin	telithromycin	191114-48-4	8271	exact primary
+CID100074989	atovaquone	atovaquone	95233-18-4	2046	exact primary
+CID100077992	frovatriptan	frovatriptan	158747-02-5	7481	exact primary
+CID100077993	eletriptan	eletriptan	143322-58-1	6280	exact primary
+CID100077996	paricalcitol	paricalcitol	131918-61-1	30859	exact synonym
+CID100077997	mk-462	NA	NA	15732	exact synonym
+CID100077998	rosiglitazone	NA	NA	15771	exact synonym
+CID100078032	vallergan	NA	NA	15431	exact db synonym
+CID100082146	bexarotene	bexarotene	153559-49-0	2912	exact synonym
+CID100082148	agomelatine	agomelatine	138112-76-2	1281	exact primary
+CID100083030	ge-132	muromonab	140608-64-6	14924	exact synonym
+CID100083513	barium	NA	NA	15431	exact db synonym
+CID100083606	strontium	NA	NA	15431	exact db synonym
+CID100084003	ketorolac	NA	NA	10133	exact primary
+CID100091488	fluocinolone	NA	NA	15431	exact db synonym
+CID100093860	bortezomib	bortezomib	179324-69-7	14049	exact primary
+CID100096312	nelarabine	nelarabine	121032-29-9	264	exact primary
+CID100102258	rasburicase	NA	NA	16619	exact primary
+CID100102399	dextran	dextran	9004-54-0	5105	db cas match
+CID100104741	ici	fulvestrant	129453-61-8	7488	exact db primary
+CID100104758	raltitrexed	raltitrexed	112887-68-0	15558	exact primary
+CID100104778	levodopa/carbidopa	NA	NA	15431	exact db synonym
+CID100104799	fotemustine	fotemustine	92118-27-9	7473	exact primary
+CID100104849	rimonabant	rimonabant	168273-06-1	16597	exact primary
+CID100104865	bosentan	NA	NA	3002	exact primary
+CID100105145	68ga	NA	NA	15431	exact db synonym
+CID100107694	diane-35	NA	NA	15431	exact db synonym
+CID100107969	fty720	NA	NA	7156	exact synonym
+CID100107994	quinaprilat	NA	NA	15009	exact primary
+CID100110634	vardenafil	vardenafil	224785-90-4	2195	exact synonym
+CID100110635	tadalafil	tadalafil	171596-29-5	8728	exact primary
+CID100114709	eslicarbazepine	eslicarbazepine	104746-04-5	27439	db cas match
+CID100115237	paliperidone	paliperidone	144598-75-4	32422	exact primary
+CID100115355	ntbc	nitisinone	104206-65-7	12716	exact db primary
+CID100119182	clofarabine	clofarabine	123318-82-1	23402	exact primary
+CID100119212	benzylpenicilloyl	NA	NA	15431	exact db synonym
+CID100119607	valdecoxib	valdecoxib	181695-72-7	18973	exact primary
+CID100119828	parecoxib	parecoxib	198470-84-7	22880	substring primary
+CID100119830	tenofovir	NA	NA	7746	exact primary
+CID100121396	n-carbamylglutamate	carglumic acid	1188-38-1	28752	db cas match
+CID100121749	ustekinumab	ustekinumab	815610-63-0	29451	exact primary
+CID100121892	retigabine	NA	NA	15637	exact synonym
+CID100122197	fp-cit	ioflupane i-123	155798-07-5	5064	exact synonym
+CID100122316	rasagiline	rasagiline	136236-51-6	15586	exact synonym
+CID100123015	su5416	romiplostim	267639-76-9	28330	exact db primary
+CID100123597	travoprost	travoprost	157283-68-6	25853	db cas match
+CID100123606	almotriptan	almotriptan	154323-57-6	1364	exact primary
+CID100123610	eptifibatide	eptifibatide	188627-80-7	6468	exact primary
+CID100123611	fondaparinux	fondaparinux	104993-28-4	16669	exact synonym
+CID100123619	etoricoxib	etoricoxib	202409-33-4	22698	exact primary
+CID100123620	mometasone	mometasone furoate	83919-23-7	12191	exact db primary
+CID100123623	cancidas	caspofungin	162808-62-0	11490	exact synonym
+CID100123631	gefitinib	gefitinib	184475-35-2	19577	exact primary
+CID100123634	trisequens	NA	NA	15431	exact db synonym
+CID100123809	madopar	NA	NA	15431	exact db synonym
+CID100124087	desloratadine	desloratadine	100643-71-8	5475	exact primary
+CID100125017	desvenlafaxine	desvenlafaxine	93413-62-8	27317	exact synonym
+CID100125889	pregabalin	pregabalin	148553-50-8	14742	exact primary
+CID100127909	bimatoprost	bimatoprost	155206-00-1	645	exact primary
+CID100128549	trandolaprilat	NA	NA	15431	exact db synonym
+CID100129228	rufinamide	rufinamide	106308-44-5	15805	exact primary
+CID100129806	rosuvastatin	NA	NA	15902	exact synonym
+CID100130564	esomeprazole	NA	NA	14321	exact synonym
+CID100130881	olmesartan	NA	NA	3982	exact synonym
+CID100131535	fosamprenavir	fosamprenavir	226700-79-4	23531	exact synonym
+CID100132804	pitavastatin	pitavastatin	147511-69-1	12528	exact primary
+CID100132971	abiraterone	NA	NA	1148	exact synonym
+CID100132999	ivabradine	ivabradine	155974-00-8	9761	exact primary
+CID100134018	febuxostat	febuxostat	144060-53-7	17710	exact primary
+CID100134019	pixantrone	NA	NA	2253	exact primary
+CID100134780	pomalidomide	NA	NA	25758	exact primary
+CID100135113	sacrosidase	sacrosidase	85897-35-4	16814	exact primary
+CID100145068	nitric	nitric oxide	10102-43-9	13059	db cas match
+CID100147740	drospirenone	NA	NA	15431	exact db synonym
+CID100147912	posaconazole	posaconazole	171228-49-2	16173	exact primary
+CID100148121	pralatrexate	pralatrexate	146464-95-1	28975	exact primary
+CID100148127	ospemifene	NA	NA	6928	exact primary
+CID100148191	temsirolimus	temsirolimus	162635-04-3	22915	exact primary
+CID100148192	atazanavir	atazanavir	198904-31-3	2485	exact synonym
+CID100148211	palonosetron	NA	NA	15431	exact db synonym
+CID100150310	eplerenone	eplerenone	107724-20-9	6458	exact primary
+CID100150311	ezetimibe	NA	NA	16174	exact primary
+CID100150610	ertapenem	ertapenem	153832-46-3	11485	exact synonym
+CID100151075	nepafenac	nepafenac	78281-72-8	33488	exact primary
+CID100151165	aprepitant	aprepitant	170729-80-3	10339	exact synonym
+CID100151171	conivaptan	conivaptan	210101-16-9	19467	exact synonym
+CID100152945	dutasteride	dutasteride	164656-23-9	5947	exact primary
+CID100153941	entecavir	entecavir	142217-69-4	2477	exact primary
+CID100153994	clevidipine	NA	NA	4735	exact synonym
+CID100154058	solifenacin	solifenacin	242478-37-1	19524	exact synonym
+CID100154256	bazedoxifene	bazedoxifene	198481-32-2	17811	exact synonym
+CID100156326	asenapine	asenapine	65576-45-6	13342	exact synonym
+CID100156418	cinacalcet	cinacalcet	226256-56-0	12587	substring primary
+CID100157429	gadopentetate	NA	NA	15431	exact db synonym
+CID100157688	vinflunine	vinflunine	162652-95-1	19074	exact primary
+CID100157920	lubiprostone	lubiprostone	136790-76-6	27876	exact primary
+CID100157921	methyl	methyl aminolevulinate	33320-16-0	23049	exact db primary
+CID100158781	olmesartan	NA	NA	3982	exact synonym
+CID100158786	pegaptanib	NA	NA	15431	exact db synonym
+CID100159247	sevelamer	NA	NA	15431	exact db synonym
+CID100160036	mndpdp	NA	NA	11741	exact synonym
+CID100160051	colesevelam	colesevelam	182815-43-6	4827	exact synonym
+CID100160352	zidovudine/lamivudine	NA	NA	15431	exact db synonym
+CID100163296	tipranavir	tipranavir	174484-41-4	18282	exact primary
+CID100166548	anidulafungin	anidulafungin	166663-25-8	10689	exact primary
+CID100168625	poly(styrene	tolevamer	28210-41-5	22780	substring db primary
+CID100168924	lanthanum	lanthanum carbonate	587-26-8	10776	exact db primary
+CID100170361	varenicline	varenicline	249296-44-4	25484	exact synonym
+CID100171558	kaluril	NA	NA	15431	exact db synonym
+CID100176870	erlotinib	erlotinib	183321-74-6	3876	exact primary
+CID100179344	eslicarbazepine	NA	NA	15431	exact db synonym
+CID100185457	s-benzoylmercaptoacetyltriglycine	NA	NA	15431	exact db synonym
+CID100192155	prednefrin	NA	NA	15431	exact db synonym
+CID100193962	etravirine	etravirine	269055-15-4	25184	exact primary
+CID100197281	gadobenate	gadobenic acid	113662-23-0	2129	db cas match
+CID100197712	ambrisentan	ambrisentan	177036-94-1	25514	exact primary
+CID100206527	l-dmp	NA	NA	15431	exact db synonym
+CID100208898	dronedarone	NA	NA	5897	exact synonym
+CID100208902	ramelteon	ramelteon	196597-26-9	24906	exact primary
+CID100208908	lapatinib	lapatinib	231277-92-2	25787	exact synonym
+CID100208920	nuvaring	NA	NA	15431	exact db synonym
+CID100213023	dabigatran	dabigatran etexilate	211915-06-9	33597	exact db primary
+CID100213039	darunavir	NA	NA	25770	exact primary
+CID100213046	lurasidone	NA	NA	16453	exact synonym
+CID100214339	luliconazole	NA	NA	25863	exact primary
+CID100216209	aliskiren	NA	NA	25411	exact primary
+CID100216210	dabigatran	NA	NA	33597	exact synonym
+CID100216235	sitaxsentan	sitaxentan	184036-34-8	17538	exact db primary
+CID100216237	tolvaptan	tolvaptan	150683-30-0	13282	exact primary
+CID100216239	sorafenib	sorafenib	284461-73-0	15581	exact primary
+CID100216258	colimycin	NA	NA	15431	exact db synonym
+CID100216326	lenalidomide	lenalidomide	191732-72-6	8874	exact primary
+CID100216416	lasofoxifene	NA	NA	3874	exact primary
+CID100219024	regadenoson	regadenoson	313348-27-5	24686	exact primary
+CID100219078	lacosamide	lacosamide	175481-36-4	24189	exact primary
+CID100219084	gd-eob-dtpa	gadoxetic acid	135326-11-3	7843	exact synonym
+CID100219090	fosaprepitant	NA	NA	30778	exact synonym
+CID100222786	cortisone	cortisone	53-06-5	37039	substring primary
+CID100315411	18f-fdg	NA	NA	15431	exact db synonym
+CID100358641	trimethoprim-sulfamethoxazole	NA	NA	15431	exact db synonym
+CID100441332	carboprost	carboprost tromethamine	58551-69-2	4280	exact db primary
+CID100441382	natamycin	NA	NA	15431	exact db synonym
+CID100443379	cas	NA	NA	15431	exact db synonym
+CID100444006	cefditoren	cefditoren	104145-95-1	4378	exact synonym
+CID100444013	gadoversetamide	gadoversetamide	131069-91-5	24170	exact primary
+CID100444033	ciclesonide	ciclesonide	126544-47-6	4601	exact primary
+CID100449193	roflumilast	roflumilast	162401-32-3	22709	exact primary
+CID100455658	hemin	NA	NA	8453	exact primary
+CID100477468	fk463	micafungin	235114-32-6	6996	exact synonym
+CID100483407	maraviroc	maraviroc	376348-65-1	3287	exact primary
+CID100489129	efinaconazole	NA	NA	9994	exact primary
+CID100517045	sodium	sodium acetate	127-09-3	1627	substring primary
+CID100644241	nilotinib	nilotinib	641571-10-0	32907	exact primary
+CID100656628	silodosin	silodosin	160970-54-7	9974	exact primary
+CID100656892	tmc207	NA	NA	32664	exact synonym
+CID100657298	propylthiouracil	propylthiouracil	51-52-5	NA	missing
+CID100667490	6-mercaptopurine	mercaptopurine	50-44-2	39094	substring primary
+CID101349907	methimazole	NA	NA	15431	exact db synonym
+CID102723601	6-thioguanine	tioguanine	154-42-7	83622	db cas match
+CID102761171	ethionamide	ethionamide	536-33-4	NA	missing
+CID103006171	rilpivirine	NA	NA	33394	exact primary
+CID103010818	d-telaprevir	NA	NA	15431	exact db synonym
+CID103038497	fospropofol	NA	NA	15431	exact db synonym
+CID103052762	prucalopride	NA	NA	15068	exact synonym
+CID103055172	pimecrolimus	pimecrolimus	137071-32-0	16230	exact primary
+CID103062316	dasatinib	dasatinib	302962-49-8	32014	exact primary
+CID103080904	estrofem	NA	NA	6579	exact synonym
+CID103081276	fluticasone/salmeterol	NA	NA	15431	exact db synonym
+CID103081361	vandetanib	NA	NA	24149	exact primary
+CID103081362	telavancin	telavancin	372151-71-8	28637	exact primary
+CID103081884	copolymer	glatiramer	28704-27-0	186053	db cas match
+CID103085017	sevelamer	sevelamer	52757-95-6	16994	db cas match
+CID103086257	photofrin	porfimer sodium	87806-31-3	14683	exact db primary
+CID103086685	axitinib	NA	NA	29908	exact primary
+CID103086686	sunitinib	sunitinib	557795-19-4	27584	exact primary
+CID103325225	alx	parathyroid hormone	9002-64-6	866	db cas match
+CID104369359	sitagliptin	NA	NA	30230	exact synonym
+CID104474778	2-hydroxysuccinaldehyde	erythropoietin	11096-26-7	6511	exact db synonym
+CID104479094	doxercalciferol	doxercalciferol	54573-75-0	13452	exact primary
+CID104479097	hydroxocobalamin	NA	NA	15431	exact db synonym
+CID104517618	sodium	nitrous acid	7782-77-6	1627	substring primary
+CID104630253	alclometasone	alclometasone	67452-97-5	1322	substring primary
+CID104659568	entacapone	entacapone	130929-57-6	6388	exact primary
+CID104659569	tolcapone	tolcapone	134308-13-7	18322	exact primary
+CID105001396	warfarin	warfarin	81-81-2	5164	db cas match
+CID105251896	vildagliptin	vildagliptin	274901-16-5	22228	exact primary
+CID105273759	abacavir-lamivudine	NA	NA	15431	exact db synonym
+CID105277135	elvitegravir	NA	NA	33413	exact primary
+CID105281007	dacarbazine	dacarbazine	4342-03-4	NA	missing
+CID105310993	acipimox	acipimox	51037-30-0	1192	exact primary
+CID105311167	halobetasol	NA	NA	15431	exact db synonym
+CID105327147	polyoxyethylene	NA	NA	15431	exact db synonym
+CID105328940	bosutinib	NA	NA	28951	exact primary
+CID105353894	pralidoxime	pralidoxime	6735-59-7	111847	db cas match
+CID105353980	sulfasalazine	NA	NA	17304	exact synonym
+CID105359596	arsenic	NA	NA	15431	exact db synonym
+CID105360237	paroven	NA	NA	15431	exact db synonym
+CID105361912	rifabutin	rifabutin	72559-06-9	15684	exact primary
+CID105361917	methylnaltrexone	methylnaltrexone	916055-93-1	24278	substring primary
+CID105362070	balsalazide	balsalazide	80573-04-2	2783	db cas match
+CID105362420	verteporfin	verteporfin	129497-78-5	19039	exact primary
+CID105381226	rifampicin	NA	NA	15431	exact db synonym
+CID105462337	olsalazine	olsalazine	15722-48-2	13434	exact primary
+CID105464096	ramiprilat	NA	NA	15564	exact synonym
+CID105479141	cgp	mifamurtide	838853-48-8	3414	exact db primary
+CID105487068	mersyndol	NA	NA	15431	exact db synonym
+CID105487301	tegaserod	NA	NA	17949	exact synonym
+CID105488383	ofatumumab	ofatumumab	679818-59-8	28688	exact primary
+CID105488547	alvimopan	alvimopan	156053-89-3	22892	exact primary
+CID105493381	deferasirox	deferasirox	201530-41-8	24520	exact primary
+CID106102852	gadobutrol	gadobutrol	770691-21-9	7834	exact primary
+CID106323497	rifapentine	rifapentine	61379-65-5	15688	exact primary
+CID106326970	selenium	NA	NA	15431	exact db synonym
+CID106328144	radium	NA	NA	15431	exact db synonym
+CID106328526	ac1o3ha7	NA	NA	15431	exact db synonym
+CID106331630	eribulin	NA	NA	27741	exact synonym
+CID106333887	auranofin	auranofin	34031-32-8	2057	exact primary
+CID106398970	cefdinir	cefdinir	91832-40-5	4377	exact primary
+CID106433082	hexaminolevulinate	NA	NA	15431	exact db synonym
+CID106433091	tapentadol	tapentadol	175591-23-8	29052	exact synonym
+CID106433101	tafluprost	tafluprost	209860-87-7	26945	exact primary
+CID106433117	indacaterol	indacaterol	312753-06-3	25614	exact synonym
+CID106433119	rivaroxaban	NA	NA	25542	exact primary
+CID106435110	ivermectin	ivermectin	70288-86-7	9763	exact primary
+CID106437075	timentin	NA	NA	17673	exact primary
+CID106440191	fidaxomicin	NA	NA	28641	exact primary
+CID106442177	everolimus	everolimus	159351-69-6	16253	exact primary
+CID106445540	ixabepilone	ixabepilone	219989-84-1	25081	exact primary
+CID106452749	locorten	NA	NA	15431	exact db synonym
+CID106453361	sativex	NA	NA	4231	exact synonym
+CID106477186	delamanid	NA	NA	36480	exact primary
+CID106850789	iron	iron sucrose	8047-67-4	43142	exact db synonym
+CID106850791	leuprorelin	NA	NA	15431	exact db synonym
+CID106918182	strontium	strontium ranelate	135459-87-9	17270	exact db primary
+CID106918313	vilazodone	NA	NA	6103	exact primary
+CID106918366	fosaprepitant	NA	NA	30778	exact synonym
+CID106918430	ceftobiprole	NA	NA	26813	exact synonym
+CID106918456	prasugrel	prasugrel	150322-43-3	3978	exact synonym
+CID106918462	retapamulin	retapamulin	224452-66-8	16009	exact primary
+CID106918558	fesoterodine	fesoterodine	286930-02-7	16530	db cas match
+CID106918584	sugammadex	sugammadex	343306-71-8	28869	exact synonym
+CID106918638	belinostat	NA	NA	27921	exact primary
+CID106918670	pep005	NA	NA	28655	exact synonym
+CID109794842	tasimelteon	NA	NA	34876	exact primary
+CID109800339	olodaterol	NA	NA	37435	exact primary
+CID109810131	ceftaroline	NA	NA	28604	exact synonym
+CID109811221	cabazitaxel	NA	NA	24988	exact primary
+CID109812414	dalteparin	dalteparin	9005-49-6	5308	exact synonym
+CID109815559	trans	streptokinase	9002-01-1	36335	db cas match
+CID109818231	tofacitinib	NA	NA	29734	exact primary
+CID109825285	azilsartan	NA	NA	17508	exact primary
+CID109831414	lovaza	NA	NA	13195	exact synonym
+CID109831761	irbesartan-hydrochlorothiazide	NA	NA	15431	exact db synonym
+CID109831783	stalevo	NA	NA	15431	exact db synonym
+CID109846180	eltrombopag	eltrombopag	496775-61-2	28985	exact synonym
+CID109853053	lomitapide	NA	NA	2478	exact primary
+CID109854489	fluticasone	NA	NA	15431	exact db synonym
+CID109865528	mirabegron	NA	NA	27828	exact primary
+CID109869929	avanafil	NA	NA	25289	exact primary
+CID109871419	ticagrelor	NA	NA	25950	exact primary
+CID109887712	dapagliflozin	NA	NA	32764	exact primary
+CID109898619	depreotide	NA	NA	15431	exact db synonym
+CID109912092	apremilast	NA	NA	31098	exact primary
+CID109924495	perampanel	NA	NA	24484	exact primary
+CID109930048	vernakalant	NA	NA	25653	exact synonym
+CID109940864	benicar-hct	NA	NA	15431	exact db synonym
+CID109941444	som230	NA	NA	28876	exact synonym
+CID109966051	lu	NA	NA	15431	exact db synonym
+CID110028615	vorapaxar	NA	NA	25955	exact primary
+CID110096344	linagliptin	NA	NA	36477	exact primary
+CID110107393	18f-flutemetamol	NA	NA	41725	exact primary
+CID110113978	pazopanib	pazopanib	444731-52-6	25936	exact primary
+CID110163178	afatinib	NA	NA	35510	exact primary
+CID110178705	besifloxacin	NA	NA	15431	exact db synonym
+CID110182969	apixaban	NA	NA	34327	exact primary
+CID110324367	boceprevir	NA	NA	1881	exact primary
+CID110465263	lorcaserin	NA	NA	25684	exact synonym
+CID110482134	glycerol	NA	NA	15431	exact db synonym
+CID111001318	tafamidis	NA	NA	33850	exact primary
+CID111020241	ascorbate	NA	NA	15431	exact db synonym
+CID111163584	alogliptin	NA	NA	30289	exact synonym
+CID111167602	regorafenib	NA	NA	36855	exact primary
+CID111228026	aclidinium	NA	NA	24405	exact synonym
+CID111234049	tr-700	NA	NA	15431	exact db synonym
+CID111235728	saxagliptin	NA	NA	26969	exact primary
+CID111238823	azilsartan	NA	NA	17508	exact primary
+CID111254352	sodium	NA	NA	15431	exact db synonym
+CID111304743	riociguat	NA	NA	36354	exact primary
+CID111499245	an2690	NA	NA	33732	exact synonym
+CID111501341	florbetaben	NA	NA	15431	exact db synonym
+CID111505907	zyprexa	NA	NA	13416	exact synonym
+CID111519069	umeclidinium	NA	NA	38628	exact primary
+CID111531537	eliglustat	NA	NA	25428	exact primary
+CID111556711	carfilzomib	NA	NA	35985	exact primary
+CID111593706	sevelamer	NA	NA	15431	exact db synonym
+CID111597571	crizotinib	NA	NA	36489	exact primary
+CID111597697	lisdexamfetamine	NA	NA	32047	exact synonym
+CID111672461	gadofosveset	gadofosveset trisodium	193901-90-5	11606	exact db primary
+CID111707110	trametinib	NA	NA	38178	exact primary
+CID111722286	spinosad	NA	NA	168521	exact primary
+CID111947681	nitroprusside	nitroprusside	15078-28-1	18490	substring primary
+CID111949646	empagliflozin	NA	NA	39595	exact primary
+CID111979316	vasopressin	NA	NA	15431	exact db synonym
+CID113559279	ulipristal	NA	NA	1813	exact synonym
+CID115951529	mdv3100	NA	NA	34473	exact synonym
+CID116004692	macitentan	NA	NA	32854	exact primary
+CID116065945	tmc435	NA	NA	32069	exact synonym
+CID116126651	pci-32765	NA	NA	39743	exact synonym
+CID116129616	salmon	salmon calcitonin	47931-85-1	4143	db cas match
+CID116129617	cosyntropin	tetracosactide	16960-16-0	68818	exact db synonym
+CID116129629	ly146032	daptomycin	103060-53-3	5327	exact db primary
+CID116129632	nuvocid	oritavancin	171099-57-3	10699	exact db primary
+CID116129665	vitrum	secretin human	108153-74-8	69202	db cas match
+CID116129672	insulin	NA	NA	15431	exact db synonym
+CID116129682	forteo	teriparatide	52232-67-4	10700	exact synonym
+CID116129690	ziconotide	ziconotide	107452-89-1	19685	exact primary
+CID116129701	t-a2-3	NA	NA	15431	exact db synonym
+CID116129703	revasc	desirudin	120993-53-5	5474	exact db primary
+CID116129704	bivalirudin	bivalirudin	128270-60-0	2982	exact primary
+CID116130199	enfuvirtide	enfuvirtide	159519-65-0	14249	exact primary
+CID116130295	bpti	aprotinin	9087-70-1	33583	exact db synonym
+CID116130957	org	ganirelix	124904-93-4	7870	exact db primary
+CID116131215	abarelix	abarelix	183552-38-7	1142	exact primary
+CID116131310	hepatitis	NA	NA	15431	exact db synonym
+CID116132265	acth(1-39	corticotropin	12427-33-7	30452	substring db primary
+CID116132283	glucagon	glucagon	16941-32-5	87052	substring primary
+CID116132344	ocrh	corticorelin	86784-80-7	11217	db cas match
+CID116132418	novolog	NA	NA	8920	exact synonym
+CID116132438	humalog	NA	NA	9269	exact synonym
+CID116132441	refludan	lepirudin	138068-37-8	10819	exact db primary
+CID116132446	symlin	pramlintide	151126-32-8	14706	exact db primary
+CID116134956	liraglutide	NA	NA	12555	exact primary
+CID116136245	degarelix	degarelix	214766-78-6	25985	exact primary
+CID116137271	insulin	insulin detemir	169148-63-4	12553	exact db primary
+CID116139342	lyxumia	NA	NA	26530	exact synonym
+CID116139605	teduglutide	NA	NA	863	exact primary
+CID116156130	exenatide	NA	NA	505	exact primary
+CID116158207	linaclotide	NA	NA	31728	exact synonym
+CID116158473	o291	NA	NA	15431	exact db synonym
+CID116213095	pentastarch	hydroxyethyl starch	9005-27-0	13863	db cas match
+CID116220172	ivacaftor	NA	NA	31764	exact primary
+CID117754772	ruxolitinib	NA	NA	36484	exact primary
+CID119371515	alcaftadine	NA	NA	68299	exact primary
+CID122834577	nesiritide	nesiritide	124584-08-3	12902	exact synonym
+CID123668479	raltegravir	NA	NA	32759	exact primary
+CID123689036	pertechnetate	NA	NA	15431	exact db synonym
+CID123690938	piroxicam	piroxicam	36322-90-4	14521	exact primary
+CID124762228	azarga	NA	NA	15431	exact db synonym
+CID124776445	vismodegib	NA	NA	32075	exact primary
+CID124812758	canagliflozin	NA	NA	24981	exact primary
+CID124822371	florbetapir	NA	NA	39315	exact primary
+CID124826799	ponatinib	NA	NA	34938	exact primary
+CID124838347	glucagon	NA	NA	15431	exact db synonym
+CID124846132	hetastarch	NA	NA	15431	exact db synonym
+CID124950485	cobicistat	NA	NA	40495	exact primary
+CID124965990	suvorexant	NA	NA	39726	exact primary
+CID125074470	triptorelin	triptorelin	57773-63-4	18511	exact primary
+CID125074886	cetrorelix	cetrorelix	120287-85-6	4502	exact synonym
+CID125077405	nafarelin	nafarelin	76932-56-4	12759	exact primary
+CID125077993	histrelin	NA	NA	8610	exact primary
+CID125094462	sofosbuvir	NA	NA	64974	exact primary
+CID125102847	cabozantinib	NA	NA	32124	exact primary
+CID125880656	doxycycline	NA	NA	15431	exact db synonym
+CID125880664	tetracycline	NA	NA	15431	exact db synonym
+CID126275995	minocycline	NA	NA	12113	exact synonym
+CID140468184	acenocoumarol	acenocoumarol	152-72-7	NA	missing
+CID142611257	vemurafenib	NA	NA	35988	exact primary
+CID144134877	oxytetracycline	NA	NA	15431	exact db synonym
+CID144146714	lantus	NA	NA	9274	exact synonym
+CID144201342	tesamorelin	NA	NA	17658	exact synonym
+CID144201343	ecallantide	NA	NA	6132	exact primary
+CID144462760	dabrafenib	NA	NA	61565	exact primary
+CID144564107	mipomersen	NA	NA	29473	exact synonym
+CID144564722	promacta	NA	NA	28985	exact synonym
+CID144567678	dalbavancin	dalbavancin	171500-79-1	2341	exact primary
+CID146181941	signifor	NA	NA	28876	exact synonym
+CID146216142	dolutegravir	NA	NA	38335	exact primary
+CID151508717	tenoxicam	tenoxicam	59804-37-4	17985	exact primary
+CID151601240	demeclocycline	NA	NA	15431	exact db synonym
+CID153477714	heparin	NA	NA	15431	exact db synonym
+CID153627505	hydroxypropyl	NA	NA	15431	exact db synonym
+CID154677977	a77	NA	NA	15431	exact db synonym
+CID154681041	tigecycline	NA	NA	7539	exact primary
+CID154682541	doxycycline	NA	NA	15431	exact db synonym
+CID154687131	lymecycline	lymecycline	992-21-2	NA	missing
+CID156603655	pegaptanib	pegaptanib	222716-86-1	12727	db cas match
+CID156842239	n-3	NA	NA	15431	exact db synonym
+CID170683024	x	NA	NA	15431	exact db synonym
+CID170695640	colestyramine	cholestyramine	11041-12-6	NA	missing
+CID171306834	k779	interferon alfa-2b	98530-12-2	9352	db cas match

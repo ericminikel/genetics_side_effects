@@ -1,0 +1,2109 @@
+mesh_id	mesh_term	n_omimintogen_genes	n_gwas_loci	genetic_insight
+D009325	Nausea	0	0	none
+D006261	Headache	0	50	gwas
+D003872	Dermatitis	0	200	gwas
+D005076	Exanthema	0	0	none
+D014839	Vomiting	0	1	none
+D004244	Dizziness	0	16	gwas
+D003967	Diarrhea	11	1	omim/intogen
+D011537	Pruritus	0	1	none
+D005221	Fatigue	1	1	omim/intogen
+D006967	Hypersensitivity	0	132	gwas
+D015746	Abdominal Pain	0	8	gwas
+D014581	Urticaria	5	18	both
+D005334	Fever	1	0	omim/intogen
+D005767	Gastrointestinal Diseases	0	4	gwas
+D010146	Pain	3	7	both
+D003248	Constipation	0	2	none
+D004417	Dyspnea	0	35	gwas
+D004415	Dyspepsia	0	0	none
+D000855	Anorexia	0	2	none
+D002637	Chest Pain	0	78	gwas
+D007319	Sleep Initiation and Maintenance Disorders	3	490	both
+D000077260	Sleepiness	0	0	none
+D007022	Hypotension	1	0	omim/intogen
+D010292	Paresthesia	0	0	none
+D012871	Skin Diseases	0	4	gwas
+D000707	Anaphylaxis	0	0	none
+D009422	Nervous System Diseases	0	1	none
+D013921	Thrombocytopenia	23	1389	both
+D003141	Communicable Diseases	0	0	none
+D006945	Hyperhidrosis	3	3	both
+D013610	Tachycardia	9	320	both
+D012769	Shock	0	4	gwas
+D018771	Arthralgia	0	5	gwas
+D003371	Cough	0	4	gwas
+D004487	Edema	1	1	omim/intogen
+D063806	Myalgia	0	1	none
+D006973	Hypertension	1	1142	both
+D014987	Xerostomia	0	20	gwas
+D001007	Anxiety	0	110	gwas
+D003221	Confusion	0	0	none
+D000799	Angioedema	5	7	both
+D014474	Unconsciousness	0	2	none
+D000740	Anemia	16	1241	both
+D012640	Seizures	15	6	both
+D007970	Leukopenia	2	890	both
+D014717	Vertigo	0	6	gwas
+D003866	Depressive Disorder	0	145	gwas
+D001145	Arrhythmias, Cardiac	4	319	both
+D013575	Syncope	0	2	none
+D001416	Back Pain	0	19	gwas
+D004890	Erythema	2	45	both
+D013035	Spasm	11	3	both
+D011595	Psychomotor Agitation	5	0	omim/intogen
+D044342	Malnutrition	0	15	gwas
+D014202	Tremor	1	0	omim/intogen
+D001523	Mental Disorders	0	22	gwas
+D015354	Vision, Low	0	0	none
+D004408	Dysgeusia	0	3	gwas
+D014652	Vascular Diseases	1	15	both
+D008477	Mediastinal Diseases	0	0	none
+D007154	Immune System Diseases	0	13	gwas
+D005414	Flatulence	0	1	none
+D000505	Alopecia	20	423	both
+D023341	Chills	0	0	none
+D005483	Flushing	0	0	none
+D006331	Heart Diseases	0	109	gwas
+D005128	Eye Diseases	0	7	gwas
+D003240	Connective Tissue Diseases	1	13	both
+D014012	Tinnitus	0	102	gwas
+D004892	Erythema Multiforme	20	10	both
+D014570	Urologic Diseases	2	0	omim/intogen
+D014786	Vision Disorders	1	4	both
+D010612	Pharyngitis	0	150	gwas
+D006470	Hemorrhage	0	0	none
+D012220	Rhinitis	0	134	gwas
+D006505	Hepatitis	0	14	gwas
+D006987	Hypesthesia	0	0	none
+D001919	Bradycardia	0	0	none
+D012852	Sinusitis	0	10	gwas
+D014552	Urinary Tract Infections	0	2	none
+D004478	Ectoparasitic Infestations	0	0	none
+D004844	Epistaxis	0	0	none
+D006425	Hemic and Lymphatic Diseases	0	0	none
+D010591	Phantom Limb	0	0	none
+D004066	Digestive System Diseases	0	25	gwas
+D011115	Polyneuropathies	92	3	both
+D006417	Hematuria	2	9	both
+D011014	Pneumonia	0	6	gwas
+D054058	Acute Coronary Syndrome	0	3	gwas
+D009203	Myocardial Infarction	0	136	gwas
+D000380	Agranulocytosis	9	684	both
+D006943	Hyperglycemia	0	25	gwas
+D013280	Stomatitis	0	2	none
+D051437	Renal Insufficiency	1	674	both
+D007565	Jaundice	4	235	both
+D003231	Conjunctivitis	1	7	both
+D012141	Respiratory Tract Infections	1	3	both
+D015430	Weight Gain	0	0	none
+D013546	Sweating	0	372	gwas
+D003863	Depression	0	247	gwas
+D013262	Stevens-Johnson Syndrome	20	16	both
+D010195	Pancreatitis	2	12	both
+D015431	Weight Loss	0	0	none
+D009503	Neutropenia	9	684	both
+D017484	Dermatitis, Phototoxic	9	229	both
+D001991	Bronchitis	0	11	gwas
+D007172	Erectile Dysfunction	0	3	gwas
+D011141	Polyuria	0	6	gwas
+D053159	Dysuria	0	3	gwas
+D013272	Stomach Diseases	0	6	gwas
+D010198	Pancytopenia	0	0	none
+D004802	Eosinophilia	1	664	both
+D000787	Angina Pectoris	0	78	gwas
+D001986	Bronchial Spasm	0	0	none
+D009304	Nasopharyngitis	0	85	gwas
+D007251	Influenza, Human	0	32	gwas
+D018908	Muscle Weakness	0	3	gwas
+D001219	Aspartate Aminotransferases	1	550	both
+D000410	Alanine Transaminase	1	550	both
+D001249	Asthma	1	1046	both
+D009120	Muscle Cramp	0	3	gwas
+D003680	Deglutition Disorders	0	148	gwas
+D007057	Ichthyosis	16	0	omim/intogen
+D005756	Gastritis	0	17	gwas
+D011191	Potassium Deficiency	0	15	gwas
+D001941	Breast Diseases	119	234	both
+D007024	Hypotension, Orthostatic	11	0	omim/intogen
+D003404	Creatinine	0	0	none
+D008111	Liver Function Tests	0	0	none
+D003681	Dehydration	7	3	both
+D000339	Affect	0	0	none
+D020234	Gait Ataxia	1	0	omim/intogen
+D006323	Heart Arrest	0	16	gwas
+D016055	Urinary Retention	0	12	gwas
+D007989	Libido	0	0	none
+D008881	Migraine Disorders	3	51	both
+D007508	Irritable Mood	0	38	gwas
+D019584	Hot Flashes	0	0	none
+D020521	Stroke	0	55	gwas
+D001168	Arthritis	5	3	both
+D007003	Hypoglycemia	4	1	omim/intogen
+D001066	Appetite	0	0	none
+D053609	Lethargy	0	0	none
+D011618	Psychotic Disorders	1	296	both
+D010003	Osteoarthritis	1	112	both
+D006471	Gastrointestinal Hemorrhage	0	1	none
+D006333	Heart Failure	1	18	both
+D004423	Ear	0	0	none
+D007010	Hyponatremia	2	3	both
+D011693	Purpura	3	47	both
+D004172	Diplopia	0	0	none
+D058186	Acute Kidney Injury	0	674	gwas
+D013894	Thirst	0	0	none
+D012872	Skin Diseases, Vesiculobullous	18	9	both
+D003873	Dermatitis, Exfoliative	6	168	both
+D001281	Atrial Fibrillation	6	162	both
+D014947	Wounds and Injuries	0	0	none
+D013924	Thrombophlebitis	4	58	both
+D000647	Amnesia	0	3	gwas
+D017093	Liver Failure	2	2	omim/intogen
+D003920	Diabetes Mellitus	11	572	both
+D000743	Anemia, Hemolytic	29	5	both
+D011695	Purpura, Schoenlein-Henoch	74	77	both
+D058447	Eye Pain	0	3	gwas
+D004485	Eczema	6	202	both
+D005759	Gastroenteritis	3	207	both
+D000075662	Injection Site Reaction	0	4	gwas
+D012893	Sleep Wake Disorders	4	490	both
+D034381	Hearing Loss	115	109	both
+D000469	Alkaline Phosphatase	0	0	none
+D018805	Sepsis	0	460	gwas
+D000072281	Lymphadenopathy	0	0	none
+D010787	Photosensitivity Disorders	9	68	both
+D004438	Ecchymosis	0	0	none
+D004433	Earache	0	0	none
+D011654	Pulmonary Edema	0	0	none
+D006177	Gynecomastia	2	234	both
+D009369	Neoplasms	0	99	gwas
+D009122	Muscle Hypertonia	11	3	both
+D008607	Intellectual Disability	399	1	omim/intogen
+D004941	Esophagitis	0	17	gwas
+D003128	Coma	0	2	none
+D019226	Oral Ulcer	0	45	gwas
+D010689	Phlebitis	2	40	both
+D011655	Pulmonary Embolism	0	10	gwas
+D012135	Respiratory Sounds	0	67	gwas
+D002177	Candidiasis	4	5	both
+D005059	Euphoria	0	0	none
+D006948	Hyperkinesis	0	0	none
+D059352	Musculoskeletal Pain	0	1	none
+D014627	Vaginitis	18	0	omim/intogen
+D014508	Urea	0	0	none
+D015352	Dry Eye Syndromes	2	15	both
+D000741	Anemia, Aplastic	35	4	both
+D020795	Photophobia	0	0	none
+D014549	Urinary Incontinence	0	8	gwas
+D003877	Dermatitis, Contact	0	200	gwas
+D008551	Melena	0	1	none
+D006947	Hyperkalemia	3	3	both
+D004884	Eructation	0	0	none
+D007249	Inflammation	0	460	gwas
+D056647	Systemic Vasculitis	1	10	both
+D003556	Cystitis	93	29	both
+D014527	Uric Acid	0	11	gwas
+D019547	Neck Pain	0	0	none
+D012798	Sialorrhea	0	20	gwas
+D004325	Dreams	0	0	none
+D003092	Colitis	0	216	gwas
+D007964	Leukocytosis	0	751	gwas
+D056486	Chemical and Drug Induced Liver Injury	0	11	gwas
+D006606	Hiccup	0	0	none
+D003244	Consciousness Disorders	0	2	none
+D007766	Lacrimal Apparatus Diseases	2	15	both
+D017180	Tachycardia, Ventricular	5	124	both
+D002386	Cataract	41	86	both
+D005928	Glossitis	0	1	none
+D011597	Psychomotor Performance	0	0	none
+D004412	Dysmenorrhea	1	9	both
+D005764	Gastroesophageal Reflux	0	148	gwas
+D006937	Hypercholesterolemia	12	845	both
+D007040	Hypoventilation	1	11	both
+D006932	Hyperbilirubinemia	4	235	both
+D003288	Contusions	0	1	none
+D006073	Gout	2	508	both
+D033461	Hyperuricemia	2	2	omim/intogen
+D059289	Vascular Stiffness	0	226	gwas
+D010167	Pallor	0	0	none
+D011507	Proteinuria	0	96	gwas
+D010859	Pigmentation Disorders	24	175	both
+D053158	Nocturia	0	3	gwas
+D012206	Rhabdomyolysis	1	0	omim/intogen
+D007592	Joint Diseases	1	42	both
+D006996	Hypocalcemia	22	307	both
+D041781	Jaundice, Obstructive	4	235	both
+D054537	Atrioventricular Block	2	5	both
+D014456	Ulcer	0	0	none
+D004347	Drug Interactions	0	0	none
+D006561	Herpes Simplex	2	8	both
+D014664	Vasodilation	0	0	none
+D000152	Acne Vulgaris	1	55	both
+D002481	Cellulitis	0	8	gwas
+D004401	Dysarthria	4	2	omim/intogen
+D009846	Oliguria	0	0	none
+D059373	Mastodynia	0	0	none
+D020820	Dyskinesias	4	1	omim/intogen
+D014777	Virus Diseases	1	2	omim/intogen
+D001288	Attention	0	0	none
+D004700	Endocrine System Diseases	0	847	gwas
+D018879	Ventricular Premature Complexes	0	0	none
+D001847	Bone Diseases	1	32	both
+D000081084	Accidental Injuries	0	0	none
+D000568	Amenorrhea	1	9	both
+D006402	Hematologic Diseases	1	1183	both
+D055154	Dysphonia	1	0	omim/intogen
+D006029	Glycosuria	1	2	omim/intogen
+D000374	Aggression	0	0	none
+D002318	Cardiovascular Diseases	0	317	gwas
+D012678	Sensation Disorders	1	101	both
+D001049	Apnea	3	47	both
+D005723	gamma-Glutamyltransferase	0	0	none
+D013064	Speech Disorders	4	2	omim/intogen
+D017202	Myocardial Ischemia	0	145	gwas
+D014592	Uterine Hemorrhage	0	6	gwas
+D006469	Hemoptysis	0	1	none
+D006562	Herpes Zoster	0	11	gwas
+D010996	Pleural Effusion	1	4	both
+D053040	Nephrolithiasis	4	38	both
+D009395	Nephritis, Interstitial	2	24	both
+D000370	Ageusia	0	0	none
+D009181	Mycoses	0	5	gwas
+D013927	Thrombosis	2	21	both
+D000038	Abscess	0	13	gwas
+D003693	Delirium	0	0	none
+D005901	Glaucoma	6	385	both
+D008595	Menorrhagia	1	9	both
+D005117	Cardiac Complexes, Premature	0	122	gwas
+D008569	Memory Disorders	0	3	gwas
+D016523	Foot Ulcer	0	2	none
+D015878	Mydriasis	0	0	none
+D009135	Muscular Diseases	57	35	both
+D001778	Blood Coagulation Disorders	6	682	both
+D019559	Capillary Leak Syndrome	0	0	none
+D005891	Gingivitis	0	1	none
+D006941	Hyperesthesia	0	0	none
+D003876	Dermatitis, Atopic	0	200	gwas
+D000550	Amblyopia	1	3	both
+D002779	Cholestasis	16	137	both
+D007826	Laryngismus	0	0	none
+D010033	Otitis Media	1	27	both
+D014693	Ventricular Fibrillation	1	0	omim/intogen
+D001480	Basal Ganglia Diseases	12	105	both
+D006396	Hematemesis	0	2	none
+D006406	Hematoma	0	1	none
+D008796	Metrorrhagia	0	6	gwas
+D009443	Neuritis	8	0	omim/intogen
+D000419	Albuminuria	0	93	gwas
+D001768	Blister	18	9	both
+D006934	Hypercalcemia	20	306	both
+D014060	Tongue Diseases	0	1	none
+D045823	Ileus	3	1	omim/intogen
+D012607	Scotoma	0	0	none
+D003490	Cyanosis	1	0	omim/intogen
+D009336	Necrosis	0	0	none
+D053608	Stupor	0	2	none
+D006529	Hepatomegaly	1	4	both
+D017563	Lung Diseases, Interstitial	2	39	both
+D010437	Peptic Ulcer	0	11	gwas
+D000637	Transaminases	1	550	both
+D003402	Creatine Kinase	1	34	both
+D003702	Delusions	0	0	none
+D004617	Embolism	0	16	gwas
+D007827	Laryngitis	1	0	omim/intogen
+D009437	Neuralgia	8	4	both
+D009759	Nystagmus, Pathologic	20	13	both
+D015228	Hypertriglyceridemia	11	844	both
+D020246	Venous Thrombosis	2	22	both
+D001714	Bipolar Disorder	0	143	gwas
+D002180	Candidiasis, Oral	4	4	both
+D010243	Paralysis	50	12	both
+D004065	Digestive System Abnormalities	7	8	both
+D008107	Liver Diseases	7	702	both
+D009902	Optic Neuritis	15	83	both
+D003560	Cysts	3	0	omim/intogen
+D012129	Respiratory Function Tests	0	419	gwas
+D006985	Hyperventilation	0	0	none
+D007415	Intestinal Obstruction	3	1	omim/intogen
+D008599	Menstruation Disturbances	1	9	both
+D012131	Respiratory Insufficiency	1	11	both
+D012628	Dermatitis, Seborrheic	3	310	both
+D005499	Folliculitis	20	414	both
+D006949	Hyperlipidemias	26	848	both
+D007819	Laryngeal Edema	0	0	none
+D059020	Suicidal Ideation	0	12	gwas
+D016171	Torsades de Pointes	5	122	both
+D006356	Heartburn	0	0	none
+D007037	Hypothyroidism	19	177	both
+D000857	Dysosmia	0	4	gwas
+C536821	Gigantomastia	0	9	gwas
+D010259	Paranoid Disorders	0	0	none
+D012128	Respiratory Distress Syndrome, Adult	0	1	none
+D012912	Sneezing	0	46	gwas
+D057565	Apathy	0	0	none
+D003861	Depersonalization	0	0	none
+D007669	Kidney Calculi	4	70	both
+D002769	Cholelithiasis	11	59	both
+D006628	Hirsutism	20	414	both
+D014098	Toothache	0	0	none
+D001037	Aphasia	4	2	omim/intogen
+D007634	Keratitis	8	88	both
+D009260	Nail Diseases	7	1	omim/intogen
+D014076	Tooth Diseases	1	7	both
+D019522	Vaginal Discharge	18	0	omim/intogen
+D008133	Long QT Syndrome	5	86	both
+D064147	Febrile Neutropenia	9	684	both
+C535402	Galactorrhea-Hyperprolactinemia	0	0	none
+D010024	Osteoporosis	9	121	both
+D013922	Thrombocytosis	17	1385	both
+D006484	Hemorrhoids	0	96	gwas
+D018476	Hypokinesia	0	0	none
+D011127	Polyps	0	26	gwas
+D003875	Drug Eruptions	1	11	both
+D017809	Fatal Outcome	0	0	none
+D009157	Myasthenia Gravis	1	12	both
+D017699	Pelvic Pain	0	2	none
+D010976	Platelet Count	0	515	gwas
+D013617	Tachycardia, Supraventricular	5	122	both
+D001927	Brain Diseases	10	0	omim/intogen
+D017674	Hypophosphatemia	1	10	both
+D011565	Psoriasis	2	146	both
+D052016	Mucositis	0	0	none
+D007674	Kidney Diseases	3	125	both
+D008180	Lupus Erythematosus, Systemic	2	170	both
+D001762	Blepharitis	3	5	both
+D060825	Cognitive Dysfunction	3	93	both
+D017495	Hyperpigmentation	10	175	both
+D050723	Fractures, Bone	0	26	gwas
+D005884	Gingival Hemorrhage	0	1	none
+D009207	Myoclonus	1	0	omim/intogen
+D008171	Lung Diseases	1	4	both
+D014555	Urination Disorders	2	21	both
+D001766	Blindness	1	4	both
+D042101	Acalculous Cholecystitis	1	27	both
+D006955	Hypernatremia	0	3	gwas
+D002181	Candidiasis, Vulvovaginal	18	2	omim/intogen
+D054556	Venous Thromboembolism	0	77	gwas
+D012735	Sexual Dysfunction, Physiological	0	3	gwas
+D013276	Stomach Ulcer	0	8	gwas
+D008231	Lymphopenia	0	0	none
+D002543	Cerebral Hemorrhage	0	12	gwas
+D011247	Pregnancy	0	7	gwas
+D006327	Heart Block	2	5	both
+D007177	Inappropriate ADH Syndrome	0	0	none
+D013406	Suicide, Attempted	0	12	gwas
+D002546	Ischemic Attack, Transient	2	0	omim/intogen
+D009127	Muscle Rigidity	11	3	both
+D000081013	Suicide, Completed	0	0	none
+D005242	Fecal Incontinence	0	0	none
+D004427	Ear Diseases	1	117	both
+D006791	Hostility	0	0	none
+D004761	Enterocolitis, Pseudomembranous	0	0	none
+D001786	Blood Glucose	0	127	gwas
+D007035	Hypothermia	1	0	omim/intogen
+D011317	Priapism	3	18	both
+D007958	Leukocyte Count	0	523	gwas
+D002037	Bundle-Branch Block	2	5	both
+D009126	Muscle Relaxation	0	0	none
+D000138	Acidosis	10	11	both
+D053099	Azotemia	1	0	omim/intogen
+D009220	Myositis	1	6	both
+D011030	Pneumothorax	1	4	both
+D000681	Amylases	0	0	none
+D007429	Intraocular Pressure	0	64	gwas
+D017496	Hypopigmentation	24	175	both
+D009404	Nephrotic Syndrome	20	6	both
+D002062	Bursitis	0	10	gwas
+D009202	Cardiomyopathies	53	50	both
+D009459	Neuroleptic Malignant Syndrome	0	0	none
+D012002	Rectal Diseases	98	113	both
+D005130	Eye Hemorrhage	0	3	gwas
+D009123	Muscle Hypotonia	8	3	both
+D016491	Peripheral Vascular Diseases	2	40	both
+D011658	Pulmonary Fibrosis	4	19	both
+D012713	Serum Sickness	1	4	both
+D003645	Death, Sudden	4	15	both
+C538420	Black hairy tongue	0	0	none
+D002545	Brain Ischemia	2	0	omim/intogen
+D003072	Cognition Disorders	3	93	both
+D007973	Leukorrhea	18	0	omim/intogen
+D011536	Prurigo	0	3	gwas
+D009877	Endophthalmitis	0	6	gwas
+D019586	Intracranial Hypertension	0	8	gwas
+D010493	Pericarditis	0	3	gwas
+D012021	Reflex, Abnormal	0	0	none
+D013405	Suicide	0	12	gwas
+D013281	Stomatitis, Aphthous	0	2	none
+D013375	Substance Withdrawal Syndrome	0	7	gwas
+D020300	Intracranial Hemorrhages	0	12	gwas
+D006685	Hoarseness	1	0	omim/intogen
+D006940	Hyperemia	0	0	none
+D004381	Duodenal Ulcer	0	8	gwas
+D004893	Erythema Nodosum	3	5	both
+C535509	Erythema elevatum diutinum	0	0	none
+D011696	Purpura, Thrombocytopenic	20	1389	both
+D001424	Bacterial Infections	0	2	none
+D008581	Meningitis	0	6	gwas
+D010031	Otitis	1	27	both
+D004830	Epilepsy, Tonic-Clonic	0	0	none
+D006400	Hematocrit	0	2	none
+D009894	Opportunistic Infections	0	0	none
+D003704	Dementia	5	109	both
+D004827	Epilepsy	59	22	both
+D006547	Hernia	2	74	both
+D003881	Dermatomycoses	4	5	both
+D006983	Hypertrichosis	6	286	both
+D020734	Parkinsonian Disorders	12	105	both
+D010554	Personality Disorders	0	4	gwas
+D057896	Striae Distensae	0	0	none
+D001943	Breast Neoplasms	119	234	both
+D000078602	Sadness	0	0	none
+D006980	Hyperthyroidism	2	52	both
+D002561	Cerebrovascular Disorders	0	55	gwas
+D021501	Flank Pain	0	0	none
+D005667	Furunculosis	0	2	none
+D007418	Intestinal Pseudo-Obstruction	3	1	omim/intogen
+D001471	Barrett Esophagus	0	19	gwas
+D010020	Osteonecrosis	1	3	both
+D010490	Pericardial Effusion	0	0	none
+D002613	Cheilitis	9	26	both
+D003324	Coronary Artery Disease	2	273	both
+D015877	Miosis	0	0	none
+D011469	Prostatic Diseases	105	230	both
+D001284	Atrophy	2	1	omim/intogen
+D003731	Dental Caries	1	7	both
+D006042	Goiter	2	54	both
+D001201	Ascites	0	0	none
+D004342	Drug Hypersensitivity	1	11	both
+D014648	Varicose Veins	0	100	gwas
+D000747	Anemia, Hypochromic	1	3	both
+D020258	Neurotoxicity Syndromes	0	6	gwas
+D012164	Retinal Diseases	7	113	both
+D052256	Tendinopathy	0	9	gwas
+D017449	Dermatitis, Allergic Contact	0	169	gwas
+D011188	Potassium	0	11	gwas
+D017486	Acneiform Eruptions	0	47	gwas
+D004211	Disseminated Intravascular Coagulation	7	0	omim/intogen
+D007500	Iritis	0	25	gwas
+D009393	Nephritis	12	31	both
+D011704	Pyelonephritis	2	5	both
+D013616	Tachycardia, Sinus	0	122	gwas
+D006984	Hypertrophy	26	38	both
+D000844	Ankylosis	0	31	gwas
+D001282	Atrial Flutter	0	0	none
+D013315	Stress, Psychological	0	0	none
+D009497	Neurotic Disorders	0	336	gwas
+D010211	Papilledema	13	83	both
+D010291	Paresis	0	0	none
+D012472	Salivation	0	0	none
+D013923	Thromboembolism	0	77	gwas
+D000013	Congenital Abnormalities	3	0	omim/intogen
+D002658	Developmental Disabilities	7	0	omim/intogen
+D007511	Ischemia	0	0	none
+D008223	Lymphoma	76	9	both
+D008228	Lymphoma, Non-Hodgkin	82	9	both
+D004542	Ejaculation	0	0	none
+D059246	Tachypnea	0	0	none
+D000071057	Tardive Dyskinesia	0	4	gwas
+D013717	Tenosynovitis	0	9	gwas
+D015000	Yawning	0	0	none
+D006209	Halitosis	0	0	none
+D006332	Cardiomegaly	26	38	both
+D005926	Glossalgia	0	1	none
+D012001	Hyperacusis	107	107	both
+D009140	Musculoskeletal Diseases	0	0	none
+D006976	Hypertension, Pulmonary	7	0	omim/intogen
+D018880	Atrial Premature Complexes	0	122	gwas
+D000066553	Problem Behavior	0	0	none
+D011559	Pseudotumor Cerebri	0	8	gwas
+D011776	Pyuria	0	2	none
+D012768	Shivering	0	0	none
+D006337	Heart Murmurs	0	1	none
+D002544	Cerebral Infarction	2	53	both
+D004231	Diuresis	0	370	gwas
+D007416	Intestinal Perforation	0	0	none
+D008883	Miliaria	3	3	both
+D020230	Serotonin Syndrome	0	4	gwas
+D014313	Trismus	0	0	none
+D014605	Uveitis	0	26	gwas
+D003329	Coronary Vasospasm	0	0	none
+D001261	Pulmonary Atelectasis	1	0	omim/intogen
+D005158	Facial Paralysis	48	12	both
+D018149	Glucose Intolerance	0	25	gwas
+D020896	Hypovolemia	0	1	none
+D059606	Polydipsia	0	0	none
+D012166	Retinal Hemorrhage	0	3	gwas
+D060085	Coinfection	0	0	none
+D000786	Anger	0	1	none
+D001002	Anuria	0	0	none
+D001942	Breast Feeding	0	0	none
+D004751	Enteritis	0	1	none
+D004823	Epididymitis	0	0	none
+D006429	Hemiplegia	48	12	both
+D000073818	Pain, Procedural	0	0	none
+D005547	Foreign Bodies	0	0	none
+D012878	Skin Neoplasms	0	73	gwas
+D001327	Autoimmune Diseases	4	135	both
+D001777	Blood Coagulation	0	3	gwas
+D004760	Enterocolitis	0	0	none
+D008049	Lipase	0	0	none
+D010538	Peritonitis	0	14	gwas
+D013651	Taste Disorders	0	3	gwas
+D019973	Alcohol-Related Disorders	0	159	gwas
+D004238	Diverticulitis	0	50	gwas
+D007238	Infarction	0	120	gwas
+D007383	Intermittent Claudication	0	1	none
+D009102	Multiple Organ Failure	0	0	none
+D016584	Panic Disorder	0	336	gwas
+D001172	Arthritis, Rheumatoid	0	154	gwas
+D012772	Shock, Septic	0	5	gwas
+D002277	Carcinoma	0	0	none
+D017091	Colitis, Ischemic	0	215	gwas
+D054559	Hyperphosphatemia	1	10	both
+D008218	Lymphocytosis	0	751	gwas
+D010032	Otitis Externa	0	18	gwas
+D010523	Peripheral Nervous System Diseases	25	8	both
+D014860	Warts	26	14	both
+D013163	Splenomegaly	1	26	both
+D014103	Torticollis	23	2	omim/intogen
+D001929	Brain Edema	1	0	omim/intogen
+D019966	Substance-Related Disorders	0	166	gwas
+D009461	Neurologic Manifestations	0	69	gwas
+D012466	Salivary Gland Diseases	0	20	gwas
+D012874	Skin Diseases, Infectious	0	7	gwas
+D013684	Telangiectasis	1	0	omim/intogen
+D007938	Leukemia	4	0	omim/intogen
+D018366	Vasculitis, Leukocytoclastic, Cutaneous	0	1	none
+D004382	Duodenitis	0	3	gwas
+D015817	Eye Infections	0	6	gwas
+D007019	Hypoproteinemia	0	0	none
+D012585	Sciatica	4	35	both
+D015275	Tumor Lysis Syndrome	0	0	none
+D053713	Azoospermia	84	6	both
+D002389	Catatonia	0	0	none
+D019557	Dermatitis, Perioral	0	0	none
+D005355	Fibrosis	0	0	none
+D006130	Growth Disorders	20	0	omim/intogen
+D007676	Kidney Failure, Chronic	1	674	both
+D002921	Cicatrix	0	0	none
+D020069	Shoulder Pain	0	5	gwas
+D003320	Corneal Ulcer	6	72	both
+D010508	Periodontal Abscess	0	0	none
+D001176	Arthrogryposis	28	0	omim/intogen
+D053206	Nocturnal Enuresis	0	2	none
+D006566	Herpesviridae Infections	24	8	both
+D007642	Keratosis	22	11	both
+D006970	Disorders of Excessive Somnolence	4	490	both
+D009069	Movement Disorders	0	0	none
+D009133	Muscular Atrophy	2	4	both
+D013746	Tetany	31	310	both
+D007889	Leiomyoma	11	67	both
+D003480	Cushing Syndrome	12	1	omim/intogen
+D005094	Exophthalmos	0	32	gwas
+D005885	Gingival Hyperplasia	0	1	none
+D008545	Melanoma	130	61	both
+D008582	Meningitis, Aseptic	0	5	gwas
+D013471	Sunburn	9	68	both
+D000542	Alveolitis, Extrinsic Allergic	2	39	both
+D000789	Angina, Unstable	0	78	gwas
+D002100	Cachexia	0	0	none
+D002819	Chorea	9	1	omim/intogen
+D003093	Colitis, Ulcerative	3	365	both
+D005244	Fecal Impaction	3	1	omim/intogen
+D006212	Hallucinations	0	1	none
+D034141	Hypoalbuminemia	0	0	none
+D003865	Depressive Disorder, Major	0	183	gwas
+D008708	Methemoglobinemia	4	0	omim/intogen
+D010048	Ovarian Cysts	0	62	gwas
+D010392	Pemphigus	18	9	both
+D011164	Porphyrias	7	0	omim/intogen
+D012148	Restless Legs Syndrome	3	490	both
+D012163	Retinal Detachment	0	3	gwas
+D013183	Sputum	0	1	none
+D000749	Anemia, Megaloblastic	4	2	omim/intogen
+D003085	Colic	0	0	none
+D002012	Bruxism	0	2	none
+D003139	Common Cold	0	1	none
+D003318	Corneal Opacity	6	67	both
+D018450	Disease Progression	0	0	none
+D008209	Lymphedema	3	4	both
+D011350	Proctocolitis	0	9	gwas
+D065631	Rhinitis, Allergic	1	1031	both
+D009041	Motion Sickness	0	33	gwas
+D015812	Glaucoma, Angle-Closure	6	385	both
+D002280	Carcinoma, Basal Cell	38	82	both
+D029424	Pulmonary Disease, Chronic Obstructive	1	1038	both
+D015715	Corneal Edema	2	64	both
+D016889	Endometrial Neoplasms	75	57	both
+D006966	Hyperprolactinemia	1	0	omim/intogen
+D000140	Acidosis, Lactic	10	11	both
+D008060	Lipodystrophy	9	0	omim/intogen
+D008413	Mastitis	0	234	gwas
+D009401	Nephrosis	20	6	both
+D009059	Mouth Diseases	0	0	none
+D001851	Bone Diseases, Metabolic	9	121	both
+D011015	Pneumonia, Aspiration	0	0	none
+D011657	Pulmonary Eosinophilia	1	664	both
+D006255	Rhinitis, Allergic, Seasonal	0	134	gwas
+D012793	Sialadenitis	0	20	gwas
+D011697	Purpura, Thrombotic Thrombocytopenic	21	862	both
+D014069	Tonsillitis	0	150	gwas
+D014985	Xerophthalmia	3	21	both
+D000071936	Nipple Discharge	0	0	none
+D016535	Bronchial Hyperreactivity	0	0	none
+D002349	Carpal Tunnel Syndrome	4	34	both
+D005734	Gangrene	0	0	none
+D065906	Hyperlactatemia	0	0	none
+D008173	Lung Diseases, Obstructive	1	1034	both
+D010019	Osteomyelitis	1	40	both
+D010998	Pleurisy	0	2	none
+D011349	Proctitis	0	9	gwas
+D014526	Urethritis	0	1	none
+D000309	Adrenal Insufficiency	19	7	both
+D002056	Burns	0	69	gwas
+D006461	Hemolysis	0	0	none
+D006474	Hemorrhagic Disorders	2	2	omim/intogen
+D007246	Infertility	84	6	both
+D022125	Lacerations	0	0	none
+D008269	Macular Edema	11	146	both
+D009190	Myelodysplastic Syndromes	6	0	omim/intogen
+D059348	Peripheral Nerve Injuries	0	1	none
+D009765	Obesity	5	1410	both
+D011086	Polycythemia	8	0	omim/intogen
+D012393	Rosacea	0	11	gwas
+D013226	Status Epilepticus	12	0	omim/intogen
+D013345	Subarachnoid Hemorrhage	0	12	gwas
+D013514	Surgical Procedures, Operative	0	0	none
+D001342	Autonomic Nervous System Diseases	13	1	omim/intogen
+D001764	Blepharospasm	3	5	both
+D012770	Shock, Cardiogenic	0	0	none
+D006528	Carcinoma, Hepatocellular	106	9	both
+D018798	Anemia, Iron-Deficiency	6	53	both
+D013180	Sprains and Strains	1	31	both
+D008175	Lung Neoplasms	154	46	both
+D008593	Menopause	0	133	gwas
+D009205	Myocarditis	47	50	both
+D009845	Oligospermia	84	6	both
+D011041	Poisoning	0	6	gwas
+D011471	Prostatic Neoplasms	106	234	both
+D006408	Hematoma, Subdural	0	12	gwas
+D015163	Superinfection	0	0	none
+D000857	Olfaction Disorders	0	4	gwas
+D008548	Melanosis	10	130	both
+D000075224	Cardiac Conduction System Disease	1	0	omim/intogen
+D005124	Eye Abnormalities	10	0	omim/intogen
+D005348	Fibrocystic Breast Disease	0	0	none
+D020275	Guillain-Barre Syndrome	67	3	both
+D006463	Hemolytic-Uremic Syndrome	32	1387	both
+D006201	Hair Diseases	20	424	both
+D043183	Irritable Bowel Syndrome	0	10	gwas
+D008659	Metabolic Diseases	2	93	both
+D010051	Ovarian Neoplasms	86	84	both
+D014511	Uremia	1	0	omim/intogen
+D001100	Arachnoiditis	0	5	gwas
+D016470	Bacteremia	0	5	gwas
+D006111	Graves Disease	4	66	both
+D016084	Bronchoconstriction	0	0	none
+D066126	Cardiotoxicity	1	4	both
+D007046	Hysteria	0	0	none
+D005705	Gallbladder Diseases	11	66	both
+D005947	Glucose	0	98	gwas
+D008076	Cholesterol, HDL	0	11	gwas
+D009755	Night Blindness	12	0	omim/intogen
+D010409	Penile Diseases	3	18	both
+D002294	Carcinoma, Squamous Cell	120	43	both
+D056150	Acute Generalized Exanthematous Pustulosis	1	4	both
+D000072657	ST Elevation Myocardial Infarction	0	0	none
+D003448	Crying	0	1	none
+D006509	Hepatitis B	0	10	gwas
+D047508	Massive Hepatic Necrosis	2	13	both
+D009129	Muscle Tonus	0	0	none
+D010305	Parotid Diseases	0	20	gwas
+D012880	Skin Pigmentation	0	383	gwas
+D011472	Prostatitis	0	0	none
+D004906	Erythrocyte Count	0	428	gwas
+D014376	Tuberculosis	0	21	gwas
+D015837	Vestibular Diseases	0	6	gwas
+D014848	Vulvovaginitis	18	0	omim/intogen
+D017114	Liver Failure, Acute	2	2	omim/intogen
+D011538	Pruritus Ani	16	3	both
+D001749	Urinary Bladder Neoplasms	136	40	both
+D011312	Pressure	0	0	none
+D002547	Cerebral Palsy	2	2	omim/intogen
+C566780	Actinic Prurigo	0	0	none
+D007637	Keratoconjunctivitis	7	75	both
+D009216	Myopia	10	670	both
+D009896	Optic Atrophy	17	83	both
+D000081015	Ototoxicity	0	4	gwas
+D054038	Posterior Leukoencephalopathy Syndrome	0	8	gwas
+D011293	Premenstrual Syndrome	1	9	both
+D012891	Sleep Apnea Syndromes	5	490	both
+D019462	Syncope, Vasovagal	4	2	omim/intogen
+D000402	Airway Obstruction	1	11	both
+D006349	Heart Valve Diseases	0	8	gwas
+D002526	Cerebellar Diseases	23	0	omim/intogen
+D050171	Dyslipidemias	27	953	both
+D008103	Liver Cirrhosis	0	35	gwas
+D006869	Hydronephrosis	0	1	none
+D000308	Adrenocortical Hyperfunction	12	1	omim/intogen
+D014009	Onychomycosis	11	4	both
+D010200	Panic	0	3	gwas
+D010264	Paraplegia	49	12	both
+D001146	Arrhythmia, Sinus	2	4	both
+D013009	Somnambulism	2	294	both
+D064793	Teratogenesis	0	0	none
+D013959	Thyroid Diseases	1	17	both
+D000163	Acquired Immunodeficiency Syndrome	0	1	none
+D000437	Alcoholism	0	159	gwas
+D012010	Red-Cell Aplasia, Pure	13	0	omim/intogen
+D004414	Dyspareunia	0	3	gwas
+D005207	Fasciculation	0	0	none
+D005921	Glomerulonephritis	12	31	both
+D006526	Hepatitis C	0	11	gwas
+D000860	Hypoxia	0	0	none
+D014606	Uveitis, Anterior	0	26	gwas
+D017116	Low Back Pain	0	19	gwas
+D008580	Meningism	0	0	none
+D003286	Contracture	10	42	both
+D000063	Accidents, Traffic	0	0	none
+D014075	Tooth Discoloration	0	0	none
+D014946	Wound Infection	0	0	none
+D000022	Abortion, Spontaneous	0	2	none
+D013925	Thromboplastin	0	5	gwas
+D001064	Appendicitis	0	15	gwas
+D001248	Asthenopia	0	0	none
+D001446	Balanitis	3	18	both
+D002761	Cholangitis	16	80	both
+D063926	Drug Hypersensitivity Syndrome	0	0	none
+D004361	Drug Tolerance	0	0	none
+D020821	Dystonic Disorders	7	2	omim/intogen
+D005157	Facial Pain	0	0	none
+D009886	Ophthalmoplegia	57	16	both
+D007153	Immunologic Deficiency Syndromes	15	3	both
+D010018	Osteomalacia	0	0	none
+D010411	Penile Induration	3	18	both
+D019310	Pseudolymphoma	0	0	none
+D056844	Renal Colic	0	0	none
+D013203	Staphylococcal Infections	0	2	none
+D006968	Hypersensitivity, Delayed	0	0	none
+D015470	Leukemia, Myeloid, Acute	66	6	both
+D019964	Mood Disorders	0	145	gwas
+D000471	Alkalosis	10	11	both
+D001161	Arteriosclerosis	2	281	both
+D011470	Prostatic Hyperplasia	0	14	gwas
+D001996	Bronchopneumonia	0	0	none
+D002303	Cardiac Output, Low	0	0	none
+D002493	Central Nervous System Diseases	2	0	omim/intogen
+D003233	Conjunctivitis, Allergic	1	7	both
+D003643	Death	0	1	none
+D004108	Dilatation, Pathologic	0	0	none
+D018883	Heat Stroke	0	0	none
+D007333	Insulin Resistance	7	137	both
+D008010	Lichen Planus	2	146	both
+D008531	Megacolon	3	6	both
+D006472	Oral Hemorrhage	0	1	none
+D004940	Esophageal Stenosis	0	0	none
+D010382	Peliosis Hepatis	0	0	none
+D010863	Piloerection	0	26	gwas
+D011596	Psychomotor Disorders	5	0	omim/intogen
+D012120	Respiration Disorders	1	35	both
+D012559	Schizophrenia	1	296	both
+D014517	Ureteral Obstruction	0	2	none
+D000783	Aneurysm	6	8	both
+D001008	Anxiety Disorders	0	336	gwas
+D001237	Asphyxia	0	0	none
+D006311	Hearing Disorders	108	125	both
+D002305	Cardiac Tamponade	0	0	none
+D003424	Crohn Disease	3	365	both
+D009136	Muscular Dystrophies	58	35	both
+D004213	Dissociative Disorders	0	0	none
+D004660	Encephalitis	0	1	none
+D004714	Endometrial Hyperplasia	0	0	none
+D005215	Fasting	0	0	none
+D006391	Hemangioma	3	2	omim/intogen
+D006501	Hepatic Encephalopathy	2	2	omim/intogen
+D008113	Liver Neoplasms	106	9	both
+D006726	Hordeolum	3	11	both
+D006849	Hydrocephalus	28	2	omim/intogen
+D007006	Hypogonadism	22	0	omim/intogen
+D007007	Hypohidrosis	3	3	both
+D016553	Purpura, Thrombocytopenic, Idiopathic	15	862	both
+D007088	Illusions	0	1	none
+D007762	Labyrinthitis	0	23	gwas
+D008199	Lymphadenitis	0	0	none
+D009839	Oligomenorrhea	1	9	both
+D054039	Onycholysis	7	1	omim/intogen
+D010049	Ovarian Diseases	0	82	gwas
+D010300	Parkinson Disease	12	105	both
+D007968	Leukoencephalopathy, Progressive Multifocal	0	0	none
+D015423	Scleritis	0	0	none
+D013966	Thyroiditis	0	93	gwas
+D006969	Hypersensitivity, Immediate	1	1019	both
+D049168	Pregnancy, Unplanned	0	0	none
+D020255	Vitreous Detachment	0	0	none
+D007960	Leukocyte Disorders	2	162	both
+D012964	Sodium	0	13	gwas
+D001930	Brain Injuries	0	3	gwas
+D002114	Calcinosis	23	305	both
+D055499	Catheter-Related Infections	0	0	none
+D016883	Diabetic Ketoacidosis	10	11	both
+D019263	Dysthymic Disorder	0	0	none
+D004715	Endometriosis	0	25	gwas
+D005141	Eyelid Diseases	3	5	both
+D006454	Hemoglobins	0	3	gwas
+D048550	Hepatic Insufficiency	2	2	omim/intogen
+D006560	Herpes Labialis	9	29	both
+D006551	Hernia, Hiatal	9	2	omim/intogen
+D006552	Hernia, Inguinal	0	69	gwas
+D007638	Keratoconjunctivitis Sicca	9	89	both
+D007662	Ketosis	10	11	both
+D008067	Lipoma	0	1	none
+D008232	Lymphoproliferative Disorders	5	717	both
+D008268	Macular Degeneration	98	146	both
+D061270	Nasal Septal Perforation	0	0	none
+D009901	Optic Nerve Diseases	17	83	both
+D010304	Paronychia	7	1	omim/intogen
+D005715	Gambling	0	264	gwas
+D010391	Pemphigoid, Bullous	18	9	both
+D010518	Periodontitis	1	8	both
+D001791	Blood Platelet Disorders	24	1389	both
+D017119	Porphyria Cutanea Tarda	3	0	omim/intogen
+D004942	Esophagitis, Peptic	0	24	gwas
+D012030	Refractive Errors	10	670	both
+D012488	Salpingitis	0	0	none
+D018781	Tension-Type Headache	0	0	none
+D013733	Testicular Diseases	1	7	both
+D006504	Hepatic Veno-Occlusive Disease	2	0	omim/intogen
+D014770	Virilism	0	5	gwas
+D019575	Blindness, Cortical	0	0	none
+D003328	Coronary Thrombosis	0	0	none
+D009357	Neonatal Abstinence Syndrome	0	7	gwas
+D011656	Pulmonary Emphysema	0	159	gwas
+D005096	Exostoses	7	0	omim/intogen
+D005313	Fetal Death	0	0	none
+D005955	Glucosephosphate Dehydrogenase Deficiency	15	5	both
+D006259	Craniocerebral Trauma	0	3	gwas
+D006930	Hyperalgesia	0	0	none
+D002312	Cardiomyopathy, Hypertrophic	47	50	both
+D015212	Inflammatory Bowel Diseases	3	365	both
+D006341	Heart Rupture	0	0	none
+D009212	Myoglobinuria	1	0	omim/intogen
+D018500	Diabetes Insipidus, Nephrogenic	2	0	omim/intogen
+D007683	Kidney Tubular Necrosis, Acute	0	674	gwas
+D009101	Multiple Myeloma	55	30	both
+D011020	Pneumonia, Pneumocystis	0	0	none
+D011111	Polymyalgia Rheumatica	0	4	gwas
+D012170	Retinal Vein Occlusion	2	17	both
+D012595	Scleroderma, Systemic	0	29	gwas
+D012913	Snoring	0	67	gwas
+D050497	Stillbirth	0	2	none
+D013585	Synovitis	0	0	none
+D002644	Chickenpox	0	11	gwas
+D014653	Vascular Headaches	0	0	none
+D014869	Water Intoxication	0	0	none
+D020324	Amnesia, Anterograde	0	3	gwas
+D002577	Uterine Cervical Diseases	20	9	both
+D003316	Corneal Diseases	23	88	both
+D000342	Affective Symptoms	0	1	none
+D005402	Fistula	0	0	none
+D005770	Gastrointestinal Neoplasms	185	146	both
+D006099	Granuloma	0	3	gwas
+D006525	Hepatitis, Viral, Human	0	21	gwas
+D006815	Hunger	0	0	none
+D053565	Hypercalciuria	0	9	gwas
+D006965	Hyperplasia	0	0	none
+D007759	Labyrinth Diseases	1	13	both
+D018487	Ventricular Dysfunction, Left	0	0	none
+D005234	Fatty Liver	1	56	both
+D018655	Lymphocyte Count	0	523	gwas
+D008286	Malabsorption Syndromes	2	49	both
+D009128	Muscle Spasticity	1	3	both
+D009187	Myelitis	0	3	gwas
+D000081028	Toxic Optic Neuropathy	0	0	none
+D015155	Esophageal Spasm, Diffuse	0	101	gwas
+D020335	Paraparesis	0	0	none
+D006465	Hemoperitoneum	0	2	none
+D011629	Puberty, Precocious	1	0	omim/intogen
+D012185	Retroperitoneal Fibrosis	0	0	none
+D014136	Tracheitis	0	1	none
+D016463	Sweet Syndrome	2	45	both
+D000748	Anemia, Macrocytic	4	2	omim/intogen
+D001024	Aortic Valve Stenosis	1	4	both
+D001068	Feeding and Eating Disorders	0	11	gwas
+D053706	Typhlitis	0	15	gwas
+D006935	Hypercapnia	0	0	none
+D020767	Intracranial Thrombosis	0	77	gwas
+D054059	Coronary Occlusion	0	0	none
+D006319	Hearing Loss, Sensorineural	115	101	both
+D003668	Pressure Ulcer	0	2	none
+D003882	Dermatomyositis	1	6	both
+D017512	Lichenoid Eruptions	2	146	both
+D001763	Blepharoptosis	3	5	both
+D005198	Fanconi Syndrome	34	0	omim/intogen
+D004620	Embolism, Fat	0	0	none
+D005356	Fibromyalgia	0	4	gwas
+D005683	Gagging	0	0	none
+D006961	Hyperparathyroidism	6	10	both
+D007039	Hypotrichosis	20	423	both
+D016867	Immunocompromised Host	0	0	none
+D007169	Impetigo	0	2	none
+D007174	Disruptive, Impulse Control, and Conduct Disorders	0	0	none
+D005490	Focal Infection	0	0	none
+D009188	Myelitis, Transverse	0	3	gwas
+D009504	Neutrophils	0	306	gwas
+D009920	Orchitis	0	0	none
+D010698	Phobic Disorders	0	336	gwas
+D010149	Pain, Postoperative	0	0	none
+D056152	Respiratory Rate	0	0	none
+D012804	Sick Sinus Syndrome	2	5	both
+D057049	Thrombotic Microangiopathies	22	1389	both
+D016606	Thyroid Nodule	36	22	both
+D003924	Diabetes Mellitus, Type 2	13	649	both
+D014806	Vitamin B 12 Deficiency	13	113	both
+D051346	Mobility Limitation	0	0	none
+D062787	Drug Overdose	0	7	gwas
+D000230	Adenocarcinoma	2	3	both
+D000236	Adenoma	4	0	omim/intogen
+D005401	Fissure in Ano	16	2	omim/intogen
+D001072	Apraxias	5	0	omim/intogen
+D001167	Arteritis	1	20	both
+D004573	Electrolytes	0	0	none
+D014545	Urinary Calculi	4	70	both
+D016543	Central Nervous System Neoplasms	10	11	both
+D003161	Compartment Syndromes	0	0	none
+D003586	Cytomegalovirus Infections	0	2	none
+D003963	Diaper Rash	0	1	none
+D003919	Diabetes Insipidus	5	0	omim/intogen
+D004240	Diverticulum	0	50	gwas
+D011274	Pregnancy, Tubal	0	0	none
+D004483	Ectropion	3	5	both
+D006395	Hemarthrosis	0	0	none
+D006423	Hemianopsia	0	0	none
+D007018	Hypopituitarism	8	3	both
+D010272	Parasitic Diseases	0	0	none
+D007248	Infertility, Male	84	6	both
+D004204	Joint Dislocations	0	0	none
+D008944	Mitral Valve Insufficiency	0	1	none
+D009771	Obsessive-Compulsive Disorder	0	336	gwas
+D004931	Esophageal Achalasia	0	101	gwas
+D018917	Optic Neuropathy, Ischemic	11	81	both
+D000081032	Pancreatitis, Acute Hemorrhagic	0	8	gwas
+D010279	Parathyroid Diseases	6	10	both
+D000141	Acidosis, Renal Tubular	39	11	both
+D000472	Alkalosis, Respiratory	2	1	omim/intogen
+D012133	Respiratory Paralysis	1	11	both
+D045602	Steatorrhea	0	0	none
+D052878	Urolithiasis	4	38	both
+D002579	Uterine Cervical Erosion	0	9	gwas
+D014591	Uterine Diseases	75	27	both
+D014823	Vitreous Hemorrhage	0	3	gwas
+D001044	Aphonia	0	0	none
+D059268	Atrophic Vaginitis	0	0	none
+D000744	Anemia, Hemolytic, Autoimmune	15	5	both
+D056912	Binge-Eating Disorder	0	11	gwas
+D015519	Bone Density	1	815	both
+D002578	Uterine Cervical Dysplasia	0	9	gwas
+D003117	Color Vision Defects	10	0	omim/intogen
+D002311	Cardiomyopathy, Dilated	45	70	both
+D057112	Corneal Perforation	0	1	none
+D013991	Tietze's Syndrome	0	1	none
+D003453	Cryptococcosis	0	2	none
+D008179	Lupus Erythematosus, Discoid	0	4	gwas
+D011711	Pyoderma	0	0	none
+D058999	Drug-Seeking Behavior	0	0	none
+D000075222	Essential Hypertension	0	132	gwas
+D015835	Ocular Motility Disorders	20	93	both
+D006689	Hodgkin Disease	0	23	gwas
+D006963	Hyperphagia	1	0	omim/intogen
+D001361	Avitaminosis	13	117	both
+D056784	Leukoencephalopathies	17	308	both
+D009508	Nevus, Pigmented	101	60	both
+D009298	Nasal Polyps	0	26	gwas
+D009397	Nephrocalcinosis	16	2	omim/intogen
+D001989	Bronchiolitis Obliterans	0	11	gwas
+D016471	Ovarian Hyperstimulation Syndrome	1	0	omim/intogen
+D060831	Hand-Foot Syndrome	1	4	both
+D010899	Pituitary Apoplexy	0	12	gwas
+D011018	Pneumonia, Pneumococcal	0	0	none
+D010488	Polyarteritis Nodosa	0	44	gwas
+D017094	Porphyrias, Hepatic	7	0	omim/intogen
+D061686	Premature Ejaculation	0	3	gwas
+D045262	Reticulocytosis	0	741	gwas
+D015356	Retinal Artery Occlusion	0	0	none
+D012162	Retinal Degeneration	98	146	both
+D017492	Keratosis, Seborrheic	0	3	gwas
+D012700	Serositis	0	0	none
+D002179	Candidiasis, Cutaneous	4	3	both
+D013117	Spinal Cord Compression	0	0	none
+D016757	Death, Sudden, Cardiac	4	16	both
+D014008	Tinea Pedis	4	3	both
+D018058	Tympanic Membrane Perforation	0	0	none
+D007410	Intestinal Diseases	1	0	omim/intogen
+D054079	Vascular Malformations	27	8	both
+D018754	Ventricular Dysfunction	0	0	none
+D000987	Antisocial Personality Disorder	0	4	gwas
+D001289	Attention Deficit Disorder with Hyperactivity	1	35	both
+D001932	Brain Neoplasms	10	11	both
+D002097	C-Reactive Protein	0	8	gwas
+D000072716	Cancer Pain	0	0	none
+D000077684	Cauda Equina Syndrome	67	33	both
+D002575	Uterine Cervicitis	0	9	gwas
+D002780	Cholestasis, Intrahepatic	16	80	both
+D015466	Leukemia, Myeloid, Chronic-Phase	1	17	both
+D003111	Colonic Polyps	0	26	gwas
+D003192	Compulsive Behavior	0	2	none
+D014564	Urogenital Abnormalities	35	18	both
+D003229	Conjunctival Diseases	1	7	both
+D017453	Dermatitis, Irritant	0	169	gwas
+D012848	Sinoatrial Block	2	5	both
+D003926	Diabetic Coma	0	0	none
+D003930	Diabetic Retinopathy	0	36	gwas
+D005494	Folic Acid Deficiency	12	113	both
+D005512	Food Hypersensitivity	0	6	gwas
+D005517	Foodborne Diseases	0	0	none
+D018589	Gastroparesis	0	0	none
+D005882	Gingival Diseases	1	9	both
+D006086	Graft vs Host Disease	0	6	gwas
+D006330	Heart Defects, Congenital	26	10	both
+D006521	Hepatitis, Chronic	0	7	gwas
+D006530	Hepatorenal Syndrome	0	0	none
+D006620	Hip Fractures	0	11	gwas
+D053201	Urinary Bladder, Overactive	0	3	gwas
+D012514	Sarcoma, Kaposi	0	2	none
+D008205	Lymphangitis	0	0	none
+D006974	Hypertension, Malignant	0	0	none
+D008532	Megacolon, Toxic	3	6	both
+D009103	Multiple Sclerosis	17	308	both
+D007951	Leukemia, Myeloid	66	6	both
+D020345	Enterocolitis, Necrotizing	0	0	none
+D054989	Nephrogenic Fibrosing Dermopathy	0	0	none
+D001750	Urinary Bladder, Neurogenic	0	4	gwas
+D004935	Esophageal Diseases	0	9	gwas
+D058866	Osteoporotic Fractures	0	0	none
+D019283	Pancreatitis, Acute Necrotizing	0	8	gwas
+D004832	Epilepsy, Absence	0	2	none
+D010608	Pharyngeal Diseases	0	180	gwas
+D010911	Pituitary Neoplasms	9	11	both
+D010995	Pleural Diseases	1	6	both
+D064266	Preexisting Condition Coverage	0	0	none
+D000788	Angina Pectoris, Variant	0	78	gwas
+D011832	Radiation Injuries	0	0	none
+D012078	Renal Artery Obstruction	0	0	none
+D007681	Kidney Papillary Necrosis	0	0	none
+D000142	Acidosis, Respiratory	11	22	both
+D012173	Retinitis	0	1	none
+D010254	Paranasal Sinus Diseases	0	28	gwas
+D012859	Sjogren's Syndrome	2	161	both
+D013119	Spinal Cord Injuries	0	0	none
+D016585	Vaginosis, Bacterial	18	0	omim/intogen
+D014689	Venous Insufficiency	0	1	none
+D014847	Vulvitis	0	0	none
+D055623	Keratosis, Actinic	0	11	gwas
+D000224	Addison Disease	19	7	both
+D050197	Atherosclerosis	2	281	both
+D020330	Bell Palsy	0	1	none
+D056833	Central Serous Chorioretinopathy	0	4	gwas
+D002972	Cleft Palate	73	254	both
+D003095	Collagen Diseases	41	4	both
+D065306	Corneal Injuries	2	65	both
+D004814	Epidermal Cyst	0	6	gwas
+D054969	Primary Dysautonomias	13	1	omim/intogen
+D004696	Endocarditis	0	0	none
+D006970	NA	4	490	both
+D005316	Fetal Distress	0	0	none
+D005886	Gingival Hypertrophy	0	1	none
+D019337	Hematologic Neoplasms	0	14	gwas
+D051516	Hemospermia	0	0	none
+D006456	Hemoglobinuria	0	93	gwas
+D022124	Hyperammonemia	2	0	omim/intogen
+D034321	Hyperamylasemia	0	0	none
+D006946	Hyperinsulinism	7	124	both
+D007079	Ileitis	0	1	none
+D007247	Infertility, Female	61	6	both
+D009263	Nails, Ingrown	7	1	omim/intogen
+D006833	Hydrarthrosis	0	0	none
+D007871	Leg Ulcer	0	2	none
+D008206	Lymphatic Diseases	0	0	none
+D062186	Arterial Pressure	0	0	none
+D051271	Headache Disorders, Secondary	0	0	none
+D008575	Meniere Disease	0	6	gwas
+D009362	Neoplasm Metastasis	0	0	none
+D008831	Microcephaly	93	526	both
+C562385	Iron-Refractory Iron Deficiency Anemia	0	0	none
+D011272	Pregnancy, Multiple	0	0	none
+D009230	Myxedema	19	177	both
+D044504	Enterocolitis, Neutropenic	0	0	none
+D004939	Esophageal Perforation	0	0	none
+D004374	Ductus Arteriosus, Patent	1	0	omim/intogen
+D000292	Pelvic Inflammatory Disease	0	0	none
+D011183	Postoperative Complications	2	0	omim/intogen
+D019106	Postoperative Hemorrhage	0	0	none
+D007752	Obstetric Labor, Premature	0	5	gwas
+D011539	Pruritus Vulvae	0	1	none
+D015875	Anisocoria	0	0	none
+D011843	Radiculopathy	0	0	none
+D011928	Raynaud Disease	2	40	both
+D000648	Amnesia, Retrograde	0	3	gwas
+D012507	Sarcoidosis	0	20	gwas
+D015422	Scleral Diseases	0	0	none
+D015595	Skin Aging	0	372	gwas
+D017695	Soft Tissue Injuries	0	6	gwas
+D013118	Spinal Cord Diseases	0	1	none
+D013224	Status Asthmaticus	0	0	none
+D013971	Thyrotoxicosis	2	52	both
+D020233	Gait Disorders, Neurologic	1	0	omim/intogen
+D014597	Uterine Rupture	0	5	gwas
+D004932	Esophageal and Gastric Varices	2	2	omim/intogen
+D006345	Heart Septal Defects, Ventricular	20	8	both
+D010528	Peristalsis	0	0	none
+D014845	Vulvar Diseases	0	0	none
+D014973	Xanthomatosis	0	0	none
+D000006	Abdomen, Acute	0	8	gwas
+D004421	Dystonia	16	2	omim/intogen
+D000080203	Hamman-Rich Syndrome	6	46	both
+D007945	Leukemia, Lymphoid	88	54	both
+D000039	Peritonsillar Abscess	0	54	gwas
+D000757	Anencephaly	4	0	omim/intogen
+D001014	Aortic Aneurysm	11	43	both
+D001157	Arterial Occlusive Diseases	2	267	both
+D001228	Aspergillosis	0	4	gwas
+D054850	Osteophyte	7	0	omim/intogen
+D001744	Urinary Bladder Calculi	4	38	both
+D019115	Fasciitis, Necrotizing	0	31	gwas
+D020766	Intracranial Embolism	0	77	gwas
+D041881	Cholecystitis, Acute	1	27	both
+D011660	Pulmonary Heart Disease	0	11	gwas
+D003327	Coronary Disease	0	256	gwas
+D063807	Dandruff	0	0	none
+D006944	Hyperglycemic Hyperosmolar Nonketotic Coma	0	0	none
+D003929	Diabetic Neuropathies	8	7	both
+D004716	Endometritis	0	0	none
+D006407	Hematoma, Epidural, Cranial	0	12	gwas
+D004916	Erythromelalgia	2	40	both
+D005126	Eye Burns	0	1	none
+D005264	Femoral Fractures	0	11	gwas
+D005315	Fetal Diseases	5	0	omim/intogen
+D016469	Fungemia	0	6	gwas
+D012817	Signs and Symptoms, Digestive	0	1	none
+D005831	Genital Diseases, Female	0	23	gwas
+D015210	Arthritis, Gouty	0	0	none
+D006491	Hemothorax	0	0	none
+D006506	Hepatitis A	0	4	gwas
+D054179	Angioedemas, Hereditary	7	7	both
+D006316	Hearing Loss, High-Frequency	0	97	gwas
+D006732	Horner Syndrome	4	0	omim/intogen
+D007136	Immunoglobulins	0	0	none
+D016063	Blood Loss, Surgical	2	0	omim/intogen
+D007636	Keratoacanthoma	0	0	none
+D007972	Leukoplakia, Oral	0	7	gwas
+D065134	Lipedema	0	0	none
+D054068	Livedo Reticularis	0	9	gwas
+D008457	Measles	0	2	none
+D005317	Fetal Growth Retardation	21	0	omim/intogen
+D018763	Muscle Fatigue	0	0	none
+D009468	Neuromuscular Diseases	0	0	none
+D009506	Nevus	101	60	both
+D016849	Keratitis, Herpetic	8	79	both
+D010182	Pancreatic Diseases	1	12	both
+D010309	Parotitis	0	20	gwas
+D010438	Peptic Ulcer Hemorrhage	0	1	none
+D036981	Fasciitis, Plantar	0	32	gwas
+D018410	Pneumonia, Bacterial	0	6	gwas
+D013530	Surgical Wound Infection	0	0	none
+D001794	Blood Pressure	0	411	gwas
+D017564	Radiation Pneumonitis	2	39	both
+D002292	Carcinoma, Renal Cell	136	37	both
+D016728	Self-Injurious Behavior	0	12	gwas
+D012709	Serum Albumin	0	333	gwas
+D013851	Thinness	0	150	gwas
+D020922	Sleep-Wake Transition Disorders	0	0	none
+D013076	Sperm Count	0	0	none
+D000775	Anesthesia, Spinal	0	0	none
+D013159	Splenic Infarction	0	0	none
+D000070558	Talipes	36	14	both
+D014082	Tooth Fractures	0	0	none
+D005879	Tourette Syndrome	1	1	omim/intogen
+D065227	Transfusion Reaction	0	0	none
+D006084	Graft Rejection	0	0	none
+D014593	Uterine Inertia	0	4	gwas
+D014590	Uterine Contraction	0	0	none
+D014623	Vaginal Diseases	18	0	omim/intogen
+D014661	Vasoconstriction	0	0	none
+D014766	Viremia	0	4	gwas
+D014820	Vitiligo	18	171	both
+D004420	Dystocia	0	5	gwas
+D059787	Acute Pain	0	0	none
+D000210	Acute-Phase Reaction	0	173	gwas
+D000275	Adjustment Disorders	0	5	gwas
+D015267	Churg-Strauss Syndrome	0	7	gwas
+D004368	Dry Socket	0	0	none
+D000686	Amyloidosis	2	2	omim/intogen
+D064807	Anticholinergic Syndrome	0	4	gwas
+D000974	Antibodies, Antinuclear	0	0	none
+D001022	Aortic Valve Insufficiency	0	0	none
+D001164	Arteriovenous Fistula	12	0	omim/intogen
+D005306	Fertilization	0	0	none
+D019693	Hepatitis, Autoimmune	0	7	gwas
+D016393	Lymphoma, B-Cell	104	8	both
+D019567	Back Injuries	0	2	none
+D001748	Urinary Bladder Neck Obstruction	0	1	none
+D003401	Creatine	0	0	none
+D001859	Bone Neoplasms	1	1	omim/intogen
+D001988	Bronchiolitis	0	11	gwas
+D002051	Burkitt Lymphoma	106	18	both
+D002198	Capillary Fragility	0	0	none
+D002385	Cataplexy	2	490	both
+D002524	Cerebellar Ataxia	12	0	omim/intogen
+D017043	Chalazion	3	5	both
+D019694	Hepatitis B, Chronic	0	9	gwas
+D015451	Leukemia, Lymphocytic, Chronic, B-Cell	88	50	both
+D003015	Clostridium Infections	0	0	none
+D046730	Colitis, Lymphocytic	0	1	none
+D003110	Colonic Neoplasms	104	113	both
+D020918	Complex Regional Pain Syndromes	4	1	omim/intogen
+D001924	Brain Concussion	0	1	none
+D009421	Nervous System Malformations	69	494	both
+D012868	Skin Abnormalities	2	0	omim/intogen
+D003638	Deafness	114	102	both
+D000544	Alzheimer Disease	4	535	both
+D003711	Demyelinating Diseases	0	173	gwas
+D004232	Diuretics	0	0	none
+D064420	Drug-Related Side Effects and Adverse Reactions	1	11	both
+D004403	Dysentery	0	0	none
+D000381	Agraphia	0	0	none
+D004790	Enzyme Induction	0	0	none
+D020031	Epstein-Barr Virus Infections	26	13	both
+D004886	Erysipelas	0	0	none
+D006554	Hernia, Umbilical	0	62	gwas
+D001405	Reflex, Babinski	0	0	none
+D007020	Hypoprothrombinemias	0	1	none
+D005208	Fasciitis	0	31	gwas
+D005719	gamma-Globulins	0	0	none
+D006558	Herpes Genitalis	2	7	both
+D014565	Urogenital Neoplasms	204	294	both
+D015433	Glomerulonephritis, Membranous	11	30	both
+D000755	Anemia, Sickle Cell	28	5	both
+D006359	Heat Exhaustion	0	0	none
+D018248	Adenoma, Liver Cell	0	3	gwas
+D007011	Hypoparathyroidism	5	10	both
+D003744	Dental Enamel Hypoplasia	35	208	both
+D007244	Infectious Mononucleosis	24	10	both
+C535531	Intervertebral disc disease	0	0	none
+D007405	Intervertebral Disc Displacement	0	43	gwas
+D007787	Lactose Intolerance	0	2	none
+D008068	Lipomatosis	13	531	both
+D065666	Mesenteric Ischemia	0	2	none
+D008976	Molluscum Contagiosum	0	3	gwas
+D000015	Abnormalities, Multiple	99	0	omim/intogen
+D009155	Mutism	4	2	omim/intogen
+D009222	Myotonia	0	3	gwas
+D020250	Postoperative Nausea and Vomiting	0	1	none
+D007232	Infant, Newborn, Diseases	1	0	omim/intogen
+D009400	Nephrosclerosis	0	0	none
+D004967	Estrogens	0	0	none
+D020447	Parasomnias	2	490	both
+D004243	Divorce	0	0	none
+D058729	Peripheral Arterial Disease	3	102	both
+D047748	Pituitary ACTH Hypersecretion	1	0	omim/intogen
+D011087	Polycythemia Vera	4	15	both
+D006975	Hypertension, Portal	2	2	omim/intogen
+D051474	Neuralgia, Postherpetic	0	4	gwas
+D011782	Quadriplegia	46	0	omim/intogen
+D020425	Radial Neuropathy	4	33	both
+D007680	Kidney Neoplasms	136	37	both
+D012167	Retinal Perforations	0	0	none
+D012178	Retinopathy of Prematurity	0	0	none
+D012202	Reye Syndrome	1	56	both
+D012216	Rheumatic Diseases	0	0	none
+D012509	Sarcoma	0	2	none
+D003807	Dentin Sensitivity	0	0	none
+D017192	Skin Diseases, Bacterial	3	1	omim/intogen
+D016103	Spinal Fractures	0	2	none
+D013158	Splenic Diseases	0	0	none
+D019956	Stereotypic Movement Disorder	0	0	none
+D013342	Stuttering	4	2	omim/intogen
+D003639	Hearing Loss, Sudden	62	97	both
+D014005	Tinea	4	5	both
+D014064	Tongue, Hairy	0	1	none
+D014138	Tracheoesophageal Fistula	0	1	none
+D020236	Amnesia, Transient Global	0	3	gwas
+D014277	Trigeminal Neuralgia	0	1	none
+D004314	Down Syndrome	250	1	omim/intogen
+D014525	Urethral Stricture	0	1	none
+D014813	Vitamin K Deficiency	11	113	both
+D014826	Vocal Cord Paralysis	11	0	omim/intogen
+D013990	Tidal Volume	0	0	none
+D000030	Abortion, Missed	0	2	none
+D000219	Adams-Stokes Syndrome	2	5	both
+D000082843	Ovarian Torsion	0	0	none
+D004619	Embolism, Amniotic Fluid	0	0	none
+D012003	Rectal Fistula	0	0	none
+D013167	Spondylitis, Ankylosing	1	61	both
+D003218	Condylomata Acuminata	2	7	both
+D000858	Anovulation	0	0	none
+D020759	Anterior Spinal Artery Syndrome	0	0	none
+D001170	Arthritis, Infectious	1	4	both
+D001264	Athetosis	0	0	none
+D006344	Heart Septal Defects, Atrial	20	8	both
+D001437	Bacteriuria	0	2	none
+D001630	Bezoars	0	0	none
+D001646	Bile	0	0	none
+D001745	Urinary Bladder Diseases	93	30	both
+D009994	Osmolar Concentration	0	0	none
+D002534	Hypoxia, Brain	0	0	none
+D059390	Breakthrough Pain	0	0	none
+D018567	Breast Neoplasms, Male	0	231	gwas
+D047688	Breast Cyst	0	1	none
+D062485	Breath Holding	0	0	none
+D001987	Bronchiectasis	5	8	both
+D018549	Cryptogenic Organizing Pneumonia	6	57	both
+D052018	Bulimia Nervosa	0	11	gwas
+D002054	Burning Mouth Syndrome	0	0	none
+D014514	Ureteral Calculi	4	70	both
+D002245	Carbon Dioxide	0	0	none
+D012019	Reflex Sympathetic Dystrophy	4	1	omim/intogen
+D002639	Cheyne-Stokes Respiration	0	0	none
+D015209	Cholangitis, Sclerosing	15	79	both
+D000080324	Choroidal Effusions	3	1	omim/intogen
+D059350	Chronic Pain	0	54	gwas
+D003112	Colonic Pseudo-Obstruction	3	1	omim/intogen
+D003193	Compulsive Personality Disorder	0	4	gwas
+D007690	Polycystic Kidney Diseases	86	8	both
+D003456	Cryptorchidism	31	18	both
+D002825	Chorioretinitis	3	26	both
+D066087	Perinatal Death	0	0	none
+D009293	Opioid-Related Disorders	0	15	gwas
+D006871	Hydrophthalmos	6	385	both
+D006548	Hernia, Diaphragmatic	2	47	both
+D016403	Lymphoma, Large B-Cell, Diffuse	93	4	both
+D007617	Kaposi Varicelliform Eruption	0	3	gwas
+C562732	Euthyroid Goiter	0	0	none
+D005131	Eye Injuries	0	1	none
+D015807	Eye Injuries, Penetrating	0	1	none
+D006467	Hemophilia A	15	26	both
+D005183	Failure to Thrive	0	0	none
+D005218	Fat Necrosis	0	0	none
+D005239	Fear	0	3	gwas
+D005262	Feminization	0	0	none
+D005265	Femoral Neck Fractures	0	11	gwas
+D005541	Forced Expiratory Volume	0	674	gwas
+D013271	Gastric Dilatation	0	0	none
+D005919	Glomerular Filtration Rate	0	468	gwas
+D016399	Lymphoma, T-Cell	62	5	both
+D006962	Hyperparathyroidism, Secondary	2	9	both
+D006971	Hypersplenism	0	0	none
+D006988	Hyphema	0	3	gwas
+D015814	Ocular Hypotension	0	0	none
+D007109	Immunity	0	0	none
+D000069290	Incisional Hernia	0	0	none
+D007299	Insect Bites and Stings	0	29	gwas
+D002532	Intracranial Aneurysm	5	63	both
+D007443	Intussusception	3	1	omim/intogen
+D019190	Iron Overload	6	53	both
+D007567	Jaundice, Neonatal	4	235	both
+D016059	Range of Motion, Articular	0	0	none
+D013613	Tachycardia, Ectopic Junctional	0	0	none
+C537412	Burnett Schwartz Berberian syndrome	0	0	none
+D008055	Lipids	0	0	none
+D008210	Lymphocele	0	0	none
+D008577	Meningeal Neoplasms	6	11	both
+D016920	Meningitis, Bacterial	0	6	gwas
+D016919	Meningitis, Cryptococcal	0	0	none
+D001928	Brain Diseases, Metabolic	1	0	omim/intogen
+D020326	Migraine without Aura	0	1	none
+D016410	Lymphoma, T-Cell, Cutaneous	62	5	both
+D055728	Primary Myelofibrosis	4	15	both
+D009196	Myeloproliferative Disorders	4	15	both
+D009264	Nails, Malformed	2	0	omim/intogen
+D015508	Nasal Obstruction	1	11	both
+D019838	Neck Injuries	0	0	none
+D009450	Neurodermatitis	0	168	gwas
+D001177	Arthropathy, Neurogenic	1	1	omim/intogen
+D009798	Ocular Hypertension	6	385	both
+D004938	Esophageal Neoplasms	160	135	both
+D016104	Oligohydramnios	0	0	none
+D055034	Osteochondrosis	0	0	none
+D015434	Panniculitis	0	0	none
+D010212	Papilloma	120	43	both
+D010439	Peptic Ulcer Perforation	0	7	gwas
+D012221	Rhinitis, Allergic, Perennial	0	134	gwas
+D010494	Pericarditis, Constrictive	0	3	gwas
+D010510	Periodontal Diseases	1	8	both
+D010522	Periostitis	1	32	both
+D010661	Phenylketonurias	5	0	omim/intogen
+D010688	Phimosis	3	18	both
+D011006	Pneumatosis Cystoides Intestinalis	0	0	none
+C562429	Polydactyly, Postaxial	0	0	none
+D017285	Polymyositis	1	6	both
+D027601	Polyomavirus Infections	0	0	none
+D017118	Porphyria, Acute Intermittent	5	0	omim/intogen
+D047928	Premature Birth	0	5	gwas
+D008594	Menopause, Premature	0	57	gwas
+D065627	Familial Primary Pulmonary Hypertension	7	0	omim/intogen
+D053448	Prostatism	0	3	gwas
+D011552	Pseudomonas Infections	0	0	none
+D011627	Puberty	0	133	gwas
+D000081029	Pulmonary Arterial Hypertension	0	4	gwas
+D054060	Pulmonary Infarction	0	10	gwas
+D011681	Pupil Disorders	0	0	none
+D046248	Pyloric Stenosis, Hypertrophic	0	5	gwas
+D017511	Pyoderma Gangrenosum	0	2	none
+D017789	Granuloma, Pyogenic	0	0	none
+D012253	Rib Fractures	0	0	none
+D020188	Sleep Paralysis	2	294	both
+D020184	Night Terrors	0	289	gwas
+D013088	Spermatocele	0	1	none
+D013161	Splenic Rupture	0	0	none
+D025242	Spondylarthropathies	1	61	both
+D002446	Celiac Disease	2	49	both
+D013285	Strabismus	20	13	both
+D013290	Streptococcal Infections	0	14	gwas
+D013436	Sulfhemoglobinemia	0	0	none
+D017488	Hyperkeratosis, Epidermolytic	3	0	omim/intogen
+D013964	Thyroid Neoplasms	117	44	both
+D013958	Thyroid Crisis	2	52	both
+D014010	Tinea Versicolor	0	0	none
+D005929	Glossitis, Benign Migratory	0	1	none
+D016388	Tooth Loss	0	0	none
+D014123	Toxoplasmosis	0	7	gwas
+D052582	Trigger Finger Disorder	0	9	gwas
+D010710	Phosphates	0	0	none
+D014594	Uterine Neoplasms	86	57	both
+D017541	Aneurysm, False	0	0	none
+D014655	Vascular Resistance	0	0	none
+D017193	Skin Diseases, Viral	2	8	both
+D026681	Vitamin B 6 Deficiency	0	0	none
+D020434	Abducens Nerve Diseases	0	0	none
+D001810	Blood Volume	0	0	none
+D010953	Plasma Volume	0	0	none
+D055105	Waist Circumference	0	16	gwas
+D014851	Wakefulness	0	0	none
+D018784	Abdominal Abscess	0	0	none
+D000008	Abdominal Neoplasms	1	0	omim/intogen
+D012532	Scabies	0	0	none
+C536392	Factor 8 deficiency, acquired	0	0	none
+D015473	Leukemia, Promyelocytic, Acute	66	6	both
+D000307	Adrenal Gland Diseases	2	14	both
+D000379	Agoraphobia	0	336	gwas
+D000417	Albinism	51	175	both
+D000435	Alcoholic Intoxication	0	149	gwas
+D011649	Pulmonary Alveolar Proteinosis	3	0	omim/intogen
+D020757	Amaurosis Fugax	0	0	none
+D000641	Ammonia	0	0	none
+D001005	Anus Neoplasms	16	7	both
+D001004	Anus Diseases	16	2	omim/intogen
+D000758	Anesthesia	0	0	none
+D001254	Astrocytoma	43	0	omim/intogen
+D058226	Plaque, Atherosclerotic	0	0	none
+D009165	Mycobacterium Infections, Nontuberculous	0	21	gwas
+D006828	Hydatidiform Mole	4	0	omim/intogen
+D001660	Biliary Tract Diseases	14	121	both
+D007230	Infant, Low Birth Weight	0	0	none
+D001752	Blast Crisis	67	20	both
+D001855	Bone Marrow Diseases	6	0	omim/intogen
+D001913	Bowen's Disease	120	43	both
+D001922	Brain Abscess	0	0	none
+D006502	Budd-Chiari Syndrome	2	17	both
+D002032	Bulimia	1	0	omim/intogen
+D002270	Carbuncle	0	2	none
+D002494	Central Nervous System Infections	0	0	none
+D056128	Obesity, Abdominal	0	1264	gwas
+D002537	Intracranial Arteriosclerosis	5	63	both
+D065634	Cerebrospinal Fluid Leak	0	1	none
+D001650	Bile Duct Neoplasms	15	79	both
+D002357	Cartilage Diseases	0	1	none
+D015866	Uveitis, Posterior	0	26	gwas
+D051436	Renal Insufficiency, Chronic	1	674	both
+D020178	Sleep Disorders, Circadian Rhythm	4	591	both
+D008104	Liver Cirrhosis, Alcoholic	0	158	gwas
+D002971	Cleft Lip	14	213	both
+D015179	Colorectal Neoplasms	189	146	both
+D011248	Pregnancy Complications	0	7	gwas
+D050815	Fractures, Compression	0	0	none
+D005532	Foot Deformities, Congenital	36	14	both
+D009139	Musculoskeletal Abnormalities	45	220	both
+D003457	Cryptosporidiosis	0	1	none
+D018856	Cystitis, Interstitial	93	28	both
+D000080424	Cytokine Release Syndrome	0	0	none
+D017726	Cytomegalovirus Retinitis	0	9	gwas
+D046088	Hearing Loss, Unilateral	0	0	none
+D011628	Puberty, Delayed	1	770	both
+D012563	Schizophrenia, Paranoid	1	295	both
+D010482	Periapical Abscess	0	0	none
+D011855	Radiodermatitis	0	0	none
+D048909	Diabetes Complications	0	38	gwas
+D003928	Diabetic Nephropathies	0	35	gwas
+D009358	Congenital, Hereditary, and Neonatal Diseases and Abnormalities	0	0	none
+D018565	Food-Drug Interactions	0	0	none
+D004387	Dupuytren Contracture	12	42	both
+D004392	Dwarfism	128	6	both
+D011146	Eczema, Dyshidrotic	11	175	both
+D004410	Dyslexia	4	2	omim/intogen
+D020920	Dyssomnias	4	490	both
+D004454	Echolalia	1	2	omim/intogen
+D004461	Eclampsia	1	10	both
+C536202	Elastosis perforans serpiginosa	0	0	none
+D000083262	NA	0	4	gwas
+D018792	Encephalitis, Viral	0	1	none
+D004677	Encephalocele	4	0	omim/intogen
+D004820	Epidermolysis Bullosa	18	9	both
+D020802	Epidural Abscess	0	0	none
+D005151	Facial Injuries	0	3	gwas
+D044882	Glucose Metabolism Disorders	0	37	gwas
+D003294	Seizures, Febrile	15	6	both
+D020018	Sexual Dysfunctions, Psychological	0	3	gwas
+D005335	Fever of Unknown Origin	1	0	omim/intogen
+D005458	Fluoride Poisoning	0	0	none
+D005923	Glomerulosclerosis, Focal Segmental	11	30	both
+D006340	Heart Rate, Fetal	0	0	none
+D005536	Foot-and-Mouth Disease	0	0	none
+D046152	Gastrointestinal Stromal Tumors	4	0	omim/intogen
+D011110	Polymorphism, Genetic	0	0	none
+D005832	Genital Diseases, Male	0	0	none
+D016640	Diabetes, Gestational	1	7	both
+D005878	Gilbert Disease	2	2	omim/intogen
+D005889	Gingival Recession	0	1	none
+D005909	Glioblastoma	106	31	both
+D005910	Glioma	118	49	both
+D000079564	Globus Sensation	0	0	none
+D009402	Nephrosis, Lipoid	20	6	both
+D014890	Granulomatosis with Polyangiitis	0	1	none
+D006432	Hemochromatosis	12	53	both
+D016481	Helicobacter Infections	0	1	none
+D006519	Hepatitis, Alcoholic	0	154	gwas
+D006660	Histoplasmosis	0	2	none
+D006810	Humeral Fractures	0	3	gwas
+D015576	Hyperostosis	7	0	omim/intogen
+C563161	Hypertensive Nephropathy	0	0	none
+D006986	Hypervitaminosis A	0	0	none
+D016857	Hypocapnia	0	0	none
+D000361	Agammaglobulinemia	7	0	omim/intogen
+D007402	Intertrigo	0	0	none
+D007239	Infections	1	6	both
+D007499	Iris Diseases	0	3	gwas
+D007627	Keloid	41	4	both
+D000074962	Kounis Syndrome	0	0	none
+D059409	Stroke, Lacunar	0	8	gwas
+D007822	Laryngeal Neoplasms	3	80	both
+D055985	Latent Tuberculosis	0	0	none
+D007955	Leukemoid Reaction	1	756	both
+D007971	Leukoplakia	0	0	none
+D052439	Lipid Metabolism Disorders	20	620	both
+D008100	Liver Abscess	0	0	none
+D008572	Menarche	0	133	gwas
+D008579	Meningioma	6	11	both
+D008588	Meningocele	4	0	omim/intogen
+D008590	Meningoencephalitis	0	6	gwas
+D020803	Encephalitis, Herpes Simplex	0	0	none
+D024821	Metabolic Syndrome	5	124	both
+D008679	Metaplasia	0	9	gwas
+D020422	Mononeuropathies	12	33	both
+D020323	Tics	0	0	none
+D009091	Mucormycosis	0	2	none
+D009290	Narcolepsy	3	490	both
+D009463	Neuroma	10	1	omim/intogen
+D000077299	Healthcare-Associated Pneumonia	0	0	none
+D009770	Obsessive Behavior	0	0	none
+D016273	Occupational Exposure	0	0	none
+D004489	Edema, Cardiac	0	0	none
+D015154	Esophageal Motility Disorders	0	148	gwas
+D004958	Estradiol	0	0	none
+D006563	Herpes Zoster Ophthalmicus	0	17	gwas
+D009062	Mouth Neoplasms	117	43	both
+D054971	Orthostatic Intolerance	11	0	omim/intogen
+D017590	Myelinolysis, Central Pontine	0	0	none
+D012516	Osteosarcoma	43	8	both
+C562463	Pancreatic Carcinoma	0	1	none
+D010190	Pancreatic Neoplasms	74	27	both
+D010192	Pancreatic Pseudocyst	0	0	none
+D050500	Pancreatitis, Chronic	2	11	both
+D000077273	Thyroid Cancer, Papillary	36	22	both
+D034161	Pelvic Infection	0	0	none
+D007969	Leukomalacia, Periventricular	0	0	none
+D014917	Whooping Cough	0	3	gwas
+D010864	Pilonidal Sinus	0	4	gwas
+D016720	NA	0	0	none
+D011027	Pneumoperitoneum	0	2	none
+D011051	Poliomyelitis	0	4	gwas
+D011129	Polyradiculoneuropathy	0	0	none
+D054070	Postthrombotic Syndrome	2	18	both
+D006473	Postpartum Hemorrhage	0	11	gwas
+D054972	Postural Orthostatic Tachycardia Syndrome	4	0	omim/intogen
+D011225	Pre-Eclampsia	1	10	both
+D005322	Fetal Membranes, Premature Rupture	0	5	gwas
+D011374	Progesterone	0	2	none
+D019048	Prostatic Intraepithelial Neoplasia	0	0	none
+C537417	Butyrylcholinesterase deficiency	0	0	none
+D011602	Psychophysiologic Disorders	0	0	none
+D011668	Pulmonary Veno-Occlusive Disease	1	0	omim/intogen
+D011671	Pulpitis	0	0	none
+D000084063	Reinfection	0	0	none
+D000754	Anemia, Refractory, with Excess of Blasts	0	0	none
+D000753	Anemia, Refractory	21	1241	both
+C563261	Renal Adysplasia	0	0	none
+D018357	Respiratory Syncytial Virus Infections	0	0	none
+D004719	Endomyocardial Fibrosis	12	10	both
+D012279	Rickets	21	455	both
+D058566	Sacroiliitis	0	0	none
+D012600	Scoliosis	2	625	both
+D049291	Seroma	0	0	none
+D045169	Severe Acute Respiratory Syndrome	0	0	none
+D012749	Sexually Transmitted Diseases	0	0	none
+D000756	Anemia, Sideroblastic	1	0	omim/intogen
+D018461	Soft Tissue Infections	0	0	none
+D013001	Somatoform Disorders	0	0	none
+D000072660	Teratozoospermia	0	1	none
+D046748	Hematoma, Epidural, Spinal	0	1	none
+D055009	Spondylosis	0	22	gwas
+D013166	Spondylitis	1	61	both
+D004698	Endocarditis, Subacute Bacterial	0	14	gwas
+D013398	Sudden Infant Death	4	15	both
+D000080485	Sudden Unexpected Death in Epilepsy	0	0	none
+D013543	Sweat Gland Diseases	3	3	both
+D013566	Sympathomimetics	0	0	none
+D013581	Synovial Cyst	3	0	omim/intogen
+D018746	Systemic Inflammatory Response Syndrome	0	460	gwas
+D054160	Systolic Murmurs	0	0	none
+D013618	Tachyphylaxis	0	0	none
+D014078	Tooth Eruption	0	0	none
+D013706	Temporomandibular Joint Dysfunction Syndrome	0	2	none
+D012026	Reflex, Stretch	0	0	none
+D013742	Tetanus	0	0	none
+D013981	Tic Disorders	1	1	omim/intogen
+D000084002	Tinea cruris	4	1	omim/intogen
+D014077	Tooth Erosion	0	6	gwas
+D018677	Tooth Injuries	0	0	none
+D055370	Lung Injury	0	0	none
+D014247	Trichomonas Vaginitis	18	0	omim/intogen
+D000073842	Trisomy 18 Syndrome	0	0	none
+D019210	Troponin I	0	0	none
+D014336	Troponin	0	0	none
+D014435	Typhoid Fever	0	1	none
+D014524	Urethral Obstruction	0	1	none
+D000080223	Chronic Urticaria	5	7	both
+D014596	Uterine Prolapse	0	19	gwas
+D052065	Vaginismus	18	0	omim/intogen
+D014646	Varicocele	0	0	none
+D012223	Rhinitis, Vasomotor	0	134	gwas
+D014690	Venous Pressure	0	0	none
+D014804	Vitamin B Deficiency	13	117	both
+D014607	Uveomeningoencephalitic Syndrome	0	20	gwas
+D014832	Voice Disorders	1	0	omim/intogen
+D045822	Intestinal Volvulus	3	1	omim/intogen
+D017544	Aortic Aneurysm, Abdominal	6	43	both
+D001019	Aortic Rupture	6	43	both
+D046449	Hernia, Abdominal	2	77	both
+D059413	Intraabdominal Infections	0	14	gwas
+D000007	Abdominal Injuries	0	0	none
+D000027	Abortion, Incomplete	0	2	none
+D000031	Abortion, Septic	0	2	none
+D000052	Acanthosis Nigricans	7	13	both
+D000059	Accidents	0	0	none
+D052497	Lipodystrophy, Congenital Generalized	9	0	omim/intogen
+D000170	Acrodynia	1	1	omim/intogen
+D000172	Acromegaly	16	3	both
+D004673	Encephalomyelitis, Acute Disseminated	0	0	none
+D040701	Stress Disorders, Traumatic, Acute	0	5	gwas
+D062788	Adenomyosis	0	0	none
+D000257	Adenoviridae Infections	0	0	none
+D000267	Tissue Adhesions	0	0	none
+D018268	Adrenocortical Carcinoma	16	0	omim/intogen
+D000334	Aerophagy	0	0	none
+D000377	Agnosia	0	0	none
+D015526	AIDS Dementia Complex	0	0	none
+D019973	NA	0	159	gwas
+D019512	Pancreatitis, Alcoholic	0	157	gwas
+D011604	Psychoses, Alcoholic	0	155	gwas
+D021184	Nut Hypersensitivity	0	6	gwas
+D004480	Ectromelia	31	0	omim/intogen
+D000751	Anemia, Neonatal	0	1	none
+D001006	Anus, Imperforate	7	8	both
+D017728	Lymphoma, Large-Cell, Anaplastic	1	0	omim/intogen
+D065646	Thyroid Carcinoma, Anaplastic	0	0	none
+D057868	Anastomotic Leak	0	0	none
+D007119	Immunoblastic Lymphadenopathy	0	0	none
+D018207	Angiomyolipoma	0	1	none
+D059445	Anhedonia	0	2	none
+D000136	Acid-Base Equilibrium	0	0	none
+D064386	Ankle Fractures	0	0	none
+D016512	Ankle Injuries	0	11	gwas
+D000853	Anophthalmos	1	0	omim/intogen
+D000881	Anthrax	0	0	none
+D001018	Aortic Diseases	6	43	both
+D000784	Aneurysm, Dissecting	5	2	omim/intogen
+D007925	Leriche Syndrome	6	27	both
+D001035	Aphakia	1	1	omim/intogen
+D004476	Ectodermal Dysplasia	26	0	omim/intogen
+D017209	Apoptosis	0	0	none
+D001112	Arcus Senilis	1	0	omim/intogen
+D020159	Citrullinemia	9	0	omim/intogen
+D001196	Ascariasis	0	0	none
+D053714	Aspermia	66	5	both
+D001656	Biliary Atresia	21	85	both
+D015775	Fractures, Stress	0	0	none
+D001321	Autistic Disorder	4	26	both
+D000067877	Autism Spectrum Disorder	4	26	both
+D001332	Automatism	0	0	none
+D001506	Beckwith-Wiedemann Syndrome	2	0	omim/intogen
+D014625	Vaginal Neoplasms	35	43	both
+D001613	beta 2-Microglobulin	0	0	none
+D001649	Bile Duct Diseases	16	137	both
+D001742	Blackwater Fever	0	0	none
+C562406	Bladder Diverticulum	0	0	none
+D001759	Blastomycosis	0	0	none
+D005340	Fibrinogen	0	0	none
+D003677	Deficiency Diseases	13	125	both
+D018438	Blue Toe Syndrome	0	0	none
+D001827	Body Height	0	1595	gwas
+D015992	Body Mass Index	0	849	gwas
+D001832	Body Temperature Changes	1	0	omim/intogen
+D014380	Tuberculosis, Bovine	0	0	none
+D020520	Brain Infarction	2	53	both
+D005350	Fibroma	3	42	both
+D001946	Breech Presentation	0	5	gwas
+D001982	Bronchial Diseases	1	1006	both
+D002282	Adenocarcinoma, Bronchiolo-Alveolar	146	46	both
+D055732	Pulmonary Aspergillosis	0	0	none
+D001997	Bronchopulmonary Dysplasia	0	0	none
+D010002	Osteitis Fibrosa Cystica	0	0	none
+D053840	Brugada Syndrome	5	11	both
+D036982	Heel Spur	7	1	omim/intogen
+D002115	Calciphylaxis	16	2	omim/intogen
+D002128	Calcium Metabolism Disorders	21	304	both
+D002276	Carcinoid Tumor	117	60	both
+D002278	Carcinoma in Situ	0	0	none
+D014062	Tongue Neoplasms	0	12	gwas
+D016534	Cardiac Output, High	0	0	none
+D006343	Heart Septal Defects	20	8	both
+D012128	Respiratory Distress Syndrome	0	1	none
+D002338	Carotenoids	0	4	gwas
+D016893	Carotid Stenosis	2	40	both
+D002341	Carotid Artery Thrombosis	0	0	none
+D002375	Catalepsy	0	0	none
+D002422	Causalgia	3	4	both
+D002559	Cerebrospinal Fluid Rhinorrhea	0	0	none
+D002581	Uterine Cervical Incompetence	0	11	gwas
+D002583	Uterine Cervical Neoplasms	86	57	both
+D002057	Burns, Chemical	0	0	none
+D002690	Chlamydia Infections	0	2	none
+D001651	Cholestasis, Extrahepatic	15	63	both
+D002805	Chondrocalcinosis	1	0	omim/intogen
+D002822	Choriocarcinoma	4	0	omim/intogen
+C580364	Pdgfra-Associated Chronic Eosinophilic Leukemia	0	0	none
+D015673	Fatigue Syndrome, Chronic	0	0	none
+D058625	End Stage Liver Disease	0	0	none
+D015477	Leukemia, Myelomonocytic, Chronic	66	5	both
+D002916	Chylothorax	0	0	none
+D012594	Scleroderma, Localized	0	0	none
+C537748	Omphalocele exstrophy imperforate anus	0	0	none
+D003027	Cluster Headache	0	4	gwas
+D001779	Blood Coagulation Factors	0	0	none
+D001017	Aortic Coarctation	0	0	none
+D017714	Community-Acquired Infections	0	0	none
+D003025	Clubfoot	36	14	both
+D065630	Hernias, Diaphragmatic, Congenital	0	0	none
+D003409	Congenital Hypothyroidism	65	177	both
+D006627	Hirschsprung Disease	7	8	both
+D009056	Mouth Abnormalities	21	230	both
+D014428	Twins, Conjoined	0	0	none
+D003234	Conjunctivitis, Bacterial	1	13	both
+D003317	Corneal Dystrophies, Hereditary	19	66	both
+D023921	Coronary Stenosis	0	31	gwas
+D061085	Agenesis of Corpus Callosum	41	0	omim/intogen
+D003389	Cranial Nerve Diseases	15	83	both
+D003398	Craniosynostoses	70	220	both
+D003483	Cutis Laxa	9	1	omim/intogen
+D003527	Cyclothymic Disorder	0	0	none
+D052858	Cystocele	0	19	gwas
+D025063	Chromosome Disorders	4	0	omim/intogen
+D000069282	Canaliculitis	2	15	both
+D003607	Dacryocystitis	0	0	none
+D006312	Hearing Loss, Bilateral	0	0	none
+D055191	Delayed Emergence from Anesthesia	0	0	none
+D000430	Alcohol Withdrawal Delirium	0	0	none
+D020961	Lewy Body Disease	1	6	both
+D019957	Motor Skills Disorders	0	0	none
+D006617	Hip Dislocation	0	7	gwas
+D017719	Diabetic Foot	0	25	gwas
+D003925	Diabetic Angiopathies	0	0	none
+C531609	Diffuse alopecia	0	0	none
+D017379	Hypertrophy, Left Ventricular	26	38	both
+C535731	Dysequilibrium syndrome	0	0	none
+D000182	ACTH Syndrome, Ectopic	0	0	none
+D009999	Ossification, Heterotopic	0	6	gwas
+D015841	Enophthalmos	0	32	gwas
+D010123	Oxyuriasis	0	0	none
+D007412	Intestinal Fistula	0	0	none
+C535953	Eosinophilic pustular folliculitis	0	0	none
+D066246	ErbB Receptors	0	0	none
+C580062	Epidermal Nevus	0	0	none
+D004826	Epiglottitis	0	0	none
+D060048	Slipped Capital Femoral Epiphyses	0	0	none
+D004881	Ergotism	0	0	none
+D016731	Erythema Infectiosum	0	0	none
+D004894	Erythrasma	0	0	none
+D004915	Leukemia, Erythroblastic, Acute	67	20	both
+D013920	Thrombocythemia, Essential	4	15	both
+D020329	Essential Tremor	1	5	both
+C536380	Evans Syndrome	0	0	none
+D009436	Neural Tube Defects	30	0	omim/intogen
+D054747	Histiocytic Sarcoma	6	0	omim/intogen
+D015828	Eye Infections, Viral	0	6	gwas
+D005156	Facial Neuralgia	0	0	none
+D000347	Afibrinogenemia	8	24	both
+D005173	Factor XI Deficiency	10	24	both
+D013771	Tetralogy of Fallot	18	10	both
+D005833	Genital Neoplasms, Female	156	271	both
+D005459	Fluorides	0	0	none
+D063647	Fetal Alcohol Spectrum Disorders	0	0	none
+D000073923	Food Intolerance	0	0	none
+D054092	Foramen Ovale, Patent	4	0	omim/intogen
+D005129	Eye Foreign Bodies	0	1	none
+D005633	Fructose Intolerance	2	0	omim/intogen
+D005639	Frustration	0	39	gwas
+D005706	Gallbladder Neoplasms	1	16	both
+D005738	Gas Gangrene	0	0	none
+D013274	Stomach Neoplasms	135	115	both
+D015043	Zollinger-Ellison Syndrome	0	8	gwas
+D012478	Salmonella Food Poisoning	0	0	none
+D056304	Genu Valgum	0	0	none
+D046110	Hypertension, Pregnancy-Induced	1	10	both
+D005916	Globulins	0	0	none
+D015432	Glomerulonephritis, Membranoproliferative	11	30	both
+D005938	Glucocorticoids	0	0	none
+D006044	Goiter, Nodular	2	54	both
+D006069	Gonorrhea	0	2	none
+D019867	Anti-Glomerular Basement Membrane Disease	12	67	both
+D006087	Graft vs Host Reaction	0	0	none
+D016905	Gram-Negative Bacterial Infections	0	0	none
+D016460	Granuloma Annulare	41	7	both
+D006431	Hemobilia	0	0	none
+D006222	Hamartoma	8	0	omim/intogen
+D006242	Haptoglobins	0	0	none
+D017359	HELLP Syndrome	1	10	both
+D051359	Lymphohistiocytosis, Hemophagocytic	7	0	omim/intogen
+D018197	Hepatoblastoma	26	4	both
+D006557	Herpangina	0	1	none
+D016575	Hidradenitis	3	3	both
+D015614	Histiocytosis	7	0	omim/intogen
+D016263	AIDS-Associated Nephropathy	0	0	none
+D006712	Homocystinuria	12	113	both
+D006938	Hyperlipoproteinemia Type II	23	847	both
+D006848	Testicular Hydrocele	0	3	gwas
+D006854	Hydrocortisone	0	4	gwas
+D015160	Hydrops Fetalis	0	0	none
+D006876	Hydrothorax	0	0	none
+D006939	Hyperemesis Gravidarum	0	1	none
+D006942	Hypergammaglobulinemia	2	14	both
+C564683	Hypermethioninemia	0	0	none
+D049950	Hyperparathyroidism, Primary	2	9	both
+D020343	Hypertensive Encephalopathy	0	8	gwas
+D017439	Cicatrix, Hypertrophic	0	3	gwas
+D006994	Hypoaldosteronism	19	7	both
+D006998	Hypochondriasis	0	0	none
+D063730	Rickets, Hypophosphatemic	3	117	both
+D004422	Dystonia Musculorum Deformans	7	2	omim/intogen
+D007165	Immunosuppression	0	0	none
+D056989	Inferior Wall Myocardial Infarction	0	0	none
+D007340	Insulinoma	74	27	both
+D055959	Intervertebral Disc Degeneration	0	5	gwas
+D015299	Discitis	1	44	both
+D010148	Pain, Intractable	0	0	none
+D007433	Intrauterine Device Expulsion	0	0	none
+D007571	Jaw Diseases	6	14	both
+D007593	Joint Instability	5	0	omim/intogen
+D001171	Arthritis, Juvenile	1	18	both
+D007625	Kearns-Sayre Syndrome	20	12	both
+C531719	Keratitis sicca	0	0	none
+D007640	Keratoconus	8	87	both
+D055423	Diet, Ketogenic	0	0	none
+D007713	Klinefelter Syndrome	0	0	none
+D007738	Kyphosis	2	625	both
+D007767	Lacrimal Duct Obstruction	0	0	none
+D019344	Lactic Acid	0	0	none
+D006646	Histiocytosis, Langerhans-Cell	9	39	both
+D007818	Laryngeal Diseases	1	0	omim/intogen
+D020315	Latex Hypersensitivity	0	0	none
+D007859	Learning Disabilities	4	2	omim/intogen
+D007859	NA	4	2	omim/intogen
+D007911	Lentigo	10	130	both
+D018921	Leukostasis	0	0	none
+D017880	Limb Deformities, Congenital	71	219	both
+D062027	Linear IgA Bullous Dermatosis	0	0	none
+D008064	Lipidoses	40	535	both
+D008088	Listeriosis	0	0	none
+D008141	Lordosis	2	625	both
+D059411	Lower Urinary Tract Symptoms	0	98	gwas
+D008169	Lung Abscess	0	0	none
+D008193	Lyme Disease	0	1	none
+D018192	Lymphangioleiomyomatosis	0	0	none
+D008288	Malaria	0	6	gwas
+D001165	Arteriovenous Malformations	27	8	both
+C535700	Malignant mesenchymal tumor	0	0	none
+D008309	Mallory-Weiss Syndrome	0	0	none
+D000087122	NA	0	4	gwas
+D020522	Lymphoma, Mantle-Cell	0	0	none
+D008415	Mastocytosis	1	14	both
+D008417	Mastoiditis	1	55	both
+D004909	Erythrocyte Indices	0	865	gwas
+D063847	Mean Platelet Volume	0	470	gwas
+D008480	Mediastinitis	0	0	none
+D008479	Mediastinal Neoplasms	0	0	none
+D008587	Meningitis, Viral	0	6	gwas
+D008591	Meningomyelocele	0	0	none
+D008654	Mesothelioma	0	0	none
+D000075322	Heavy Metal Poisoning	1	7	both
+C536252	Pyle disease	0	0	none
+D010034	Otitis Media with Effusion	0	18	gwas
+D008947	Mixed Connective Tissue Disease	0	0	none
+D010265	Paraproteinemias	55	24	both
+D016472	Motor Neuron Disease	37	35	both
+D009164	Mycobacterium Infections	0	21	gwas
+D015270	Mycobacterium avium-intracellulare Infection	0	21	gwas
+D011289	Preleukemia	0	0	none
+D004831	Epilepsies, Myoclonic	13	1	omim/intogen
+D009209	Myofascial Pain Syndromes	0	0	none
+D000081030	Myotoxicity	0	0	none
+C536109	N-acetyl glutamate synthetase deficiency	0	0	none
+D009668	Nose Diseases	0	152	gwas
+D000077274	Nasopharyngeal Carcinoma	38	0	omim/intogen
+D009302	Nasopharyngeal Diseases	0	86	gwas
+D009341	Negativism	0	0	none
+D056770	Netherton Syndrome	21	0	omim/intogen
+D017599	Neuroectodermal Tumors	147	127	both
+D009455	Neurofibroma	10	1	omim/intogen
+D017253	Neurofibromatoses	10	1	omim/intogen
+D014029	Tobacco Use Disorder	0	75	gwas
+D010383	Pellagra	12	113	both
+D018678	Cholinergic Agents	0	0	none
+D009617	Nocardia Infections	0	0	none
+D002289	Carcinoma, Non-Small-Cell Lung	152	46	both
+D020181	Sleep Apnea, Obstructive	5	490	both
+D009794	Ochronosis	1	0	omim/intogen
+D004933	Esophageal Atresia	7	8	both
+D000077195	NA	120	48	both
+D010000	Osteitis	0	0	none
+D015675	Osteocalcin	0	0	none
+D012080	Chronic Kidney Disease-Mineral and Bone Disorder	0	0	none
+D010013	Osteogenesis Imperfecta	100	7	both
+D010014	Osteolysis	3	0	omim/intogen
+D010026	Osteosclerosis	82	3	both
+D010188	Exocrine Pancreatic Insufficiency	0	0	none
+D015864	Panuveitis	0	26	gwas
+D010229	Paracoccidioidomycosis	0	0	none
+D010282	Parathyroid Neoplasms	1	12	both
+D013614	Paroxysmal Tachycardia	5	124	both
+D006457	Hemoglobinuria, Paroxysmal	14	2	omim/intogen
+D015868	Pars Planitis	3	18	both
+D005660	Funnel Chest	0	0	none
+D010386	Pelvic Neoplasms	0	0	none
+D010469	Perceptual Distortion	0	0	none
+C536590	Alveolar capillary dysplasia	0	0	none
+D001184	Articulation Disorders	0	0	none
+D017454	Dermatitis, Photoallergic	0	0	none
+D010842	Pica	0	0	none
+D017514	Pityriasis Lichenoides	2	141	both
+D010922	Placenta Diseases	0	2	none
+D007952	Leukemia, Plasma Cell	55	24	both
+D010974	Platelet Aggregation	0	4	gwas
+D016720	Pneumocystis Infections	0	0	none
+D008478	Mediastinal Emphysema	1	6	both
+D011019	Pneumonia, Mycoplasma	0	6	gwas
+D011026	Pneumopericardium	0	0	none
+D011085	Polycystic Ovary Syndrome	0	62	gwas
+D059607	Polydipsia, Psychogenic	0	0	none
+D006831	Polyhydramnios	0	0	none
+D014911	Whiplash Injuries	0	0	none
+D011644	Puerperal Disorders	0	0	none
+D058246	Prehypertension	0	0	none
+D000037	Abruptio Placentae	0	5	gwas
+D011305	Presbyopia	10	669	both
+D055031	Primary Graft Dysfunction	0	0	none
+D015175	Prolactinoma	0	0	none
+C428439	prostatic acid phosphatase	0	0	none
+D020151	Protein C Deficiency	7	0	omim/intogen
+D005162	Factitious Disorders	0	0	none
+C563016	Pseudofolliculitis Barbae	0	0	none
+D015535	Arthritis, Psoriatic	3	163	both
+D011625	Pterygium	1	7	both
+D011665	Pulmonary Valve Insufficiency	0	0	none
+D055665	Purpura Fulminans	0	0	none
+D011702	Pyelitis	2	5	both
+D055112	Pyometra	0	0	none
+D011885	Radius Fractures	0	8	gwas
+D012004	Rectal Neoplasms	112	113	both
+D012005	Rectal Prolapse	0	19	gwas
+D020047	Rectocele	0	0	none
+D012061	Relapsing Fever	0	1	none
+C536482	Hereditary renal agenesis	0	0	none
+D007673	Kidney Cortex Necrosis	0	0	none
+D006978	Hypertension, Renovascular	0	0	none
+D015427	Reperfusion Injury	0	0	none
+D012090	Cumulative Trauma Disorders	1	31	both
+D018457	Placenta, Retained	0	2	none
+C538362	Reticuloendotheliosis, X-linked	0	0	none
+D012222	Rhinitis, Atrophic	0	134	gwas
+D012480	Salmonella Infections	0	1	none
+D012625	Sebaceous Gland Diseases	1	55	both
+D010302	Parkinson Disease, Secondary	0	2	none
+C536773	Syphilis, secondary	0	0	none
+D012652	Self Mutilation	0	9	gwas
+D004057	Hyperostosis, Diffuse Idiopathic Skeletal	7	17	both
+D001259	Ataxia	18	0	omim/intogen
+D000071074	Neonatal Sepsis	0	0	none
+D012771	Shock, Hemorrhagic	0	0	none
+D007331	Insulin Coma	0	0	none
+D058529	Single Umbilical Artery	9	0	omim/intogen
+D055752	Small Cell Lung Carcinoma	152	46	both
+D020336	Paraparesis, Spastic	0	0	none
+C536875	Arrest of spermatogenesis	0	0	none
+D046628	Sphincter of Oddi Dysfunction	0	0	none
+D016135	Spinal Dysraphism	15	0	omim/intogen
+D016136	Spina Bifida Occulta	4	0	omim/intogen
+D013122	Spinal Diseases	2	654	both
+D001265	Athletic Injuries	0	0	none
+D013206	Staphylococcal Scalded Skin Syndrome	0	2	none
+D013207	Staphylococcal Skin Infections	0	2	none
+D000080362	Stargardt Disease	1	0	omim/intogen
+D013318	Stroke Volume	0	0	none
+D013322	Strongyloidiasis	0	0	none
+D013353	Subdural Effusion	0	0	none
+D020225	Sagittal Sinus Thrombosis	0	0	none
+D013479	Superior Vena Cava Syndrome	0	0	none
+D013544	Sweat Gland Neoplasms	3	3	both
+D013576	Syndactyly	159	224	both
+D013587	Syphilis	0	2	none
+C536777	Systemic candidiasis	0	0	none
+D013700	Giant Cell Arteritis	0	17	gwas
+D013708	Tendon Injuries	0	9	gwas
+D013736	Testicular Neoplasms	106	234	both
+D019851	Thrombophilia	7	0	omim/intogen
+D013954	Thyroglobulin	0	0	none
+D013974	Thyroxine	0	87	gwas
+D014071	Tooth Abnormalities	1	0	omim/intogen
+D014133	Tracheal Diseases	0	1	none
+D020227	Lateral Sinus Thrombosis	0	0	none
+D014211	Treponemal Infections	0	1	none
+D014256	Trichotillomania	0	0	none
+D014262	Tricuspid Valve Insufficiency	0	0	none
+D014424	Turner Syndrome	51	18	both
+D003922	Diabetes Mellitus, Type 1	5	156	both
+D014458	Ulna Fractures	0	8	gwas
+D053202	Urinary Incontinence, Urge	0	5	gwas
+D014595	Uterine Perforation	0	5	gwas
+D046350	Porphyria, Variegate	7	0	omim/intogen
+D061205	Vascular Calcification	16	2	omim/intogen
+D015140	Dementia, Vascular	2	50	both
+D006083	Graft Occlusion, Vascular	0	0	none
+D020293	Vasculitis, Central Nervous System	0	0	none
+D020301	Vasospasm, Intracranial	0	0	none
+D053717	Pneumonia, Ventilator-Associated	0	0	none
+D054141	Ventricular Flutter	0	0	none
+D014715	Vertebrobasilar Insufficiency	0	0	none
+D018445	Infectious Disease Transmission, Vertical	0	0	none
+D020338	Vestibular Neuronitis	5	2	omim/intogen
+D014810	Vitamin E	0	2	none
+D014812	Vitamin K	0	0	none
+D019282	Wasting Syndrome	0	0	none
+D020915	Korsakoff Syndrome	0	3	gwas
+D056684	Yellow Nail Syndrome	9	1	omim/intogen

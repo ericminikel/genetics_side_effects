@@ -1,0 +1,17 @@
+Last updated: 2023-11-10
+
+CMH test for heterogeneity between MeSH areas: P = 1.0e-15
+
+
+Spearman test OR vs. PPV across areas (soft filter mode), rho = 0.375P = 0.138716813967186
+
+
+Spearman test base rate vs. median severity across areas (soft filter mode), rho = -0.238329957712746P = 0.356954814862372
+
+
+Spearman test OR vs. PPV across areas (hard filter mode), rho = 0.443627450980392P = 0.0761683611951501
+
+
+Spearman test base rate vs. median severity across areas (hard filter mode), rho = -0.15847713682961P = 0.543514797141319
+
+
