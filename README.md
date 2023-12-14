@@ -1,6 +1,6 @@
 This repository holds the data and source code for the following manuscript:
 
-Minikel EV, Nelson MR. Human genetic evidence enriches for side effects of approved drugs. In process at medRxiv.
+[Minikel EV, Nelson MR. **Human genetic evidence enriched for side effects of approved drugs.** _medRxiv._ 2023 Dec 13;2023.12.12.23299869.](https://doi.org/10.1101/2023.12.12.23299869)
 
 Here, you can:
 
