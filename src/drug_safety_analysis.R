@@ -8,7 +8,7 @@ tell_user = function(x) { cat(file=stderr(), x); flush.console() }
 tell_user('Loading dependencies...')
 
 options(stringsAsFactors=F)
-if(interactive()) setwd('~/d/sci/src/genetic_safety')
+if(interactive()) setwd('~/d/sci/src/genetics_side_effects')
 suppressMessages(library(tidyverse))
 suppressMessages(library(janitor))
 suppressMessages(library(binom))
@@ -63,6 +63,8 @@ write_supp_table = function(tbl, title='') {
 ##############
 
 tell_user('done.\nSetting constants and functions...')
+
+whisker_factor = 1.5
 
 percent = function(x, digits=0, signed=F) gsub(' ','',paste0(ifelse(x <= 0, '', ifelse(signed, '+', '')),formatC(100*x,format='f',digits=digits),'%'))
 
@@ -372,7 +374,8 @@ make_dse = function(drugtable, setable, drugsematch, simmat, assocs, se_metadata
         enrich$target_p[i] = fobj$p.value
       }
     }
-    enrich$target_enriched = enrich$target_or >=2 & enrich$target_p < 0.01
+    enrich$fdr = p.adjust(enrich$target_p, method='BH')
+    enrich$target_enriched = enrich$target_or >=2 & enrich$fdr < 0.05
     if (verbose) {
       cat(file=stderr(),paste0('done!\n- ',sum(enrich$target_enriched),' gene-SE combinations show enrichment at OR >= 2 and nominal P < 0.01.\n'))
       flush.console()
@@ -1611,32 +1614,58 @@ if (make_figure_3) {
     summarize(.groups='keep', n_drugs = length(unique(drug_name))) %>%
     ungroup() -> severity_vs_specificity
   
+  n_bins = 5
+  severity_vs_specificity %>%
+    filter(!is.na(max_severity)) %>%
+    mutate(bin_max = ceiling(max_severity*n_bins)/n_bins) %>%
+    mutate(bin_disp = paste0(formatC(bin_max-1/n_bins,format='f',digits=1), '-', formatC(bin_max,format='f',digits=1))) %>%
+    group_by(bin_max, bin_disp) %>%
+    summarize(.groups='keep',
+              n_se = n(),
+              min_n = min(n_drugs),
+              q25_n = quantile(n_drugs,.25),
+              q50_n = median(n_drugs),
+              q75_n = quantile(n_drugs,.75),
+              max_n = max(n_drugs)) %>%
+    ungroup() %>%
+    mutate(iqr = q75_n - q25_n) %>%
+    mutate(minwhisk_n = as.numeric(NA),
+           maxwhisk_n = as.numeric(NA)) -> severity_specificity_binned
+
+  severity_vs_specificity$bin_max = ceiling(severity_vs_specificity$max_severity*n_bins)/n_bins
+  for (i in 1:nrow(severity_specificity_binned)) {
+    lowest_whisker = severity_specificity_binned$q25_n[i] - whisker_factor * severity_specificity_binned$iqr[i]
+    highest_whisker = severity_specificity_binned$q75_n[i] + whisker_factor * severity_specificity_binned$iqr[i]
+    severity_specificity_binned$minwhisk_n[i] = min(severity_vs_specificity$n_drugs[severity_vs_specificity$bin_max==severity_specificity_binned$bin_max[i] & severity_vs_specificity$n_drugs >= lowest_whisker],na.rm=T)
+    severity_specificity_binned$maxwhisk_n[i] = max(severity_vs_specificity$n_drugs[severity_vs_specificity$bin_max==severity_specificity_binned$bin_max[i] & severity_vs_specificity$n_drugs <= highest_whisker],na.rm=T)
+  }
+    
   par(mar=c(3,3,2,1))
   xlims = c(0, 1)
-  xats = 0:20/20
-  xbigs = 0:4/4
+  xbigs = 0:5/5
   ylims = c(0.7,550)
   yats = rep(1:9,4) * rep(10^(0:3),each=9)
   ybigs = 10^(0:3)
   plot(NA, NA, xlim=xlims, ylim=ylims, axes=F, ann=F, xaxs='i', yaxs='i', log='y')
-  axis(side=1, at=xats, tck=-0.025, labels=NA)
   axis(side=1, at=xbigs, tck=-0.05, labels=NA)
-  axis(side=1, at=xbigs, lwd=0, line=-0.25)
+  mtext(side=1, at=severity_specificity_binned$bin_max-1/n_bins/2, text=severity_specificity_binned$bin_disp, line=0.25, cex=0.6)
   mtext(side=1, line=1.75, text='severity quantile', cex=0.8)
   axis(side=2, at=ylims, labels=NA, lwd.ticks=0)
   axis(side=2, at=yats, tck=-0.025, labels=NA)
   axis(side=2, at=ybigs, tck=-0.05, labels=NA)
   axis(side=2, at=ybigs, tck=-0.05, las=2, lwd=0, line=-0.25)
+  boxwidth = 0.15
+  rect(xleft=severity_specificity_binned$bin_max - 1/n_bins/2 - boxwidth/2, xright=severity_specificity_binned$bin_max - 1/n_bins/2 + boxwidth/2, ybottom=severity_specificity_binned$q25_n, ytop=severity_specificity_binned$q75_n, lwd=1.5, border='#000000', col=NA)
+  segments(x0=severity_specificity_binned$bin_max - 1/n_bins/2 - boxwidth/2, x1=severity_specificity_binned$bin_max - 1/n_bins/2 + boxwidth/2, y0=severity_specificity_binned$q50_n, lwd=1.5, col='#000000')
+  arrows(x0=severity_specificity_binned$bin_max - 1/n_bins/2, y0=severity_specificity_binned$q25_n, y1=severity_specificity_binned$min_n, code=2, length=0.05, angle=90, col='#000000')
+  arrows(x0=severity_specificity_binned$bin_max - 1/n_bins/2, y0=severity_specificity_binned$q75_n, y1=severity_specificity_binned$max_n, code=2, length=0.05, angle=90, col='#000000')
   mtext(side=2, line=2.25, text='N drugs', cex=0.8)
-  set.seed(1)
-  points(jitter(severity_vs_specificity$max_severity, amount=0.005), severity_vs_specificity$n_drugs, pch=20, col='#00000055')
-  m = lm(log(n_drugs) ~ max_severity, data=severity_vs_specificity)
-  x = 0:100/100
-  y = exp(predict(m, tibble(max_severity=x)))
-  points(x, y, col='red', lwd=0.5, type='l')
   mtext(LETTERS[panel], side=3, cex=1.5, adj = 0.0, line = 0.2)
   panel = panel + 1
   
+  write_supp_table(severity_specificity_binned, 'SE drug specificity versus severity bin.')
+  
+  m = lm(log(n_drugs) ~ max_severity, data=severity_vs_specificity)
   summary(m)$coefficients %>%
     as_tibble(rownames='variable') %>%
     clean_names() -> sev_spec_linear_coefs
@@ -1644,11 +1673,6 @@ if (make_figure_3) {
   
   end_of_figure_3 = dev.off()
 }
-
-
-
-
-
 
 
 
@@ -1700,6 +1724,8 @@ areas %>%
          median_severity = as.numeric(NA),
          q25_severity = as.numeric(NA),
          q75_severity = as.numeric(NA),
+         minwhisk_severity = as.numeric(NA),
+         maxwhisk_severity = as.numeric(NA),
          ppv = as.numeric(NA),
          ppv_l95 = as.numeric(NA),
          ppv_u95 = as.numeric(NA),
@@ -1753,6 +1779,11 @@ for (i in 1:nrow(area_stats)) {
   area_stats$median_severity[i] = median(current_dse$max_severity[current_dse$genetic_insight != 'none' & !current_dse$sim_indic], na.rm=T)
   area_stats$q25_severity[i] = quantile(current_dse$max_severity[current_dse$genetic_insight != 'none' & !current_dse$sim_indic], 0.25, na.rm=T)
   area_stats$q75_severity[i] = quantile(current_dse$max_severity[current_dse$genetic_insight != 'none' & !current_dse$sim_indic], 0.75, na.rm=T)
+  this_area_iqr = area_stats$q75_severity[i] - area_stats$q25_severity[i]
+  lowest_whisker = area_stats$q25_severity[i] - this_area_iqr*whisker_factor
+  highest_whisker = area_stats$q75_severity[i] + this_area_iqr*whisker_factor
+  area_stats$minwhisk_severity[i] = min(current_dse$max_severity[current_dse$genetic_insight != 'none' & !current_dse$sim_indic & current_dse$max_severity >= lowest_whisker], na.rm=T)
+  area_stats$maxwhisk_severity[i] = max(current_dse$max_severity[current_dse$genetic_insight != 'none' & !current_dse$sim_indic & current_dse$max_severity <= highest_whisker], na.rm=T)
   fobj = fisher.test(ctable)
   area_stats$or[i] = fobj$estimate
   area_stats$p[i] = fobj$p.value
@@ -1873,7 +1904,7 @@ if (make_figure_4) {
   panel = panel + 1
 
   ylims = range(subs$y) + c(-0.5, 0.5)
-  xlims = c(0.28, 0.88)
+  xlims = c(0, 1.05)
   xats = 0:20/20
   xbigs = 0:10/10
   par(mar=c(4,1,2.5,1))
@@ -1885,6 +1916,8 @@ if (make_figure_4) {
   axis(side=2, at=ylims, labels=NA, lwd.ticks=0)
   boxwidth = 0.3
   rect(xleft=subs$q25_severity, xright=subs$q75_severity, ybottom=subs$y-boxwidth, ytop=subs$y+boxwidth, lwd=1.5, border=subs$color, col=NA)
+  arrows(x0=subs$q25_severity, x1=subs$minwhisk_severity, y0=subs$y, code=2, length=0.05, angle=90, col=subs$color)
+  arrows(x0=subs$q75_severity, x1=subs$maxwhisk_severity, y0=subs$y, code=2, length=0.05, angle=90, col=subs$color)
   segments(x0=subs$median_severity, y0=subs$y-boxwidth, y1=subs$y+boxwidth, lwd=1.5, col=subs$color)
   mtext(LETTERS[panel], side=3, cex=1.5, adj = 0.0, line = 0.2)
   panel = panel + 1
@@ -2031,6 +2064,8 @@ if (make_figure_s3) {
   axis(side=2, at=ylims, labels=NA, lwd.ticks=0)
   boxwidth = 0.3
   rect(xleft=subs$q25_severity, xright=subs$q75_severity, ybottom=subs$y-boxwidth, ytop=subs$y+boxwidth, lwd=1.5, border=subs$color, col=NA)
+  arrows(x0=subs$q25_severity, x1=subs$minwhisk_severity, y0=subs$y, code=2, length=0.05, angle=90, col=subs$color)
+  arrows(x0=subs$q75_severity, x1=subs$maxwhisk_severity, y0=subs$y, code=2, length=0.05, angle=90, col=subs$color)
   segments(x0=subs$median_severity, y0=subs$y-boxwidth, y1=subs$y+boxwidth, lwd=1.5, col=subs$color)
   mtext(LETTERS[panel], side=3, cex=1.5, adj = 0.0, line = 0.2)
   panel = panel + 1
