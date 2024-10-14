@@ -2128,6 +2128,129 @@ if (make_figure_s3) {
 }
 
 
+####
+# Supplementary tables grouping by SE and association
+####
+
+dse_info %>%
+  filter(genetic_insight != 'none') %>%
+  filter(!sim_indic) %>%
+  filter(sim_assoc) %>%
+  filter(observed) %>%
+  group_by(assoc_mesh_id, assoc_mesh_term) %>%
+  summarize(.groups='keep',
+            genes = toString(unique(gene)),
+            drugs = toString(unique(drug_name)),
+            side_effects = toString(unique(se_mesh_term))) %>%
+  ungroup() %>%
+  mutate(or = as.numeric(NA),
+         or_l95 = as.numeric(NA),
+         or_u95 = as.numeric(NA),
+         fisher_p = as.numeric(NA),
+         sim_obs = as.integer(NA),
+         sim_not = as.integer(NA),
+         dis_obs = as.integer(NA),
+         dis_not = as.integer(NA)) -> assocs
+
+get_ctable_cell = function(ctable, row, col) {
+  if (row %in% rownames(ctable) & col %in% colnames(ctable)) {
+    return (ctable[row,col])
+  } else {
+    return (0)
+  }
+}
+
+for (i in 1:nrow(assocs)) {
+  dse_subs = dse_info %>% 
+    filter(assoc_mesh_id == assocs$assoc_mesh_id[i]) %>%
+    filter(genetic_insight != 'none') %>%
+    filter(!sim_indic)
+  ctable = table(dse_subs[,c('sim_assoc','observed')])
+  if (!('TRUE' %in% colnames(ctable))) {
+    
+  }
+  fobj = careful_fisher_test(ctable)
+  assocs$or[i] = as.numeric(fobj$estimate)
+  assocs$or_l95[i] = as.numeric(fobj$conf.int[1])
+  assocs$or_u95[i] = as.numeric(fobj$conf.int[2])
+  assocs$fisher_p[i] = as.numeric(fobj$p.value)
+  assocs$sim_obs[i] = get_ctable_cell(ctable, 'TRUE', 'TRUE')
+  assocs$dis_obs[i] = get_ctable_cell(ctable, 'FALSE','TRUE')
+  assocs$sim_not[i] = get_ctable_cell(ctable, 'TRUE', 'FALSE')
+  assocs$dis_not[i] = get_ctable_cell(ctable, 'FALSE','FALSE')
+}
+
+assocs %>% 
+  arrange(fisher_p) %>%
+  relocate(genes, drugs, side_effects, .after=dis_not) -> assocs
+
+
+write_supp_table(assocs, 'Enrichment statistics by GWAS association MeSH term.')
+
+
+
+
+
+
+
+
+dse_info %>%
+  filter(genetic_insight != 'none') %>%
+  filter(!sim_indic) %>%
+  filter(sim_assoc) %>%
+  filter(observed) %>%
+  group_by(se_mesh_id, se_mesh_term) %>%
+  summarize(.groups='keep',
+            genes = toString(unique(gene)),
+            drugs = toString(unique(drug_name)),
+            assocs = toString(unique(assoc_mesh_term))) %>%
+  ungroup() %>%
+  mutate(or = as.numeric(NA),
+         or_l95 = as.numeric(NA),
+         or_u95 = as.numeric(NA),
+         fisher_p = as.numeric(NA),
+         sim_obs = as.integer(NA),
+         sim_not = as.integer(NA),
+         dis_obs = as.integer(NA),
+         dis_not = as.integer(NA)) -> se_stats
+
+get_ctable_cell = function(ctable, row, col) {
+  if (row %in% rownames(ctable) & col %in% colnames(ctable)) {
+    return (ctable[row,col])
+  } else {
+    return (0)
+  }
+}
+
+for (i in 1:nrow(se_stats)) {
+  dse_subs = dse_info %>% 
+    filter(se_mesh_id == se_stats$se_mesh_id[i]) %>%
+    filter(genetic_insight != 'none') %>%
+    filter(!sim_indic)
+  ctable = table(dse_subs[,c('sim_assoc','observed')])
+  if (!('TRUE' %in% colnames(ctable))) {
+    
+  }
+  fobj = careful_fisher_test(ctable)
+  se_stats$or[i] = as.numeric(fobj$estimate)
+  se_stats$or_l95[i] = as.numeric(fobj$conf.int[1])
+  se_stats$or_u95[i] = as.numeric(fobj$conf.int[2])
+  se_stats$fisher_p[i] = as.numeric(fobj$p.value)
+  se_stats$sim_obs[i] = get_ctable_cell(ctable, 'TRUE', 'TRUE')
+  se_stats$dis_obs[i] = get_ctable_cell(ctable, 'FALSE','TRUE')
+  se_stats$sim_not[i] = get_ctable_cell(ctable, 'TRUE', 'FALSE')
+  se_stats$dis_not[i] = get_ctable_cell(ctable, 'FALSE','FALSE')
+}
+
+se_stats %>% 
+  arrange(fisher_p) %>%
+  relocate(genes, drugs, assocs, .after=dis_not) -> se_stats
+
+
+write_supp_table(se_stats, 'Enrichment statistics by side effect MeSH term.')
+
+
+
 
 
 #####
