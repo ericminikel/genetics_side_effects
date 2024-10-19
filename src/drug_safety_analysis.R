@@ -8,7 +8,7 @@ tell_user = function(x) { cat(file=stderr(), x); flush.console() }
 tell_user('Loading dependencies...')
 
 options(stringsAsFactors=F)
-if(interactive()) setwd('~/d/sci/src/genetics_side_effects')
+if(interactive()) setwd('~/src/genetics_side_effects')
 suppressMessages(library(tidyverse))
 suppressMessages(library(janitor))
 suppressMessages(library(binom))
@@ -2228,9 +2228,6 @@ for (i in 1:nrow(se_stats)) {
     filter(genetic_insight != 'none') %>%
     filter(!sim_indic)
   ctable = table(dse_subs[,c('sim_assoc','observed')])
-  if (!('TRUE' %in% colnames(ctable))) {
-    
-  }
   fobj = careful_fisher_test(ctable)
   se_stats$or[i] = as.numeric(fobj$estimate)
   se_stats$or_l95[i] = as.numeric(fobj$conf.int[1])
@@ -2250,8 +2247,132 @@ se_stats %>%
 write_supp_table(se_stats, 'Enrichment statistics by side effect MeSH term.')
 
 
+dse_info %>% 
+  filter(genetic_insight=='none') %>% 
+  group_by(se_mesh_id, se_mesh_term) %>% 
+  summarize(.groups='keep', n_drugs_with_this_se=sum(observed)) %>% 
+  arrange(desc(n_drugs_with_this_se)) -> lacking_genetic_insight
+
+write_supp_table(lacking_genetic_insight, 'Side effects lacking genetic insight, by number of drugs ')
+
+assoc %>%
+  group_by(gene) %>%
+  summarize(.groups='keep',
+            n_associated_mesh_ids = length(unique(mesh_id))) %>%
+  ungroup() -> assoc_traits_per_gene
+
+dse_info %>%
+  filter(observed & genetic_insight != 'none' & !sim_indic) %>%
+  group_by(drug_name, gene) %>%
+  summarize(.groups='keep',
+            n_observed_ses = length(unique(se_mesh_id))) %>%
+  ungroup() -> obs_ses_per_drug
+
+assoc_traits_per_gene %>%
+  right_join(obs_ses_per_drug, by='gene') %>%
+  mutate(n_associated_mesh_ids = replace_na(n_associated_mesh_ids, 0)) -> assocs_vs_ses
+
+cor_obj = cor.test(assocs_vs_ses$n_associated_mesh_ids, assocs_vs_ses$n_observed_ses, method='pearson')
+write_stats_text("Pearson's correlation between a drug's number of side effects and the number of unique MeSH IDs to which it is genetically associated: ",
+                 "rho = ",formatC(cor_obj$estimate,format='f',digits=2),
+                 "P = ",formatC(cor_obj$p.value,format='f',digits=2))
 
 
+
+dse_info %>%
+  filter(genetic_insight!='none' & observed) %>%
+  distinct(drug_name, se_mesh_id, indication_mesh_id, se_indic_similarity, sim_indic) %>%
+  summarize(.groups='keep',
+            without_sim_indic = sum(!sim_indic),
+            with_sim_indic = sum(sim_indic),
+            total_drugse_pairs = n(),
+            proportion_sim_indic = mean(sim_indic)) %>%
+  ungroup() -> sim_indic_stats
+
+write_stats_text('At our 0.9 similarity threshold, ',
+                 sim_indic_stats$with_sim_indic,'/',
+                 sim_indic_stats$total_drugse_pairs,
+                 ' (',percent(sim_indic_stats$proportion_sim_indic),
+                 ') were removed.')
+
+
+dse_info %>%
+  left_join(sim, by=c('indication_mesh_id'='meshcode_a', 'assoc_mesh_id'='meshcode_b')) %>%
+  rename(indic_assoc_sim = comb_norm) %>%
+  mutate(indic_assoc_sim = replace_na(indic_assoc_sim, 0)) %>%
+  mutate(indic_supported = indic_assoc_sim >= 0.8) -> dse_info_with_indic_assoc_sim
+
+dse_info_with_indic_assoc_sim %>%
+  distinct(drug_name, gene, assoc_mesh_id, indication_mesh_id, indic_supported) %>%
+  group_by(indic_supported) %>%
+  summarize(.groups='keep',
+            n=n()) %>%
+  ungroup() %>%
+  mutate(proportion = n/sum(n)) -> prevalence_of_gensup
+
+write_stats_text(prevalence_of_gensup$n[prevalence_of_gensup$indic_supported],"(",
+                 percent(prevalence_of_gensup$n[prevalence_of_gensup$proportion]),")",
+                 " of drug-gene-association-indication tuples are genetically supported")
+
+dse_info_with_indic_assoc_sim %>%
+  filter(genetic_insight != 'none' & observed) %>%
+  summarize(.groups='keep',
+            total_n = n(),
+            n_indic_supported = sum(indic_supported),
+            proportion_indic_supported = mean(indic_supported)) %>%
+  ungroup() -> drugse_observed_supported
+
+
+write_stats_text(drugse_observed_supported$n_indic_supported,"(",
+                 percent(drugse_observed_supported$proportion_indic_supported),")",
+                 " of observed drug-SE pairs have a supported indication.")
+
+dse_info_with_indic_assoc_sim %>%
+  filter(genetic_insight != 'none') %>%
+  group_by(indic_supported) %>%
+  summarize(.groups='keep',
+            n_rows = n(),
+            n_observed = sum(observed),
+            proportion_observed = mean(observed)) %>%
+  ungroup() -> baserates_by_gensup
+
+write_stats_text("Base rate (overall proportion of possible SEs observed) is ",
+                 baserates_by_gensup$n_observed[baserates_by_gensup$indic_supported],"/", baserates_by_gensup$n_rows[baserates_by_gensup$indic_supported]," (",
+                 percent(baserates_by_gensup$proportion_observed[baserates_by_gensup$indic_supported],digits=1),") with genetic support or ",
+                 baserates_by_gensup$n_observed[!baserates_by_gensup$indic_supported],"/", baserates_by_gensup$n_rows[!baserates_by_gensup$indic_supported]," (",
+                 percent(baserates_by_gensup$proportion_observed[!baserates_by_gensup$indic_supported],digits=1),") without.")
+
+
+dse_info_with_indic_assoc_sim %>%
+  filter(genetic_insight != 'none'  & observed) -> temp
+ctable = table(temp[,c('sim_assoc','indic_supported')])
+fobj = fisher.test(ctable)
+
+write_stats_text("Among observed drug-SE pairs, genetic evidence for the SE and genetic evidence for the indication are enriched for each other, OR = ",
+                 formatC(fobj$estimate,format='f',digits=1),", P = ",
+                 formatC(fobj$p.value,format='e',digits=1))
+
+
+# this test asks whether genetic support for indications predicts
+# that a side effect will be osberved. but it's not a good test
+# because each row is aligning the SE to the drug's indication (out of 
+# many possible indications) that is most similar, so it's 
+# kind of just a roundabout way of asking about genetic evidence
+# for the SE itself.
+# dse_info_with_indic_assoc_sim %>%
+#   filter(genetic_insight != 'none') -> temp
+# ctable = table(temp[,c('observed','indic_supported')])
+# fisher.test(ctable) 
+
+dse_info_with_indic_assoc_sim %>%
+  filter(genetic_insight != 'none' & !sim_indic) -> temp
+ctable = table(temp[,c('observed','indic_supported')])
+fobj = fisher.test(ctable)
+write_stats_text("Among observed drug-SE pairs, genetic evidence for the SE and ",
+                 "genetic evidence for the indication are not enriched after the ",
+                 "similar indication filted is applied, OR = ",
+                 formatC(fobj$estimate,format='f',digits=1),", P = ",
+                 formatC(fobj$p.value,format='e',digits=1))
 
 #####
 # SUPPLEMENT
