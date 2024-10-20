@@ -516,7 +516,15 @@ sim = read_tsv('data/mesh/mesh_sim.tsv.gz', col_types=cols())
 
 hubal_day = read_tsv('data/other/hubal-day-2006-table-3.tsv', col_types=cols()) %>%
   arrange(task_value) %>%
-  mutate(wordrank = rank(task_value))
+  mutate(term = case_when(term %in% c('uncommon','infrequent') ~ 'uncommon/infreqeunt',
+                          term %in% c('common','frequent') ~ 'common/frequent',
+                          TRUE ~ term)) %>%
+  group_by(term) %>%
+  summarize(.groups='keep', task_value = mean(task_value)) %>%
+  ungroup() %>%
+  mutate(wordrank = rank(task_value)) %>%
+  arrange(task_value)
+
 gottlieb = read_tsv('data/other/gottlieb-2015-table-s2.tsv', col_types=cols()) %>% 
   clean_names()
 
@@ -569,6 +577,9 @@ drug_mesh_match %>%
 freq %>%
   select(drug_id, se_name, placebo, chrfreq=freq) %>%
   mutate(numfreq = suppressWarnings(as.numeric(gsub('%','',chrfreq))/100)) %>%
+  mutate(chrfreq = case_when(chrfreq %in% c('uncommon','infrequent') ~ 'uncommon/infreqeunt',
+                          chrfreq %in% c('common','frequent') ~ 'common/frequent',
+                          TRUE ~ chrfreq)) %>%
   mutate(wordfreq = case_when(chrfreq %in% hubal_day$term ~ chrfreq,
                               TRUE ~ as.character(NA))) %>%
   left_join(hubal_day, by=c('wordfreq'='term')) %>%
@@ -758,6 +769,14 @@ assoc_source_forest_setup = tibble(label=c('all','OMIM','IntOGen oncology','GWAS
   mutate(y = max(row_number()) - row_number() + 1)
 
 assoc_source_forest = make_forest(assoc_source_forest_setup, verbose=F)
+
+
+# request from reviewer 2 - see what the germline onco table consists of
+assoc_non_intogen %>% distinct(gene, mesh_id) -> assoc_non_intogen_gipairs
+dse_info %>%
+  filter(observed & genetic_insight != 'none' & sim_assoc & !sim_indic) %>%
+  filter(se_mesh_id %in% sider_onco_ses$mesh_id) %>%
+  inner_join(assoc_non_intogen, by=c('gene','assoc_mesh_id'='mesh_id'), relationship='many-to-many') -> germline_onco
 
 
 make_figure_s1 = TRUE
@@ -2373,6 +2392,54 @@ write_stats_text("Among observed drug-SE pairs, genetic evidence for the SE and 
                  "similar indication filted is applied, OR = ",
                  formatC(fobj$estimate,format='f',digits=1),", P = ",
                  formatC(fobj$p.value,format='e',digits=1))
+
+
+# 
+# # cancer analysis requested by reviewer 2
+# this_area_topls = topl_maps$topl[topl_maps$map_to == 'C04']
+# this_area_ses = se_topl_match$mesh_id[se_topl_match$topl %in% this_area_topls]
+# dse_info %>%
+#   filter(se_mesh_id %in% this_area_ses,
+#          genetic_insight != 'none',
+#          observed, 
+#          !sim_indic) -> current_dse
+# nrow(current_dse)
+# length(unique(current_dse$drug_name))
+# this_area_indics = intersect(pp_launched_indic$indication_mesh_id, se_topl_match$mesh_id[se_topl_match$topl %in% this_area_topls])
+# sum(current_dse$indication_mesh_id %in% this_area_indics)
+# 
+# 
+# # congential analysis requested by reviewer 2
+# this_area_topls = topl_maps$topl[topl_maps$map_to == 'C16']
+# this_area_ses = se_topl_match$mesh_id[se_topl_match$topl %in% this_area_topls]
+# dse_info %>%
+#   filter(se_mesh_id %in% this_area_ses,
+#          genetic_insight != 'none',
+#          observed, 
+#          !sim_indic) -> current_dse
+# nrow(current_dse)
+# length(unique(current_dse$drug_name))
+# this_area_indics = intersect(pp_launched_indic$indication_mesh_id, se_topl_match$mesh_id[se_topl_match$topl %in% this_area_topls])
+# sum(current_dse$indication_mesh_id %in% this_area_indics)
+# 
+
+# further workup of tachycardia example
+assoc %>%
+  filter(mesh_id == 'D013610') %>%
+  distinct(gene) %>%
+  filter(gene %in% dse_info$gene) %>%
+  pull(gene) -> tachy_genes
+dse_info %>%
+  filter(assoc_mesh_id == 'D013610',
+         gene %in% tachy_genes,
+         sim_assoc) -> tachy_supported
+write_supp_table(tachy_supported, 'Details of drugs whose targets are genetically associated to tachycardia.')
+
+
+# %>% 
+#   group_by(drug_name) %>%
+#   summarize()
+
 
 #####
 # SUPPLEMENT
