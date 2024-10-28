@@ -1814,7 +1814,9 @@ for (i in 1:nrow(area_stats)) {
 }
 if (!skip_intensive) {
   write_supp_table(area_stats, 'Breakdown by MeSH area.')
-  write_tsv(area_stats, 'ignore/area_stats.tsv')
+  if (file.exists('ignore/')) {
+    write_tsv(area_stats, 'ignore/area_stats.tsv')
+  }
 } else {
   area_stats = read_tsv('ignore/area_stats.tsv', col_types=cols())
 }
@@ -2315,7 +2317,7 @@ assoc_traits_per_gene %>%
   mutate(n_associated_mesh_ids = replace_na(n_associated_mesh_ids, 0)) -> assocs_vs_ses
 
 cor_obj = cor.test(assocs_vs_ses$n_associated_mesh_ids, assocs_vs_ses$n_observed_ses, method='pearson')
-write_stats_text("Pearson's correlation between a drug's number of side effects and the number of unique MeSH IDs to which it is genetically associated: ",
+write_stats("Pearson's correlation between a drug's number of side effects and the number of unique MeSH IDs to which it is genetically associated: ",
                  "rho = ",formatC(cor_obj$estimate,format='f',digits=2),
                  "P = ",formatC(cor_obj$p.value,format='f',digits=2))
 
@@ -2331,13 +2333,18 @@ dse_info %>%
             proportion_sim_indic = mean(sim_indic)) %>%
   ungroup() -> sim_indic_stats
 
-write_stats_text('At our 0.9 similarity threshold, ',
+write_stats('At our 0.9 similarity threshold, ',
                  sim_indic_stats$with_sim_indic,'/',
                  sim_indic_stats$total_drugse_pairs,
                  ' (',percent(sim_indic_stats$proportion_sim_indic),
                  ') were removed.')
 
-
+# indic_supported_curr is an analysis using only the data from this present study
+# rather than bringing in data from the genetic support paper.
+# the problem is that it doesn't account for all associations that might 
+# support the indication, only the association in the dse_info table row, which
+# is the association most similar to the SE and not necessarily most similar
+# to the indication. thus, we did not end up using this analysis in the paper.
 dse_info %>%
   left_join(sim, by=c('indication_mesh_id'='meshcode_a', 'assoc_mesh_id'='meshcode_b')) %>%
   rename(indic_assoc_sim = comb_norm) %>%
@@ -2357,9 +2364,7 @@ dse_info %>%
   mutate(indic_assoc_sim = replace_na(indic_assoc_sim, 0)) %>%
   mutate(indic_supported_curr = indic_assoc_sim >= 0.8) %>%
   left_join(gensup_ti, by=c('gene'='target','indication_mesh_id'='indication_mesh_id')) %>%
-  mutate(gensup = replace_na(gensup, F)) %>%
-  filter(genetic_insight != 'none') %>%
-  filter(!sim_indic) -> dse_with_gensup
+  mutate(gensup = replace_na(gensup, F)) -> dse_with_gensup
 
 
 dse_with_gensup %>%
@@ -2389,24 +2394,52 @@ dse_with_gensup %>%
 
 write_supp_table(gensup_count, 'Count and base rate of drug-SE pairs by genetic support status.')
 
-dse_with_gensup %>%
-  distinct(drug_name, gene, assoc_mesh_id, indication_mesh_id, observed, indic_supported_curr) %>%
-  group_by(indic_supported_curr) %>%
-  summarize(.groups='keep', 
-            n=n(), 
-            obs = sum(observed),
-            baserate = mean(observed)) %>%
-  ungroup() %>%
-  mutate(proportion = n/sum(n)) -> indic_supported_curr_count
 
-dse_with_gensup %>%
-  distinct(drug_name, gene, assoc_mesh_id, indication_mesh_id, observed, gensup) %>%
-  group_by(gensup) %>%
-  summarize(.groups='keep', 
-            n=n(), 
-            obs = sum(observed)) %>%
-  ungroup() %>%
-  mutate(proportion = n/sum(n)) -> gensup_count
+
+
+
+gensup_stats = tibble(gensup = c(T, F),
+                      or = as.numeric(NA),
+                      or_l95 = as.numeric(NA),
+                      or_u95 = as.numeric(NA),
+                      fisher_p = as.numeric(NA),
+                      sim_obs = as.integer(NA),
+                      sim_not = as.integer(NA),
+                      dis_obs = as.integer(NA),
+                      dis_not = as.integer(NA),
+                      ppv = as.numeric(NA),
+                      ppv_l95 = as.numeric(NA),
+                      ppv_u95 = as.numeric(NA),
+                      npv = as.numeric(NA),
+                      npv_l95 = as.numeric(NA),
+                      npv_u95 = as.numeric(NA))
+
+
+for (i in 1:nrow(gensup_stats)) {
+  dse_subs = dse_with_gensup %>% 
+    filter(gensup == gensup_stats$gensup[i]) %>%
+    filter(genetic_insight != 'none')
+  ctable = table(dse_subs[,c('sim_assoc','observed')])
+  fobj = careful_fisher_test(ctable)
+  gensup_stats$or[i] = as.numeric(fobj$estimate)
+  gensup_stats$or_l95[i] = as.numeric(fobj$conf.int[1])
+  gensup_stats$or_u95[i] = as.numeric(fobj$conf.int[2])
+  gensup_stats$fisher_p[i] = as.numeric(fobj$p.value)
+  gensup_stats$sim_obs[i] = get_ctable_cell(ctable, 'TRUE', 'TRUE')
+  gensup_stats$dis_obs[i] = get_ctable_cell(ctable, 'FALSE','TRUE')
+  gensup_stats$sim_not[i] = get_ctable_cell(ctable, 'TRUE', 'FALSE')
+  gensup_stats$dis_not[i] = get_ctable_cell(ctable, 'FALSE','FALSE')
+  
+  ppv_binom = binom.confint(x=gensup_stats$sim_obs[i], n=gensup_stats$sim_obs[i] + gensup_stats$sim_not[i], method='wilson')
+  gensup_stats[i,c('ppv','ppv_l95','ppv_u95')] = as.list(ppv_binom[,c('mean','lower','upper')])
+  npv_binom = binom.confint(x=gensup_stats$dis_not[i], n=gensup_stats$dis_not[i] + gensup_stats$dis_obs[i], method='wilson')
+  gensup_stats[i,c('npv','npv_l95','npv_u95')] = as.list(npv_binom[,c('mean','lower','upper')])
+  
+}
+
+gensup_stats %>%
+  mutate(sim_indic_filter = 'unfiltered')  -> gensup_stats_without_sim_indic_filter
+
 
 gensup_stats = tibble(gensup = c(T, F),
                       or = as.numeric(NA),
@@ -2448,56 +2481,15 @@ for (i in 1:nrow(gensup_stats)) {
   
 }
 
+gensup_stats %>%
+  mutate(sim_indic_filter = 'filtered') -> gensup_stats_with_sim_indic_filter
 
-dse_info_with_indic_assoc_sim %>%
-  distinct(drug_name, gene, assoc_mesh_id, indication_mesh_id, indic_supported) %>%
-  group_by(indic_supported) %>%
-  summarize(.groups='keep',
-            n=n()) %>%
-  ungroup() %>%
-  mutate(proportion = n/sum(n)) -> prevalence_of_gensup
-
-write_stats_text(prevalence_of_gensup$n[prevalence_of_gensup$indic_supported],"(",
-                 percent(prevalence_of_gensup$n[prevalence_of_gensup$proportion]),")",
-                 " of drug-gene-association-indication tuples are genetically supported")
-
-dse_info_with_indic_assoc_sim %>%
-  filter(genetic_insight != 'none' & observed) %>%
-  summarize(.groups='keep',
-            total_n = n(),
-            n_indic_supported = sum(indic_supported),
-            proportion_indic_supported = mean(indic_supported)) %>%
-  ungroup() -> drugse_observed_supported
+rbind(gensup_stats_without_sim_indic_filter,
+      gensup_stats_with_sim_indic_filter) %>%
+  relocate(sim_indic_filter) -> gensup_stats_all
 
 
-write_stats_text(drugse_observed_supported$n_indic_supported,"(",
-                 percent(drugse_observed_supported$proportion_indic_supported),")",
-                 " of observed drug-SE pairs have a supported indication.")
-
-dse_info_with_indic_assoc_sim %>%
-  filter(genetic_insight != 'none') %>%
-  group_by(indic_supported) %>%
-  summarize(.groups='keep',
-            n_rows = n(),
-            n_observed = sum(observed),
-            proportion_observed = mean(observed)) %>%
-  ungroup() -> baserates_by_gensup
-
-write_stats_text("Base rate (overall proportion of possible SEs observed) is ",
-                 baserates_by_gensup$n_observed[baserates_by_gensup$indic_supported],"/", baserates_by_gensup$n_rows[baserates_by_gensup$indic_supported]," (",
-                 percent(baserates_by_gensup$proportion_observed[baserates_by_gensup$indic_supported],digits=1),") with genetic support or ",
-                 baserates_by_gensup$n_observed[!baserates_by_gensup$indic_supported],"/", baserates_by_gensup$n_rows[!baserates_by_gensup$indic_supported]," (",
-                 percent(baserates_by_gensup$proportion_observed[!baserates_by_gensup$indic_supported],digits=1),") without.")
-
-
-dse_info_with_indic_assoc_sim %>%
-  filter(genetic_insight != 'none'  & observed) -> temp
-ctable = table(temp[,c('sim_assoc','indic_supported')])
-fobj = fisher.test(ctable)
-
-write_stats_text("Among observed drug-SE pairs, genetic evidence for the SE and genetic evidence for the indication are enriched for each other, OR = ",
-                 formatC(fobj$estimate,format='f',digits=1),", P = ",
-                 formatC(fobj$p.value,format='e',digits=1))
+write_supp_table(gensup_stats_all, 'OR by genetic support status, with and without sim_indic filter.')
 
 
 # this test asks whether genetic support for indications predicts
