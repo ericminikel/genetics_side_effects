@@ -2169,7 +2169,13 @@ dse_info %>%
          sim_obs = as.integer(NA),
          sim_not = as.integer(NA),
          dis_obs = as.integer(NA),
-         dis_not = as.integer(NA)) -> assocs
+         dis_not = as.integer(NA),
+         ppv = as.numeric(NA),
+         ppv_l95 = as.numeric(NA),
+         ppv_u95 = as.numeric(NA),
+         npv = as.numeric(NA),
+         npv_l95 = as.numeric(NA),
+         npv_u95 = as.numeric(NA)) -> assocs
 
 get_ctable_cell = function(ctable, row, col) {
   if (row %in% rownames(ctable) & col %in% colnames(ctable)) {
@@ -2197,6 +2203,12 @@ for (i in 1:nrow(assocs)) {
   assocs$dis_obs[i] = get_ctable_cell(ctable, 'FALSE','TRUE')
   assocs$sim_not[i] = get_ctable_cell(ctable, 'TRUE', 'FALSE')
   assocs$dis_not[i] = get_ctable_cell(ctable, 'FALSE','FALSE')
+  
+  ppv_binom = binom.confint(x=assocs$sim_obs[i], n=assocs$sim_obs[i] + assocs$sim_not[i], method='wilson')
+  assocs[i,c('ppv','ppv_l95','ppv_u95')] = as.list(ppv_binom[,c('mean','lower','upper')])
+  npv_binom = binom.confint(x=assocs$dis_not[i], n=assocs$dis_not[i] + assocs$dis_obs[i], method='wilson')
+  assocs[i,c('npv','npv_l95','npv_u95')] = as.list(npv_binom[,c('mean','lower','upper')])
+  
 }
 
 assocs %>% 
@@ -2231,7 +2243,13 @@ dse_info %>%
          sim_obs = as.integer(NA),
          sim_not = as.integer(NA),
          dis_obs = as.integer(NA),
-         dis_not = as.integer(NA)) -> se_stats
+         dis_not = as.integer(NA),
+         ppv = as.numeric(NA),
+         ppv_l95 = as.numeric(NA),
+         ppv_u95 = as.numeric(NA),
+         npv = as.numeric(NA),
+         npv_l95 = as.numeric(NA),
+         npv_u95 = as.numeric(NA)) -> se_stats
 
 get_ctable_cell = function(ctable, row, col) {
   if (row %in% rownames(ctable) & col %in% colnames(ctable)) {
@@ -2256,6 +2274,12 @@ for (i in 1:nrow(se_stats)) {
   se_stats$dis_obs[i] = get_ctable_cell(ctable, 'FALSE','TRUE')
   se_stats$sim_not[i] = get_ctable_cell(ctable, 'TRUE', 'FALSE')
   se_stats$dis_not[i] = get_ctable_cell(ctable, 'FALSE','FALSE')
+  
+  ppv_binom = binom.confint(x=se_stats$sim_obs[i], n=se_stats$sim_obs[i] + se_stats$sim_not[i], method='wilson')
+  se_stats[i,c('ppv','ppv_l95','ppv_u95')] = as.list(ppv_binom[,c('mean','lower','upper')])
+  npv_binom = binom.confint(x=se_stats$dis_not[i], n=se_stats$dis_not[i] + se_stats$dis_obs[i], method='wilson')
+  se_stats[i,c('npv','npv_l95','npv_u95')] = as.list(npv_binom[,c('mean','lower','upper')])
+  
 }
 
 se_stats %>% 
@@ -2264,7 +2288,6 @@ se_stats %>%
 
 
 write_supp_table(se_stats, 'Enrichment statistics by side effect MeSH term.')
-
 
 dse_info %>% 
   filter(genetic_insight=='none') %>% 
@@ -2319,7 +2342,112 @@ dse_info %>%
   left_join(sim, by=c('indication_mesh_id'='meshcode_a', 'assoc_mesh_id'='meshcode_b')) %>%
   rename(indic_assoc_sim = comb_norm) %>%
   mutate(indic_assoc_sim = replace_na(indic_assoc_sim, 0)) %>%
-  mutate(indic_supported = indic_assoc_sim >= 0.8) -> dse_info_with_indic_assoc_sim
+  mutate(indic_supported_curr = indic_assoc_sim >= 0.8) -> dse_info_with_indic_assoc_sim
+
+gensup_ti = read.xlsx('~/work/papers/minikel-2024-supplement-tables-s1-s50.xlsx', sheet='s01') %>%
+  as_tibble() %>%
+  filter(l2g_share >= 0.5 | assoc_source != 'OTG') %>%
+  filter(indication_association_similarity >= 0.8) %>%
+  select(target, indication_mesh_id) %>%
+  mutate(gensup = T)
+
+dse_info %>%
+  left_join(sim, by=c('indication_mesh_id'='meshcode_a', 'assoc_mesh_id'='meshcode_b')) %>%
+  rename(indic_assoc_sim = comb_norm) %>%
+  mutate(indic_assoc_sim = replace_na(indic_assoc_sim, 0)) %>%
+  mutate(indic_supported_curr = indic_assoc_sim >= 0.8) %>%
+  left_join(gensup_ti, by=c('gene'='target','indication_mesh_id'='indication_mesh_id')) %>%
+  mutate(gensup = replace_na(gensup, F)) %>%
+  filter(genetic_insight != 'none') %>%
+  filter(!sim_indic) -> dse_with_gensup
+
+
+dse_with_gensup %>%
+  distinct(drug_name, gene, indication_mesh_id, indication_mesh_term, gensup) %>%
+  group_by(gensup) %>%
+  summarize(.groups='keep', n=n()) %>%
+  ungroup() %>%
+  mutate(proportion = n/sum(n)) -> gensup_di_counts
+
+write_supp_table(gensup_di, 'Count of drug-indication pairs with and without genetic support.')
+
+dse_with_gensup %>%
+  filter(gensup) %>% 
+  distinct(drug_name, gene, indication_mesh_id, indication_mesh_term) -> gensup_di
+
+write_supp_table(gensup_di, 'Drug-indication pairs with genetic support.')
+
+dse_with_gensup %>%
+  distinct(dse_uid, observed, gensup) %>%
+  group_by(gensup) %>%
+  summarize(.groups='keep', 
+            n=n(), 
+            obs = sum(observed),
+            baserate = mean(observed)) %>%
+  ungroup() %>%
+  mutate(proportion = n/sum(n)) -> gensup_count
+
+write_supp_table(gensup_count, 'Count and base rate of drug-SE pairs by genetic support status.')
+
+dse_with_gensup %>%
+  distinct(drug_name, gene, assoc_mesh_id, indication_mesh_id, observed, indic_supported_curr) %>%
+  group_by(indic_supported_curr) %>%
+  summarize(.groups='keep', 
+            n=n(), 
+            obs = sum(observed),
+            baserate = mean(observed)) %>%
+  ungroup() %>%
+  mutate(proportion = n/sum(n)) -> indic_supported_curr_count
+
+dse_with_gensup %>%
+  distinct(drug_name, gene, assoc_mesh_id, indication_mesh_id, observed, gensup) %>%
+  group_by(gensup) %>%
+  summarize(.groups='keep', 
+            n=n(), 
+            obs = sum(observed)) %>%
+  ungroup() %>%
+  mutate(proportion = n/sum(n)) -> gensup_count
+
+gensup_stats = tibble(gensup = c(T, F),
+                      or = as.numeric(NA),
+                      or_l95 = as.numeric(NA),
+                      or_u95 = as.numeric(NA),
+                      fisher_p = as.numeric(NA),
+                      sim_obs = as.integer(NA),
+                      sim_not = as.integer(NA),
+                      dis_obs = as.integer(NA),
+                      dis_not = as.integer(NA),
+                      ppv = as.numeric(NA),
+                      ppv_l95 = as.numeric(NA),
+                      ppv_u95 = as.numeric(NA),
+                      npv = as.numeric(NA),
+                      npv_l95 = as.numeric(NA),
+                      npv_u95 = as.numeric(NA))
+
+
+for (i in 1:nrow(gensup_stats)) {
+  dse_subs = dse_with_gensup %>% 
+    filter(gensup == gensup_stats$gensup[i]) %>%
+    filter(genetic_insight != 'none') %>%
+    filter(!sim_indic)
+  ctable = table(dse_subs[,c('sim_assoc','observed')])
+  fobj = careful_fisher_test(ctable)
+  gensup_stats$or[i] = as.numeric(fobj$estimate)
+  gensup_stats$or_l95[i] = as.numeric(fobj$conf.int[1])
+  gensup_stats$or_u95[i] = as.numeric(fobj$conf.int[2])
+  gensup_stats$fisher_p[i] = as.numeric(fobj$p.value)
+  gensup_stats$sim_obs[i] = get_ctable_cell(ctable, 'TRUE', 'TRUE')
+  gensup_stats$dis_obs[i] = get_ctable_cell(ctable, 'FALSE','TRUE')
+  gensup_stats$sim_not[i] = get_ctable_cell(ctable, 'TRUE', 'FALSE')
+  gensup_stats$dis_not[i] = get_ctable_cell(ctable, 'FALSE','FALSE')
+  
+  ppv_binom = binom.confint(x=gensup_stats$sim_obs[i], n=gensup_stats$sim_obs[i] + gensup_stats$sim_not[i], method='wilson')
+  gensup_stats[i,c('ppv','ppv_l95','ppv_u95')] = as.list(ppv_binom[,c('mean','lower','upper')])
+  npv_binom = binom.confint(x=gensup_stats$dis_not[i], n=gensup_stats$dis_not[i] + gensup_stats$dis_obs[i], method='wilson')
+  gensup_stats[i,c('npv','npv_l95','npv_u95')] = as.list(npv_binom[,c('mean','lower','upper')])
+  
+}
+
 
 dse_info_with_indic_assoc_sim %>%
   distinct(drug_name, gene, assoc_mesh_id, indication_mesh_id, indic_supported) %>%
@@ -2421,7 +2549,13 @@ write_stats_text("Among observed drug-SE pairs, genetic evidence for the SE and 
 # length(unique(current_dse$drug_name))
 # this_area_indics = intersect(pp_launched_indic$indication_mesh_id, se_topl_match$mesh_id[se_topl_match$topl %in% this_area_topls])
 # sum(current_dse$indication_mesh_id %in% this_area_indics)
-# 
+
+
+dse_info %>%
+  filter(se_mesh_id == 'D013610') %>%
+  filter(genetic_insight != 'none' & !sim_indic) -> temp
+ctable = table(temp[,c('sim_assoc','observed')])
+fobj = fisher.test(ctable)
 
 # further workup of tachycardia example
 assoc %>%
@@ -2435,6 +2569,24 @@ dse_info %>%
          sim_assoc) -> tachy_supported
 write_supp_table(tachy_supported, 'Details of drugs whose targets are genetically associated to tachycardia.')
 
+dse_info %>%
+  group_by(se_mesh_id, se_mesh_term, max_severity) %>%
+  summarize(.groups='keep', n_obs = sum(observed)) %>%
+  ungroup() -> se_specificity_and_severity
+
+
+se_stats %>%
+  inner_join(se_topl_match, by=c('se_mesh_id'='mesh_id'), relationship='many-to-many') %>% 
+  inner_join(areas, by='topl') %>%
+  arrange(desc(ppv)) %>%
+  filter(or < Inf) -> area_examples
+
+  
+
+# dse_info %>%
+#   filter(observed) %>%
+#   inner_join(se_topl_match, by=c('se_mesh_id'='mesh_id'), relationship='many-to-many') %>%
+#   View()
 
 # %>% 
 #   group_by(drug_name) %>%
