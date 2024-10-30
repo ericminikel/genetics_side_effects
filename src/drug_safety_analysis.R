@@ -516,7 +516,7 @@ sim = read_tsv('data/mesh/mesh_sim.tsv.gz', col_types=cols())
 
 hubal_day = read_tsv('data/other/hubal-day-2006-table-3.tsv', col_types=cols()) %>%
   arrange(task_value) %>%
-  mutate(term = case_when(term %in% c('uncommon','infrequent') ~ 'uncommon/infreqeunt',
+  mutate(term = case_when(term %in% c('uncommon','infrequent') ~ 'uncommon/infrequent',
                           term %in% c('common','frequent') ~ 'common/frequent',
                           TRUE ~ term)) %>%
   group_by(term) %>%
@@ -1270,12 +1270,12 @@ binned_analysis = function(dsetable, bincolumn, binmins, binmaxs, binlabels, fli
 make_figure_2 = TRUE
 if (make_figure_2) {
   resx=300
-  png('display_items/figure-2.png',width=3.25*resx,height=3.0*resx,res=resx)
+  png('display_items/figure-2.png',width=3.25*resx,height=4.5*resx,res=resx)
   
   layout_matrix = matrix(1:3, nrow=3, byrow=T)
-  layout(layout_matrix, heights=c(1,1,1))
+  layout(layout_matrix, heights=c(4,5,2.5))
   
-  par(mar = c(0.5, 10, 1.5, 6))
+  par(mar = c(0.5, 10, 2.5, 6))
   
   numfreq_list = binned_analysis(dse_info,
                                  bincolumn='numfreq', 
@@ -1300,7 +1300,7 @@ if (make_figure_2) {
   abline(v=1, lwd=0.5, lty=3)
   # axis(side=1, at=xbigs, lwd=0, line=-0.5, cex.axis=0.8)
   axis(side=2, at=ylims, lwd.ticks=0, labels=NA)
-  mtext(side=2, line=0.25, las=2, at=numfreq_list[['forest']]$y, text=numfreq_list[['forest']]$labels, cex=0.8)
+  mtext(side=2, line=0.25, las=2, at=numfreq_list[['forest']]$y, text=numfreq_list[['forest']]$labels, cex=0.7)
   mtext(side=2, line=6, text='numerical\nfrequency')
   points(x=numfreq_list[['forest']]$mean, y=numfreq_list[['forest']]$y, pch=19)
   segments(x0=numfreq_list[['forest']]$l95, x1=numfreq_list[['forest']]$u95, y0=numfreq_list[['forest']]$y, lwd=1.5)
@@ -1316,6 +1316,7 @@ if (make_figure_2) {
                                   binmaxs=hubal_day$wordrank+0.1, 
                                   binlabels = hubal_day$term,
                                   flip=T)
+  wordfreq_list$forest$labels = gsub('freqeunt','frequent',wordfreq_list$forest$labels)
   par(mar = c(0.5, 10, 0.5, 6))
   xlims = c(0,5)
   xats = 0:10/2
@@ -1327,7 +1328,7 @@ if (make_figure_2) {
   abline(v=1, lwd=0.5, lty=3)
   # axis(side=1, at=xbigs, lwd=0, line=-0.5, cex.axis=0.8)
   axis(side=2, at=ylims, lwd.ticks=0, labels=NA)
-  mtext(side=2, line=0.25, las=2, at=wordfreq_list[['forest']]$y, text=wordfreq_list[['forest']]$labels, cex=0.8)
+  mtext(side=2, line=0.25, las=2, at=wordfreq_list[['forest']]$y, text=gsub('\\/','\\/\n',wordfreq_list[['forest']]$labels), cex=0.7)
   mtext(side=2, line=6, text='frequency\nword')
   points(x=wordfreq_list[['forest']]$mean, y=wordfreq_list[['forest']]$y, pch=19)
   segments(x0=wordfreq_list[['forest']]$l95, x1=wordfreq_list[['forest']]$u95, y0=wordfreq_list[['forest']]$y, lwd=1.5)
@@ -1391,7 +1392,7 @@ if (make_figure_2) {
   abline(v=1, lwd=0.5, lty=3)
   mtext(side=1, line=1.75, text='OR')
   axis(side=2, at=ylims, lwd.ticks=0, labels=NA)
-  mtext(side=2, line=0.25, las=2, at=placebo_list[['forest']]$y, text=placebo_list[['forest']]$labels, cex=0.8)
+  mtext(side=2, line=0.25, las=2, at=placebo_list[['forest']]$y, text=placebo_list[['forest']]$labels, cex=0.7)
   mtext(side=2, line=6, text='evidence\nbasis')
   points(x=placebo_list[['forest']]$mean, y=placebo_list[['forest']]$y, pch=19)
   segments(x0=placebo_list[['forest']]$l95, x1=placebo_list[['forest']]$u95, y0=placebo_list[['forest']]$y, lwd=1.5)
