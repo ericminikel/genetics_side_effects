@@ -8,7 +8,7 @@ tell_user = function(x) { cat(file=stderr(), x); flush.console() }
 tell_user('Loading dependencies...')
 
 options(stringsAsFactors=F)
-if(interactive()) setwd('~/src/genetics_side_effects')
+if(interactive()) setwd('~/d/sci/src/genetics_side_effects')
 suppressMessages(library(tidyverse))
 suppressMessages(library(janitor))
 suppressMessages(library(binom))
@@ -2340,20 +2340,8 @@ write_stats('At our 0.9 similarity threshold, ',
                  ' (',percent(sim_indic_stats$proportion_sim_indic),
                  ') were removed.')
 
-# indic_supported_curr is an analysis using only the data from this present study
-# rather than bringing in data from the genetic support paper.
-# the problem is that it doesn't account for all associations that might 
-# support the indication, only the association in the dse_info table row, which
-# is the association most similar to the SE and not necessarily most similar
-# to the indication. thus, we did not end up using this analysis in the paper.
-dse_info %>%
-  left_join(sim, by=c('indication_mesh_id'='meshcode_a', 'assoc_mesh_id'='meshcode_b')) %>%
-  rename(indic_assoc_sim = comb_norm) %>%
-  mutate(indic_assoc_sim = replace_na(indic_assoc_sim, 0)) %>%
-  mutate(indic_supported_curr = indic_assoc_sim >= 0.8) -> dse_info_with_indic_assoc_sim
 
-gensup_ti = read.xlsx('~/work/papers/minikel-2024-supplement-tables-s1-s50.xlsx', sheet='s01') %>%
-  as_tibble() %>%
+gensup_ti = read_tsv('data/other/minikel-2024-table_s01.tsv', col_types=cols()) %>%
   filter(l2g_share >= 0.5 | assoc_source != 'OTG') %>%
   filter(indication_association_similarity >= 0.8) %>%
   select(target, indication_mesh_id) %>%
@@ -2361,9 +2349,6 @@ gensup_ti = read.xlsx('~/work/papers/minikel-2024-supplement-tables-s1-s50.xlsx'
 
 dse_info %>%
   left_join(sim, by=c('indication_mesh_id'='meshcode_a', 'assoc_mesh_id'='meshcode_b')) %>%
-  rename(indic_assoc_sim = comb_norm) %>%
-  mutate(indic_assoc_sim = replace_na(indic_assoc_sim, 0)) %>%
-  mutate(indic_supported_curr = indic_assoc_sim >= 0.8) %>%
   left_join(gensup_ti, by=c('gene'='target','indication_mesh_id'='indication_mesh_id')) %>%
   mutate(gensup = replace_na(gensup, F)) -> dse_with_gensup
 
@@ -2375,7 +2360,7 @@ dse_with_gensup %>%
   ungroup() %>%
   mutate(proportion = n/sum(n)) -> gensup_di_counts
 
-write_supp_table(gensup_di, 'Count of drug-indication pairs with and without genetic support.')
+write_supp_table(gensup_di_counts, 'Count of drug-indication pairs with and without genetic support.')
 
 dse_with_gensup %>%
   filter(gensup) %>% 
@@ -2491,28 +2476,6 @@ rbind(gensup_stats_without_sim_indic_filter,
 
 
 write_supp_table(gensup_stats_all, 'OR by genetic support status, with and without sim_indic filter.')
-
-
-# this test asks whether genetic support for indications predicts
-# that a side effect will be osberved. but it's not a good test
-# because each row is aligning the SE to the drug's indication (out of 
-# many possible indications) that is most similar, so it's 
-# kind of just a roundabout way of asking about genetic evidence
-# for the SE itself.
-# dse_info_with_indic_assoc_sim %>%
-#   filter(genetic_insight != 'none') -> temp
-# ctable = table(temp[,c('observed','indic_supported')])
-# fisher.test(ctable) 
-
-dse_info_with_indic_assoc_sim %>%
-  filter(genetic_insight != 'none' & !sim_indic) -> temp
-ctable = table(temp[,c('observed','indic_supported')])
-fobj = fisher.test(ctable)
-write_stats_text("Among observed drug-SE pairs, genetic evidence for the SE and ",
-                 "genetic evidence for the indication are not enriched after the ",
-                 "similar indication filted is applied, OR = ",
-                 formatC(fobj$estimate,format='f',digits=1),", P = ",
-                 formatC(fobj$p.value,format='e',digits=1))
 
 
 # 

@@ -1,0 +1,288 @@
+drug_name	gene	indication_mesh_id	indication_mesh_term
+2-hydroxysuccinaldehyde	EPOR	D000740	Anemia
+5-asa	PTGS2	D003093	Colitis, Ulcerative
+5-asa	PTGS2	D015212	Inflammatory Bowel Diseases
+5-asa	PTGS2	D003424	Crohn Disease
+abarelix	AR	D011471	Prostatic Neoplasms
+acebutolol	ADRB1	D006973	Hypertension
+aclidinium	CHRM3	D029424	Pulmonary Disease, Chronic Obstructive
+aclidinium	CHRM3	D029481	Bronchitis, Chronic
+aliskiren	REN	D006973	Hypertension
+alprazolam	GABRA1	D001008	Anxiety Disorders
+alprazolam	GABRA1	D016584	Panic Disorder
+amiodarone	SCN5A	D014693	Ventricular Fibrillation
+amiodarone	SCN5A	D017180	Tachycardia, Ventricular
+amisulpride	DRD2	D003863	Depression
+amisulpride	DRD2	D012559	Schizophrenia
+anastrozole	CYP19A1	D001943	Breast Neoplasms
+argatroban	F2	D013927	Thrombosis
+aripiprazole	DRD2	D012559	Schizophrenia
+aripiprazole	DRD2	D001714	Bipolar Disorder
+aripiprazole	DRD2	D003865	Depressive Disorder, Major
+aripiprazole	DRD2	D011618	Psychotic Disorders
+asenapine	DRD2	D012559	Schizophrenia
+asenapine	DRD2	D001714	Bipolar Disorder
+atenolol	ADRB1	D006973	Hypertension
+atorvastatin	HMGCR	D050171	Dyslipidemias
+atorvastatin	HMGCR	D006937	Hypercholesterolemia
+atorvastatin	HMGCR	D015228	Hypertriglyceridemia
+balsalazide	PTGS2	D003093	Colitis, Ulcerative
+bazedoxifene	ESR1	D010024	Osteoporosis
+benazepril	ACE	D006973	Hypertension
+betaxolol	ADRB1	D006973	Hypertension
+bezafibrate	PPARA	D050171	Dyslipidemias
+bezafibrate	PPARG	D003924	Diabetes Mellitus, Type 2
+bezafibrate	PPARA	D006937	Hypercholesterolemia
+bicalutamide	AR	D011471	Prostatic Neoplasms
+bisoprolol	ADRB1	D006973	Hypertension
+bivalirudin	F2	D013927	Thrombosis
+budesonide	NR3C1	D001249	Asthma
+budesonide	NR3C1	D065631	Rhinitis, Allergic
+budesonide	NR3C1	D029424	Pulmonary Disease, Chronic Obstructive
+bumetanide	SLC12A2	D006973	Hypertension
+buprenorphine	OPRM1	D009293	Opioid-Related Disorders
+cabozantinib	RET	D013964	Thyroid Neoplasms
+captopril	ACE	D006973	Hypertension
+carbamazepine	SCN1A	D004827	Epilepsy
+carbamazepine	SCN2A	D001714	Bipolar Disorder
+carteolol	ADRB1	D006973	Hypertension
+carteolol	ADRB2	D006973	Hypertension
+carvedilol	ADRB1	D006973	Hypertension
+carvedilol	ADRB2	D006973	Hypertension
+cerivastatin	HMGCR	D006937	Hypercholesterolemia
+cerivastatin	HMGCR	D006949	Hyperlipidemias
+ciclesonide	NR3C1	D001249	Asthma
+cilazapril	ACE	D006973	Hypertension
+cilostazol	PDE3A	D020521	Stroke
+cinacalcet	CASR	D006934	Hypercalcemia
+clobazam	GABRA5	D004829	Epilepsy, Generalized
+clobazam	GABRA3	D004829	Epilepsy, Generalized
+clobazam	GABRA2	D004829	Epilepsy, Generalized
+clonazepam	GABRA5	D004827	Epilepsy
+clonazepam	GABRA3	D004827	Epilepsy
+clonazepam	GABRA2	D004827	Epilepsy
+crizotinib	ROS1	D002289	Carcinoma, Non-Small-Cell Lung
+dabigatran	F2	D013927	Thrombosis
+dabigatran	F2	D020246	Venous Thrombosis
+dalteparin	F2	D013927	Thrombosis
+dalteparin	SERPINC1	D004211	Disseminated Intravascular Coagulation
+dalteparin	F2	D020246	Venous Thrombosis
+desmopressin	AVPR2	D003919	Diabetes Insipidus
+diazepam	GABRA2	D004829	Epilepsy, Generalized
+diazepam	GABRA5	D004829	Epilepsy, Generalized
+diazepam	GABRA3	D004829	Epilepsy, Generalized
+diazepam	GABRA1	D001008	Anxiety Disorders
+disopyramide	SCN5A	D014693	Ventricular Fibrillation
+dofetilide	KCNH2	D001281	Atrial Fibrillation
+eltrombopag	MPL	D016553	Purpura, Thrombocytopenic, Idiopathic
+eltrombopag	MPL	D013921	Thrombocytopenia
+erlotinib	EGFR	D005909	Glioblastoma
+esmolol	ADRB1	D006973	Hypertension
+exemestane	CYP19A1	D001943	Breast Neoplasms
+exenatide	GLP1R	D003924	Diabetes Mellitus, Type 2
+ezetimibe	NPC1L1	D050171	Dyslipidemias
+ezetimibe	NPC1L1	D006937	Hypercholesterolemia
+fenofibrate	PPARA	D015228	Hypertriglyceridemia
+flecainide	SCN5A	D014693	Ventricular Fibrillation
+flecainide	SCN5A	D001281	Atrial Fibrillation
+flunisolide	NR3C1	D065631	Rhinitis, Allergic
+flunisolide	NR3C1	D001249	Asthma
+flutamide	AR	D011471	Prostatic Neoplasms
+fluvastatin	HMGCR	D006949	Hyperlipidemias
+fluvastatin	HMGCR	D050171	Dyslipidemias
+fluvastatin	HMGCR	D006937	Hypercholesterolemia
+fluvastatin	HMGCR	D015228	Hypertriglyceridemia
+formoterol	ADRB2	D001249	Asthma
+formoterol	ADRB2	D029424	Pulmonary Disease, Chronic Obstructive
+fosinopril	ACE	D006973	Hypertension
+fosinoprilat	ACE	D006973	Hypertension
+gabapentin	CACNA2D1	D004827	Epilepsy
+gemfibrozil	LPL	D006949	Hyperlipidemias
+gemfibrozil	LPL	D015228	Hypertriglyceridemia
+glibenclamide	KCNJ11	D003920	Diabetes Mellitus
+glibenclamide	ABCC8	D003920	Diabetes Mellitus
+gliclazide	ABCC8	D003924	Diabetes Mellitus, Type 2
+gliclazide	KCNJ11	D003924	Diabetes Mellitus, Type 2
+glimepiride	ABCC8	D003924	Diabetes Mellitus, Type 2
+glimepiride	KCNJ11	D003924	Diabetes Mellitus, Type 2
+glipizide	KCNJ11	D003924	Diabetes Mellitus, Type 2
+glipizide	ABCC8	D003924	Diabetes Mellitus, Type 2
+humalog	INSR	D003924	Diabetes Mellitus, Type 2
+ibutilide	SCN5A	D001281	Atrial Fibrillation
+ibutilide	KCNH2	D001281	Atrial Fibrillation
+ici	ESR1	D001943	Breast Neoplasms
+iloperidone	DRD2	D012559	Schizophrenia
+imatinib	KIT	D046152	Gastrointestinal Stromal Tumors
+imatinib	KIT	D008415	Mastocytosis
+imatinib	KIT	D017681	Hypereosinophilic Syndrome
+imatinib	PDGFRA	D017681	Hypereosinophilic Syndrome
+indacaterol	ADRB2	D029424	Pulmonary Disease, Chronic Obstructive
+insulin	INSR	D003924	Diabetes Mellitus, Type 2
+ipratropium	CHRM3	D029424	Pulmonary Disease, Chronic Obstructive
+ivacaftor	CFTR	D003550	Cystic Fibrosis
+labetalol	ADRB1	D006973	Hypertension
+labetalol	ADRB2	D006973	Hypertension
+lacosamide	SCN2A	D004829	Epilepsy, Generalized
+lacosamide	SCN1A	D004829	Epilepsy, Generalized
+lacosamide	SCN3A	D004829	Epilepsy, Generalized
+lactate	FGFR3	D007680	Kidney Neoplasms
+lamotrigine	SCN1A	D004828	Epilepsies, Partial
+lamotrigine	SCN2A	D001714	Bipolar Disorder
+lantus	INSR	D003924	Diabetes Mellitus, Type 2
+letrozole	CYP19A1	D001943	Breast Neoplasms
+liraglutide	GLP1R	D009765	Obesity
+liraglutide	GLP1R	D003924	Diabetes Mellitus, Type 2
+lisinopril	ACE	D006973	Hypertension
+lomitapide	MTTP	D006937	Hypercholesterolemia
+lovastatin	HMGCR	D006949	Hyperlipidemias
+lurasidone	DRD2	D012559	Schizophrenia
+lurasidone	DRD2	D001714	Bipolar Disorder
+lyxumia	GLP1R	D003924	Diabetes Mellitus, Type 2
+mdv3100	AR	D011471	Prostatic Neoplasms
+melatonin	MTNR1B	D007319	Sleep Initiation and Maintenance Disorders
+methadone	OPRM1	D009293	Opioid-Related Disorders
+methylphenidate	SLC6A3	D009290	Narcolepsy
+methylprednisolone	NR3C1	D001249	Asthma
+metipranolol	ADRB1	D006973	Hypertension
+metipranolol	ADRB2	D006973	Hypertension
+metrodin	FSHR	D011085	Polycystic Ovary Syndrome
+minoxidil	ABCC9	D006973	Hypertension
+minoxidil	REN	D006973	Hypertension
+mipomersen	APOB	D006938	Hyperlipoproteinemia Type II
+mometasone	NR3C1	D001249	Asthma
+naltrexone	OPRM1	D009293	Opioid-Related Disorders
+nateglinide	ABCC8	D003924	Diabetes Mellitus, Type 2
+nateglinide	KCNJ11	D003924	Diabetes Mellitus, Type 2
+nebivolol	ADRB1	D006973	Hypertension
+nicorandil	ABCC9	D006973	Hypertension
+nilutamide	AR	D011471	Prostatic Neoplasms
+novolog	INSR	D003924	Diabetes Mellitus, Type 2
+ntbc	HPD	D020176	Tyrosinemias
+olanzapine	CHRM4	D011618	Psychotic Disorders
+olanzapine	CHRM3	D012559	Schizophrenia
+olanzapine	DRD2	D003863	Depression
+olanzapine	DRD2	D012559	Schizophrenia
+olanzapine	DRD2	D011618	Psychotic Disorders
+olanzapine	DRD2	D001714	Bipolar Disorder
+olanzapine	CHRM4	D012559	Schizophrenia
+olodaterol	ADRB2	D029424	Pulmonary Disease, Chronic Obstructive
+olsalazine	PTGS2	D003093	Colitis, Ulcerative
+oxazepam	GABRA1	D001008	Anxiety Disorders
+oxcarbazepine	SCN1A	D004828	Epilepsies, Partial
+oxcarbazepine	SCN1A	D004827	Epilepsy
+paliperidone	DRD2	D012559	Schizophrenia
+paliperidone	DRD2	D011618	Psychotic Disorders
+pazopanib	FGFR3	D007680	Kidney Neoplasms
+pegaptanib	VEGFA	D008269	Macular Edema
+penbutolol	ADRB2	D006973	Hypertension
+perindopril	ACE	D006973	Hypertension
+perindoprilat	ACE	D006973	Hypertension
+phentermine	SLC6A4	D009765	Obesity
+pimozide	DRD2	D011618	Psychotic Disorders
+pioglitazone	PPARG	D003924	Diabetes Mellitus, Type 2
+pirbuterol	ADRB2	D001249	Asthma
+pitavastatin	HMGCR	D006949	Hyperlipidemias
+pitavastatin	HMGCR	D050171	Dyslipidemias
+pitavastatin	HMGCR	D006937	Hypercholesterolemia
+pitavastatin	HMGCR	D015228	Hypertriglyceridemia
+pravastatin	HMGCR	D015228	Hypertriglyceridemia
+prazosin	ADRA2C	D006973	Hypertension
+prazosin	ADRA1A	D006973	Hypertension
+prednisone	NR3C1	D001249	Asthma
+prednisone	NR3C1	D029424	Pulmonary Disease, Chronic Obstructive
+pregabalin	CACNA2D1	D001008	Anxiety Disorders
+procainamide	SCN5A	D001145	Arrhythmias, Cardiac
+promacta	MPL	D016553	Purpura, Thrombocytopenic, Idiopathic
+promacta	MPL	D013921	Thrombocytopenia
+propafenone	SCN5A	D014693	Ventricular Fibrillation
+propafenone	SCN5A	D001281	Atrial Fibrillation
+quetiapine	DRD2	D012559	Schizophrenia
+quetiapine	DRD2	D001714	Bipolar Disorder
+quinapril	ACE	D006973	Hypertension
+quinaprilat	ACE	D006973	Hypertension
+raloxifene	ESR1	D010024	Osteoporosis
+raloxifene	ESR1	D001943	Breast Neoplasms
+ramelteon	MTNR1B	D007319	Sleep Initiation and Maintenance Disorders
+ramipril	ACE	D006973	Hypertension
+ramiprilat	ACE	D006973	Hypertension
+refludan	F2	D020246	Venous Thrombosis
+regorafenib	KIT	D046152	Gastrointestinal Stromal Tumors
+repaglinide	ABCC8	D003924	Diabetes Mellitus, Type 2
+repaglinide	KCNJ11	D003924	Diabetes Mellitus, Type 2
+revasc	F2	D020246	Venous Thrombosis
+risperidone	DRD2	D012559	Schizophrenia
+risperidone	DRD2	D001714	Bipolar Disorder
+risperidone	DRD2	D011618	Psychotic Disorders
+roflumilast	PDE4D	D001249	Asthma
+roflumilast	PDE4D	D029424	Pulmonary Disease, Chronic Obstructive
+ropinirole	DRD2	D012148	Restless Legs Syndrome
+rosiglitazone	PPARG	D003924	Diabetes Mellitus, Type 2
+rosuvastatin	HMGCR	D050171	Dyslipidemias
+rosuvastatin	HMGCR	D006937	Hypercholesterolemia
+rosuvastatin	HMGCR	D006949	Hyperlipidemias
+rosuvastatin	HMGCR	D015228	Hypertriglyceridemia
+rotigotine	DRD2	D012148	Restless Legs Syndrome
+rufinamide	SCN1A	D004827	Epilepsy
+rufinamide	SCN3A	D004827	Epilepsy
+ruxolitinib	JAK2	D011087	Polycythemia Vera
+ruxolitinib	JAK2	D055728	Primary Myelofibrosis
+salbutamol	ADRB2	D001249	Asthma
+sibutramine	SLC6A4	D009765	Obesity
+simvastatin	HMGCR	D006949	Hyperlipidemias
+simvastatin	HMGCR	D015228	Hypertriglyceridemia
+sodium	BCL2	D015451	Leukemia, Lymphocytic, Chronic, B-Cell
+sorafenib	RET	D013964	Thyroid Neoplasms
+sotalol	KCNH2	D001281	Atrial Fibrillation
+stiripentol	SCN1A	D004831	Epilepsies, Myoclonic
+su5416	MPL	D016553	Purpura, Thrombocytopenic, Idiopathic
+su5416	MPL	D013921	Thrombocytopenia
+sulfasalazine	PTGS2	D003093	Colitis, Ulcerative
+sunitinib	KIT	D046152	Gastrointestinal Stromal Tumors
+sunitinib	RET	D018358	Neuroendocrine Tumors
+suvorexant	HCRTR1	D007319	Sleep Initiation and Maintenance Disorders
+suvorexant	HCRTR2	D007319	Sleep Initiation and Maintenance Disorders
+symlin	CALCR	D003924	Diabetes Mellitus, Type 2
+tafamidis	TTR	D028227	Amyloid Neuropathies, Familial
+tamoxifen	ESR1	D001943	Breast Neoplasms
+tasimelteon	MTNR1B	D020178	Sleep Disorders, Circadian Rhythm
+tasimelteon	MTNR1B	D058496	Smith-Magenis Syndrome
+thyroxine	TSHR	D007037	Hypothyroidism
+tiagabine	SLC6A1	D004827	Epilepsy
+tibolone	ESR1	D010024	Osteoporosis
+tibolone	PGR	D008593	Menopause
+timolol	ADRB1	D006973	Hypertension
+timolol	ADRB2	D006973	Hypertension
+tiotropium	CHRM3	D029424	Pulmonary Disease, Chronic Obstructive
+tiotropium	CHRM3	D001249	Asthma
+torasemide	SLC12A2	D006973	Hypertension
+toremifene	ESR1	D001943	Breast Neoplasms
+toremifene	ESR1	D010024	Osteoporosis
+toremifene	ESR1	D006177	Gynecomastia
+trandolapril	ACE	D006973	Hypertension
+trans	PLG	D009203	Myocardial Infarction
+trans	PLG	D013927	Thrombosis
+trans	PLG	D020246	Venous Thrombosis
+troglitazone	PPARG	D003924	Diabetes Mellitus, Type 2
+ustekinumab	IL12B	D003093	Colitis, Ulcerative
+ustekinumab	IL12B	D011565	Psoriasis
+ustekinumab	IL12B	D003424	Crohn Disease
+ustekinumab	IL12B	D015535	Arthritis, Psoriatic
+valproate	SCN1A	D008881	Migraine Disorders
+valproate	SCN1A	D004827	Epilepsy
+valproate	SCN2A	D001714	Bipolar Disorder
+valproate	SCN1A	D004829	Epilepsy, Generalized
+vandetanib	RET	D013964	Thyroid Neoplasms
+varenicline	CHRNA4	D014029	Tobacco Use Disorder
+vernakalant	SCN5A	D001281	Atrial Fibrillation
+ziprasidone	DRD2	D012559	Schizophrenia
+ziprasidone	DRD2	D011618	Psychotic Disorders
+ziprasidone	DRD2	D001714	Bipolar Disorder
+zuclopenthixol	DRD2	D012559	Schizophrenia
+zuclopenthixol	DRD2	D011618	Psychotic Disorders
+zyprexa	CHRM4	D011618	Psychotic Disorders
+zyprexa	CHRM3	D012559	Schizophrenia
+zyprexa	DRD2	D003863	Depression
+zyprexa	DRD2	D012559	Schizophrenia
+zyprexa	DRD2	D011618	Psychotic Disorders
+zyprexa	DRD2	D001714	Bipolar Disorder
+zyprexa	CHRM4	D012559	Schizophrenia
